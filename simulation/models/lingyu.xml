@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="LingYu YMBOT simulation">
+  <compiler angle="radian" balanceinertia="true" fusestatic="false" />
+  <option timestep="0.002" integrator="implicitfast" cone="elliptic" iterations="60" gravity="0 0 -9.81" />
+  <visual>
+    <global offwidth="1280" offheight="720" />
+    <quality shadowsize="2048" offsamples="4" />
+    <headlight ambient=".35 .35 .35" diffuse=".6 .6 .6" specular=".2 .2 .2" />
+  </visual>
+  <asset>
+    <texture name="floor_tex" type="2d" builtin="checker" rgb1=".18 .22 .28" rgb2=".23 .28 .34" width="512" height="512" />
+    <material name="floor_mat" texture="floor_tex" texrepeat="8 8" reflectance=".12" />
+    <mesh name="base_link_mesh" file="D:/UserData/Desktop/Coding/Innovation and Entrepreneurship/2026大创/ym_assets/ym/meshes/base_link.STL" />
+    <mesh name="Body_Link1_mesh" file="D:/UserData/Desktop/Coding/Innovation and Entrepreneurship/2026大创/ym_assets/ym/meshes/Body_Link1.STL" />
+    <mesh name="Body_Link2_mesh" file="D:/UserData/Desktop/Coding/Innovation and Entrepreneurship/2026大创/ym_assets/ym/meshes/Body_Link2.STL" />
+    <mesh name="Body_Link3_mesh" file="D:/UserData/Desktop/Coding/Innovation and Entrepreneurship/2026大创/ym_assets/ym/meshes/Body_Link3.STL" />
+    <mesh name="Body_Link4_mesh" file="D:/UserData/Desktop/Coding/Innovation and Entrepreneurship/2026大创/ym_assets/ym/meshes/Body_Link4.STL" />
+    <mesh name="Body_Link5_mesh" file="D:/UserData/Desktop/Coding/Innovation and Entrepreneurship/2026大创/ym_assets/ym/meshes/Body_Link5.STL" />
+    <mesh name="Neck_Link1_mesh" file="D:/UserData/Desktop/Coding/Innovation and Entrepreneurship/2026大创/ym_assets/ym/meshes/Neck_Link1.STL" />
+    <mesh name="Neck_Link2_mesh" file="D:/UserData/Desktop/Coding/Innovation and Entrepreneurship/2026大创/ym_assets/ym/meshes/Neck_Link2.STL" />
+    <mesh name="Left_Arm_Link1_mesh" file="D:/UserData/Desktop/Coding/Innovation and Entrepreneurship/2026大创/ym_assets/ym/meshes/Left_Arm_Link1.STL" />
+    <mesh name="Left_Arm_Link2_mesh" file="D:/UserData/Desktop/Coding/Innovation and Entrepreneurship/2026大创/ym_assets/ym/meshes/Left_Arm_Link2.STL" />
+    <mesh name="Left_Arm_Link3_mesh" file="D:/UserData/Desktop/Coding/Innovation and Entrepreneurship/2026大创/ym_assets/ym/meshes/Left_Arm_Link3.STL" />
+    <mesh name="Left_Arm_Link4_mesh" file="D:/UserData/Desktop/Coding/Innovation and Entrepreneurship/2026大创/ym_assets/ym/meshes/Left_Arm_Link4.STL" />
+    <mesh name="Left_Arm_Link5_mesh" file="D:/UserData/Desktop/Coding/Innovation and Entrepreneurship/2026大创/ym_assets/ym/meshes/Left_Arm_Link5.STL" />
+    <mesh name="Left_Arm_Link6_mesh" file="D:/UserData/Desktop/Coding/Innovation and Entrepreneurship/2026大创/ym_assets/ym/meshes/Left_Arm_Link6.STL" />
+    <mesh name="Left_Arm_Link7_mesh" file="D:/UserData/Desktop/Coding/Innovation and Entrepreneurship/2026大创/ym_assets/ym/meshes/Left_Arm_Link7.STL" />
+    <mesh name="Right_Arm_Link1_mesh" file="D:/UserData/Desktop/Coding/Innovation and Entrepreneurship/2026大创/ym_assets/ym/meshes/Right_Arm_Link1.STL" />
+    <mesh name="Right_Arm_Link2_mesh" file="D:/UserData/Desktop/Coding/Innovation and Entrepreneurship/2026大创/ym_assets/ym/meshes/Right_Arm_Link2.STL" />
+    <mesh name="Right_Arm_Link3_mesh" file="D:/UserData/Desktop/Coding/Innovation and Entrepreneurship/2026大创/ym_assets/ym/meshes/Right_Arm_Link3.STL" />
+    <mesh name="Right_Arm_Link4_mesh" file="D:/UserData/Desktop/Coding/Innovation and Entrepreneurship/2026大创/ym_assets/ym/meshes/Right_Arm_Link4.STL" />
+    <mesh name="Right_Arm_Link5_mesh" file="D:/UserData/Desktop/Coding/Innovation and Entrepreneurship/2026大创/ym_assets/ym/meshes/Right_Arm_Link5.STL" />
+    <mesh name="Right_Arm_Link6_mesh" file="D:/UserData/Desktop/Coding/Innovation and Entrepreneurship/2026大创/ym_assets/ym/meshes/Right_Arm_Link6.STL" />
+    <mesh name="Right_Arm_Link7_mesh" file="D:/UserData/Desktop/Coding/Innovation and Entrepreneurship/2026大创/ym_assets/ym/meshes/Right_Arm_Link7.STL" />
+    <mesh name="Driven_Wheel_Link1_mesh" file="D:/UserData/Desktop/Coding/Innovation and Entrepreneurship/2026大创/ym_assets/ym/meshes/Driven_Wheel_Link1.STL" />
+    <mesh name="Driven_Wheel_Link2_mesh" file="D:/UserData/Desktop/Coding/Innovation and Entrepreneurship/2026大创/ym_assets/ym/meshes/Driven_Wheel_Link2.STL" />
+    <mesh name="Driven_Wheel_Link3_mesh" file="D:/UserData/Desktop/Coding/Innovation and Entrepreneurship/2026大创/ym_assets/ym/meshes/Driven_Wheel_Link3.STL" />
+    <mesh name="Driven_Wheel_Link4_mesh" file="D:/UserData/Desktop/Coding/Innovation and Entrepreneurship/2026大创/ym_assets/ym/meshes/Driven_Wheel_Link4.STL" />
+    <mesh name="Driven_Wheel_Link5_mesh" file="D:/UserData/Desktop/Coding/Innovation and Entrepreneurship/2026大创/ym_assets/ym/meshes/Driven_Wheel_Link5.STL" />
+    <mesh name="Driven_Wheel_Link6_mesh" file="D:/UserData/Desktop/Coding/Innovation and Entrepreneurship/2026大创/ym_assets/ym/meshes/Driven_Wheel_Link6.STL" />
+    <mesh name="Driven_Wheel_Link7_mesh" file="D:/UserData/Desktop/Coding/Innovation and Entrepreneurship/2026大创/ym_assets/ym/meshes/Driven_Wheel_Link7.STL" />
+    <mesh name="Driven_Wheel_Link8_mesh" file="D:/UserData/Desktop/Coding/Innovation and Entrepreneurship/2026大创/ym_assets/ym/meshes/Driven_Wheel_Link8.STL" />
+    <mesh name="Driving_Wheel_Link1_mesh" file="D:/UserData/Desktop/Coding/Innovation and Entrepreneurship/2026大创/ym_assets/ym/meshes/Driving_Wheel_Link1.STL" />
+    <mesh name="Driving_Wheel_Link2_mesh" file="D:/UserData/Desktop/Coding/Innovation and Entrepreneurship/2026大创/ym_assets/ym/meshes/Driving_Wheel_Link2.STL" />
+  </asset>
+  <worldbody>
+    <light pos="0 -2 4" dir="0 .4 -1" diffuse=".8 .8 .8" castshadow="true" />
+    <light pos="2 3 3" dir="-.3 -.5 -1" diffuse=".5 .5 .5" castshadow="false" />
+    <geom name="floor" type="plane" size="6 6 .1" material="floor_mat" />
+    <body name="base_footprint_link" pos="0 0 .065" gravcomp="1">
+      <joint name="base_x" type="slide" axis="1 0 0" damping="80" armature="1" />
+      <joint name="base_y" type="slide" axis="0 1 0" damping="80" armature="1" />
+      <joint name="base_yaw" type="hinge" axis="0 0 1" damping="80" armature="1" />
+      <body name="base_link" pos="0 0 0" quat="1 0 0 0" gravcomp="1">
+        <inertial pos="-0.140875815837035 0.00603023020493104 0.109511696472128" mass="32.8068211995599" fullinertia="0.464286511664967 0.221044284911458 0.636800996886494 1.3488173533289E-05 -0.00184851975464834 2.87603238583234E-06" />
+        <geom type="mesh" mesh="base_link_mesh" rgba=".78 .82 .86 1" contype="0" conaffinity="0" group="1" pos="0 0 0" quat="1 0 0 0" />
+        <body name="Body_Link1" pos="0 0 0.148" quat="0.653280034 0.653282434 -0.270598153 0.270599147" gravcomp="1">
+          <joint name="Body_Joint1" type="hinge" axis="0 0 1" range="-0.03 1.57" damping="4" armature=".04" />
+          <inertial pos="0.174061543715132 0.0813569335741717 -0.00411355243217093" mass="8.92329097536367" fullinertia="0.0186252194927477 0.0370027371562397 0.0452738830029271 0.0108424097177654 -7.06681788962594E-06 -3.14403762865704E-06" />
+          <geom type="mesh" mesh="Body_Link1_mesh" rgba=".78 .82 .86 1" contype="0" conaffinity="0" group="1" pos="0 0 0" quat="1 0 0 0" />
+          <body name="Body_Link2" pos="0.3444 0.16059 0" quat="0.707105483 0 0 -0.70710808" gravcomp="1">
+            <joint name="Body_Joint2" type="hinge" axis="0 0 -1" range="-0.03 3.14" damping="4" armature=".04" />
+            <inertial pos="-0.205307942286028 0.00564139323609941 0.000527221097167019" mass="4.99421923736218" fullinertia="0.00860523438441792 0.0884561414708571 0.0958352096257492 -0.000152945435305184 3.75588685217445E-06 7.13513809482317E-07" />
+            <geom type="mesh" mesh="Body_Link2_mesh" rgba=".78 .82 .86 1" contype="0" conaffinity="0" group="1" pos="0 0 0" quat="1 0 0 0" />
+            <body name="Body_Link3" pos="-0.38 0 0" quat="0.923879181 0 0 0.382684281" gravcomp="1">
+              <joint name="Body_Joint3" type="hinge" axis="0 0 -1" range="-3.14 0.3" damping="4" armature=".04" />
+              <inertial pos="0.000369625023075082 0.00548012045258922 0.00246863461172153" mass="2.72098225189872" fullinertia="0.00346917224179708 0.00331765142239213 0.00335553369440741 -1.3489407520741E-06 6.10523991472922E-09 2.22401392702027E-08" />
+              <geom type="mesh" mesh="Body_Link3_mesh" rgba=".78 .82 .86 1" contype="0" conaffinity="0" group="1" pos="0 0 0" quat="1 0 0 0" />
+              <body name="Body_Link4" pos="0 0.0875 0" quat="0.707105483 0.70710808 0 0" gravcomp="1">
+                <joint name="Body_Joint4" type="hinge" axis="0 0 -1" range="-2.791111 2.791111" damping="4" armature=".04" />
+                <inertial pos="-0.00528425143803396 -8.96798079297323E-07 -0.240948814993741" mass="12.0805095549325" fullinertia="0.0997233932660056 0.0774270018821678 0.0381103289921977 5.22801191238748E-07 0.000766995547826735 2.95204397503293E-06" />
+                <geom type="mesh" mesh="Body_Link4_mesh" rgba=".78 .82 .86 1" contype="0" conaffinity="0" group="1" pos="0 0 0" quat="1 0 0 0" />
+                <body name="Body_Link5" pos="0 0 -0.408" quat="-3.6732051e-06 1 0 0" gravcomp="1">
+                  <inertial pos="0.0358739801887025 2.72004641033163E-15 -0.172499999999998" mass="0.0231694625119586" fullinertia="2.16843593911807E-05 2.14878148335587E-05 4.88071765210052E-07 5.48007155816381E-23 6.17389596556849E-21 -6.53383278270553E-21" />
+                  <geom type="mesh" mesh="Body_Link5_mesh" rgba=".78 .82 .86 1" contype="0" conaffinity="0" group="1" pos="0 0 0" quat="1 0 0 0" />
+                  <body name="Neck_Link1" pos="-0.023818 0 0.075" quat="-3.6732051e-06 1 0 0" gravcomp="1">
+                    <joint name="Neck_Joint1" type="hinge" axis="0 0 -1" range="-1.57 1.57" damping="4" armature=".04" />
+                    <inertial pos="1.2958E-08 -0.0051238 -0.024399" mass="0.2254" fullinertia="6.0865E-06 2.5704E-06 7.0019E-06 -5.2502E-13 -4.7167E-12 2.4439E-13" />
+                    <geom type="mesh" mesh="Neck_Link1_mesh" rgba=".78 .82 .86 1" contype="0" conaffinity="0" group="1" pos="0 0 0" quat="1 0 0 0" />
+                    <body name="Neck_Link2" pos="0 0 -0.037" quat="0.707105483 0.70710808 0 0" gravcomp="1">
+                      <joint name="Neck_Joint2" type="hinge" axis="0 0 1" range="-0.6 0.6" damping="4" armature=".04" />
+                      <inertial pos="0.0291784619709279 -0.0609723040898356 0.0041286746823011" mass="0.915089187915991" fullinertia="0.00314452922624201 0.00253592322995066 0.00114950039082245 6.84940975959184E-06 -1.05007409157497E-05 -5.06676872249796E-05" />
+                      <geom type="mesh" mesh="Neck_Link2_mesh" rgba=".78 .82 .86 1" contype="0" conaffinity="0" group="1" pos="0 0 0" quat="1 0 0 0" />
+                      <body name="camera_link" pos="0.05593865073672299 -0.0805055761270304 0.02484582897311825 " quat="0.710520672 -0.0125039048 0.703204935 -0.0225132493" gravcomp="1" />
+                    </body>
+                  </body>
+                  <body name="Left_Arm_Link1" pos="0 0.116 0" quat="0.707105483 -0.70710808 0 0" gravcomp="1">
+                    <joint name="Left_Arm_Joint1" type="hinge" axis="0 0 1" range="-2.791111111 2.791111111" damping="4" armature=".04" />
+                    <inertial pos="0.0025077516660571 0.0001362208206791 0.0813914149014803" mass="0.838972132111373" fullinertia="0.000751989785934902 0.000443278679334891 0.000468957564177447 -5.8889624703312E-07 -1.69046720878191E-05 -8.05678618129766E-07" />
+                    <geom type="mesh" mesh="Left_Arm_Link1_mesh" rgba=".82 .86 .89 1" contype="0" conaffinity="0" group="1" pos="0 0 0" quat="1 0 0 0" />
+                    <body name="Left_Arm_Link2" pos="0 0 0.0885" quat="0.704416928 0.0616155265 0.70441738 0.0616155265" gravcomp="1">
+                      <joint name="Left_Arm_Joint2" type="hinge" axis="0 0 1" range="-0.21 1.4" damping="4" armature=".04" />
+                      <inertial pos="-0.00306188367559923 0.0161630740147791 0.0111927458017747" mass="0.255409283233996" fullinertia="0.000326831004765838 0.000349624034273561 0.000472907614836737 1.78367336998208E-05 1.5437175240836E-06 -3.83766268525858E-05" />
+                      <geom type="mesh" mesh="Left_Arm_Link2_mesh" rgba=".82 .86 .89 1" contype="0" conaffinity="0" group="1" pos="0 0 0" quat="1 0 0 0" />
+                      <body name="Left_Arm_Link3" pos="0 0.0645 -0.0025" quat="0.707105483 0.70710808 0 0" gravcomp="1">
+                        <joint name="Left_Arm_Joint3" type="hinge" axis="0 0 -1" range="-2.791111111 2.791111111" damping="4" armature=".04" />
+                        <inertial pos="-0.0010992 -9.2443E-05 -0.11449" mass="2.0472" fullinertia="0.0037729 0.0030709 0.0019046 3.4466E-07 -1.1965E-05 5.2778E-05" />
+                        <geom type="mesh" mesh="Left_Arm_Link3_mesh" rgba=".82 .86 .89 1" contype="0" conaffinity="0" group="1" pos="0 0 0" quat="1 0 0 0" />
+                        <body name="Left_Arm_Link4" pos="0 0 -0.199" quat="0.653280737 0.27059745 0.653282725 0.27059745" gravcomp="1">
+                          <joint name="Left_Arm_Joint4" type="hinge" axis="0 0 -1" range="-0.6 0.87" damping="4" armature=".04" />
+                          <inertial pos="0.0242579469687219 1.16068932243252E-09 -0.030009553809354" mass="0.0552392184913917" fullinertia="3.26304815579912E-05 5.76495656370827E-05 5.5252867132742E-05 -1.33870530695415E-12 1.71609495323931E-05 -1.97263319886454E-12" />
+                          <geom type="mesh" mesh="Left_Arm_Link4_mesh" rgba=".82 .86 .89 1" contype="0" conaffinity="0" group="1" pos="0 0 0" quat="1 0 0 0" />
+                          <body name="Left_Arm_Link5" pos="0.063 0 0" quat="0.707105483 0 0.70710808 0" gravcomp="1">
+                            <joint name="Left_Arm_Joint5" type="hinge" axis="0 0 1" range="-1.046666667 1.046666667" damping="4" armature=".04" />
+                            <inertial pos="0.000965358167256403 -0.000401902508684104 0.0821015958186473" mass="1.46607296104848" fullinertia="0.000912451903459497 0.000611954971548081 0.00074913166271684 4.46616409910369E-07 1.48579793260901E-06 -4.2375158773756E-05" />
+                            <geom type="mesh" mesh="Left_Arm_Link5_mesh" rgba=".82 .86 .89 1" contype="0" conaffinity="0" group="1" pos="0 0 0" quat="1 0 0 0" />
+                            <body name="Left_Arm_Link6" pos="0 0 0.1407" quat="0.707105483 0 0.70710808 0" gravcomp="1">
+                              <joint name="Left_Arm_Joint6" type="hinge" axis="0 0 1" range="-1.4 0.03" damping="4" armature=".04" />
+                              <inertial pos="-0.0247392090035728 9.47111500337883E-10 0.0241139624607536" mass="0.0273711756972766" fullinertia="1.18991434244031E-05 1.80518141402894E-05 1.26891883172816E-05 -2.0175815397983E-13 5.24373807488259E-06 1.09959333798157E-13" />
+                              <geom type="mesh" mesh="Left_Arm_Link6_mesh" rgba=".82 .86 .89 1" contype="0" conaffinity="0" group="1" pos="0 0 0" quat="1 0 0 0" />
+                              <body name="Left_Arm_Link7" pos="-0.051 0 0" quat="0.707105483 0 0.70710808 0" gravcomp="1">
+                                <joint name="Left_Arm_Joint7" type="hinge" axis="0 0 -1" range="-2.791111111 2.791111111" damping="4" armature=".04" />
+                                <inertial pos="-0.000416243616873757 -0.000776988365598585 -0.0328080532932422" mass="0.799411788224661" fullinertia="0.000590886062911647 0.000464009724138266 0.000481228557111289 -5.69756810750403E-07 9.67677741293059E-07 -4.04946090224755E-05" />
+                                <geom type="mesh" mesh="Left_Arm_Link7_mesh" rgba=".82 .86 .89 1" contype="0" conaffinity="0" group="1" pos="0 0 0" quat="1 0 0 0" />
+                                <body name="Left_Arm_Link8" pos="0 0 -0.1267" quat="0.499998163 -0.500001837 0.5 0.5" gravcomp="1">
+                                  <inertial pos="0.0 0.0 0.0" mass="0.25707" fullinertia="0.00018156 0.00014066 0.00010489 -2.5587E-07 4.2844E-06 -3.4923E-07" />
+                                </body>
+                                <body name="left_gripper" pos="0 0 -.135" quat="0.627217178 -0.326502688 0.212635933 0.674374203" gravcomp="1">
+                                  <geom name="left_palm" type="box" size=".04 .025 .018" rgba=".10 .18 .24 1" mass=".12" contype="2" conaffinity="1" />
+                                  <site name="left_ee" pos="0 0 -.080" size=".008" rgba="0 0 0 0" />
+                                  <body name="left_finger_-1" pos="-0.022 0 -.057" gravcomp="1">
+                                    <joint name="left_finger_-1" type="slide" axis="-1 0 0" range="0 .045" damping="2" armature=".005" />
+                                    <geom name="left_finger_-1_pad" type="box" size=".009 .026 .045" rgba=".06 .11 .15 1" mass=".045" friction="2 .02 .002" condim="4" contype="2" conaffinity="1" solref=".006 1" />
+                                  </body>
+                                  <body name="left_finger_1" pos="0.022 0 -.057" gravcomp="1">
+                                    <joint name="left_finger_1" type="slide" axis="1 0 0" range="0 .045" damping="2" armature=".005" />
+                                    <geom name="left_finger_1_pad" type="box" size=".009 .026 .045" rgba=".06 .11 .15 1" mass=".045" friction="2 .02 .002" condim="4" contype="2" conaffinity="1" solref=".006 1" />
+                                  </body>
+                                </body>
+                              </body>
+                            </body>
+                          </body>
+                        </body>
+                      </body>
+                    </body>
+                  </body>
+                  <body name="Right_Arm_Link1" pos="0 -0.116 0" quat="0.707105483 -0.70710808 0 0" gravcomp="1">
+                    <joint name="Right_Arm_Joint1" type="hinge" axis="0 0 -1" range="-2.791111111 2.791111111" damping="4" armature=".04" />
+                    <inertial pos="0.00250775166605716 -0.000136220820679434 -0.0813914149014801" mass="0.838972132111369" fullinertia="0.000751989785934903 0.000443278679334892 0.000468957564177448 5.88896247033445E-07 1.69046720878189E-05 -8.0567861812989E-07" />
+                    <geom type="mesh" mesh="Right_Arm_Link1_mesh" rgba=".82 .86 .89 1" contype="0" conaffinity="0" group="1" pos="0 0 0" quat="1 0 0 0" />
+                    <body name="Right_Arm_Link2" pos="0 0 -0.0885" quat="0.704416928 -0.0616155265 0.70441738 -0.0616155265" gravcomp="1">
+                      <joint name="Right_Arm_Joint2" type="hinge" axis="0 0 1" range="-1.4 0.21" damping="4" armature=".04" />
+                      <inertial pos="0.00307740717136255 0.0161643526494041 0.0111753114424136" mass="0.255467545594865" fullinertia="0.000326946465501983 0.000349925938465769 0.00047313103245942 -1.77343208102917E-05 -1.58926345380887E-06 -3.8441401946173E-05" />
+                      <geom type="mesh" mesh="Right_Arm_Link2_mesh" rgba=".82 .86 .89 1" contype="0" conaffinity="0" group="1" pos="0 0 0" quat="1 0 0 0" />
+                      <body name="Right_Arm_Link3" pos="0 0.0645 -0.0025" quat="0.707105483 0.70710808 0 0" gravcomp="1">
+                        <joint name="Right_Arm_Joint3" type="hinge" axis="0 0 -1" range="-2.791111111 2.791111111" damping="4" armature=".04" />
+                        <inertial pos="0.0010969 -0.00020404 -0.11438" mass="2.0471" fullinertia="0.0037726 0.0030706 0.0019046 1.2049E-06 1.0745E-05 5.5513E-05" />
+                        <geom type="mesh" mesh="Right_Arm_Link3_mesh" rgba=".82 .86 .89 1" contype="0" conaffinity="0" group="1" pos="0 0 0" quat="1 0 0 0" />
+                        <body name="Right_Arm_Link4" pos="0 0 -0.199" quat="0.653280737 0.27059745 0.653282725 0.27059745" gravcomp="1">
+                          <joint name="Right_Arm_Joint4" type="hinge" axis="0 0 1" range="-0.87 0.6" damping="4" armature=".04" />
+                          <inertial pos="0.0242579469962895 -1.10023568034023E-09 0.0300095537028778" mass="0.0552392180940099" fullinertia="3.26304813293651E-05 5.76495657453139E-05 5.52528671266607E-05 1.44698531992114E-12 -1.71609496638984E-05 -2.07152075209454E-12" />
+                          <geom type="mesh" mesh="Right_Arm_Link4_mesh" rgba=".82 .86 .89 1" contype="0" conaffinity="0" group="1" pos="0 0 0" quat="1 0 0 0" />
+                          <body name="Right_Arm_Link5" pos="0.063 0 0" quat="0.707105483 -2.57526412e-06 0.70710808 2.57530168e-06" gravcomp="1">
+                            <joint name="Right_Arm_Joint5" type="hinge" axis="0 0 1" range="-1.046666667 1.046666667" damping="4" armature=".04" />
+                            <inertial pos="-0.00101228479117044 -0.000261061348671543 0.0827914363154845" mass="1.43551735506232" fullinertia="0.000839407296506402 0.00056792335069047 0.000705362226016341 1.45064082256621E-06 -1.82472008042489E-07 -3.34877457754713E-05" />
+                            <geom type="mesh" mesh="Right_Arm_Link5_mesh" rgba=".82 .86 .89 1" contype="0" conaffinity="0" group="1" pos="0 0 0" quat="1 0 0 0" />
+                            <body name="Right_Arm_Link6" pos="0 0 0.1407" quat="-0.70710808 5.19469647e-06 -0.707105482 -5.19469647e-06" gravcomp="1">
+                              <joint name="Right_Arm_Joint6" type="hinge" axis="0 0 -1" range="-0.03 1.4" damping="4" armature=".04" />
+                              <inertial pos="-0.0247392089866109 -9.12557807097869E-10 -0.0241139624730627" mass="0.0273711756575834" fullinertia="1.18991434100551E-05 1.80518141349293E-05 1.26891882965786E-05 2.01863747648133E-13 -5.2437380722917E-06 1.17916871642538E-13" />
+                              <geom type="mesh" mesh="Right_Arm_Link6_mesh" rgba=".82 .86 .89 1" contype="0" conaffinity="0" group="1" pos="0 0 0" quat="1 0 0 0" />
+                              <body name="Right_Arm_Link7" pos="-0.051 0 0" quat="0.707105483 0 0.70710808 0" gravcomp="1">
+                                <joint name="Right_Arm_Joint7" type="hinge" axis="0 0 -1" range="-2.791111111 2.791111111" damping="4" armature=".04" />
+                                <inertial pos="7.94267771177595E-05 -0.000653331883059272 -0.0329550326760396" mass="0.771614187666742" fullinertia="0.00052268588803615 0.000417242681777081 0.000449067784209485 -8.07986728161559E-07 1.64607734776642E-06 -3.26900361063905E-05" />
+                                <geom type="mesh" mesh="Right_Arm_Link7_mesh" rgba=".82 .86 .89 1" contype="0" conaffinity="0" group="1" pos="0 0 0" quat="1 0 0 0" />
+                                <body name="Right_Arm_Link8" pos="0 0 -0.1267" quat="0.499998163 -0.500001837 0.5 0.5" gravcomp="1">
+                                  <inertial pos="0.0 0.0 0.0" mass="0.21167" fullinertia="0.00015953 0.00012858 9.3873E-05 -2.0473E-07 3.9566E-06 -1.0943E-07" />
+                                </body>
+                                <body name="right_gripper" pos="0 0 -.135" quat="0.674370489 -0.212654757 0.326489859 0.627221468" gravcomp="1">
+                                  <geom name="right_palm" type="box" size=".04 .025 .018" rgba=".10 .18 .24 1" mass=".12" contype="2" conaffinity="1" />
+                                  <site name="right_ee" pos="0 0 -.080" size=".008" rgba="0 0 0 0" />
+                                  <body name="right_finger_-1" pos="-0.022 0 -.057" gravcomp="1">
+                                    <joint name="right_finger_-1" type="slide" axis="-1 0 0" range="0 .045" damping="2" armature=".005" />
+                                    <geom name="right_finger_-1_pad" type="box" size=".009 .026 .045" rgba=".06 .11 .15 1" mass=".045" friction="2 .02 .002" condim="4" contype="2" conaffinity="1" solref=".006 1" />
+                                  </body>
+                                  <body name="right_finger_1" pos="0.022 0 -.057" gravcomp="1">
+                                    <joint name="right_finger_1" type="slide" axis="1 0 0" range="0 .045" damping="2" armature=".005" />
+                                    <geom name="right_finger_1_pad" type="box" size=".009 .026 .045" rgba=".06 .11 .15 1" mass=".045" friction="2 .02 .002" condim="4" contype="2" conaffinity="1" solref=".006 1" />
+                                  </body>
+                                </body>
+                              </body>
+                            </body>
+                          </body>
+                        </body>
+                      </body>
+                    </body>
+                  </body>
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+        <body name="Driven_Wheel_Link1" pos="0.215 0.14 0.041" quat="1 0 0 0" gravcomp="1">
+          <inertial pos="0.0033346 3.7628E-08 -0.0082757" mass="0.014785" fullinertia="3.581E-06 3.2077E-06 3.879E-06 -3.424E-12 -5.1741E-07 -7.7305E-12" />
+          <geom type="mesh" mesh="Driven_Wheel_Link1_mesh" rgba=".055 .065 .08 1" contype="0" conaffinity="0" group="1" pos="0 0 0" quat="1 0 0 0" />
+          <body name="Driven_Wheel_Link2" pos="0.02 0 -0.039" quat="0.707105483 0.70710808 0 0" gravcomp="1">
+            <inertial pos="-9.05022268238298E-09 -6.74460487459783E-15 -7.57172102794357E-14" mass="0.0294759307719972" fullinertia="4.25575267887633E-06 4.25578479889487E-06 5.52622327218642E-06 -3.87579603937299E-19 -2.38375211456409E-18 -1.66003916605682E-12" />
+            <geom type="mesh" mesh="Driven_Wheel_Link2_mesh" rgba=".055 .065 .08 1" contype="0" conaffinity="0" group="1" pos="0 0 0" quat="1 0 0 0" />
+          </body>
+        </body>
+        <body name="Driven_Wheel_Link3" pos="-0.275 0.14 0.041" quat="1 0 0 0" gravcomp="1">
+          <inertial pos="-0.00333456704338905 -3.76281779623788E-08 -0.00827567857349057" mass="0.0147852658911139" fullinertia="3.58104194328234E-06 3.20768824570684E-06 3.87896363023522E-06 -3.42399130366491E-12 5.17414443984988E-07 7.73053261381817E-12" />
+          <geom type="mesh" mesh="Driven_Wheel_Link3_mesh" rgba=".055 .065 .08 1" contype="0" conaffinity="0" group="1" pos="0 0 0" quat="1 0 0 0" />
+          <body name="Driven_Wheel_Link4" pos="-0.02 0 -0.039" quat="0.707105483 0.70710808 0 0" gravcomp="1">
+            <inertial pos="9.05022273789413E-09 -6.7168492989822E-15 7.56061879769732E-14" mass="0.029475930771997" fullinertia="4.25575267887629E-06 4.25578479889483E-06 5.52622327218638E-06 3.84649399219913E-19 -2.38257276947723E-18 1.66003915118332E-12" />
+            <geom type="mesh" mesh="Driven_Wheel_Link4_mesh" rgba=".055 .065 .08 1" contype="0" conaffinity="0" group="1" pos="0 0 0" quat="1 0 0 0" />
+          </body>
+        </body>
+        <body name="Driven_Wheel_Link5" pos="0.215 -0.14 0.039693" quat="1 0 0 0" gravcomp="1">
+          <inertial pos="0.00333456704338897 3.76281779346233E-08 -0.00827567857349087" mass="0.014785265891114" fullinertia="3.5810419432824E-06 3.20768824570688E-06 3.87896363023522E-06 -3.42399132723456E-12 -5.17414443984929E-07 -7.73053261773635E-12" />
+          <geom type="mesh" mesh="Driven_Wheel_Link5_mesh" rgba=".055 .065 .08 1" contype="0" conaffinity="0" group="1" pos="0 0 0" quat="1 0 0 0" />
+          <body name="Driven_Wheel_Link6" pos="0.02 0 -0.039" quat="0.707105483 0.70710808 0 0" gravcomp="1">
+            <inertial pos="-9.05022279340528E-09 -6.74460487459783E-15 -7.56061879769732E-14" mass="0.0294759307719969" fullinertia="4.25575267887627E-06 4.2557847988948E-06 5.52622327218635E-06 -3.87348932432216E-19 -2.38068239894147E-18 -1.66003913915454E-12" />
+            <geom type="mesh" mesh="Driven_Wheel_Link6_mesh" rgba=".055 .065 .08 1" contype="0" conaffinity="0" group="1" pos="0 0 0" quat="1 0 0 0" />
+          </body>
+        </body>
+        <body name="Driven_Wheel_Link7" pos="-0.275 -0.14 0.041" quat="1 0 0 0" gravcomp="1">
+          <inertial pos="-0.00333456704338903 -3.76281778791121E-08 -0.00827567857349087" mass="0.0147852658911137" fullinertia="3.58104194328237E-06 3.20768824570686E-06 3.87896363023521E-06 -3.42399129644902E-12 5.17414443984963E-07 7.73053260764444E-12" />
+          <geom type="mesh" mesh="Driven_Wheel_Link7_mesh" rgba=".055 .065 .08 1" contype="0" conaffinity="0" group="1" pos="0 0 0" quat="1 0 0 0" />
+          <body name="Driven_Wheel_Link8" pos="-0.02 0 -0.039" quat="0.707105483 0.70710808 0 0" gravcomp="1">
+            <inertial pos="9.05022273789413E-09 -6.68909372336657E-15 7.56616991282044E-14" mass="0.0294759307719968" fullinertia="4.25575267887626E-06 4.2557847988948E-06 5.52622327218633E-06 3.86543809681533E-19 -2.38401621528862E-18 1.66003914463259E-12" />
+            <geom type="mesh" mesh="Driven_Wheel_Link8_mesh" rgba=".055 .065 .08 1" contype="0" conaffinity="0" group="1" pos="0 0 0" quat="1 0 0 0" />
+          </body>
+        </body>
+        <body name="Driving_Wheel_Link1" pos="-0.005 0.18 0.0665" quat="0.707105483 0.70710808 0 0" gravcomp="1">
+          <inertial pos="-4.8413801856384E-09 -6.23688331063965E-06 -0.0430767857786644" mass="3.02170182800955" fullinertia="0.00547791506005889 0.00547801108188701 0.00948944280146741 -4.41461813179246E-10 3.80651517467808E-10 -1.1068722639418E-06" />
+          <geom type="mesh" mesh="Driving_Wheel_Link1_mesh" rgba=".055 .065 .08 1" contype="0" conaffinity="0" group="1" pos="0 0 0" quat="1 0 0 0" />
+        </body>
+        <body name="Driving_Wheel_Link2" pos="-0.005 -0.18 0.0665" quat="0.707105483 0.70710808 0 0" gravcomp="1">
+          <inertial pos="4.83444362320284E-09 -6.23688437320635E-06 0.0430767857799618" mass="3.02170182785084" fullinertia="0.00547791505979762 0.00547801108142406 0.00948944280093685 4.41485928228232E-10 3.81169188910475E-10 1.10687234323167E-06" />
+          <geom type="mesh" mesh="Driving_Wheel_Link2_mesh" rgba=".055 .065 .08 1" contype="0" conaffinity="0" group="1" pos="0 0 0" quat="1 0 0 0" />
+        </body>
+      </body>
+      <geom name="base_collision" type="box" pos="-.03 0 .11" size=".29 .20 .10" rgba="0 0 0 0" group="3" contype="2" conaffinity="1" mass="0" />
+    </body>
+  </worldbody>
+  <actuator>
+    <position name="base_x" joint="base_x" kp="15000" kv="1500" forcerange="-3000 3000" />
+    <position name="base_y" joint="base_y" kp="15000" kv="1500" forcerange="-3000 3000" />
+    <position name="base_yaw" joint="base_yaw" kp="15000" kv="1500" forcerange="-3000 3000" />
+    <position name="Body_Joint1" joint="Body_Joint1" kp="1200" kv="65" forcerange="-100 100" />
+    <position name="Body_Joint2" joint="Body_Joint2" kp="1200" kv="65" forcerange="-100 100" />
+    <position name="Body_Joint3" joint="Body_Joint3" kp="1200" kv="65" forcerange="-100 100" />
+    <position name="Body_Joint4" joint="Body_Joint4" kp="1200" kv="65" forcerange="-100 100" />
+    <position name="Neck_Joint1" joint="Neck_Joint1" kp="1200" kv="65" forcerange="-100 100" />
+    <position name="Neck_Joint2" joint="Neck_Joint2" kp="1200" kv="65" forcerange="-100 100" />
+    <position name="Left_Arm_Joint1" joint="Left_Arm_Joint1" kp="1200" kv="65" forcerange="-100 100" />
+    <position name="Left_Arm_Joint2" joint="Left_Arm_Joint2" kp="1200" kv="65" forcerange="-100 100" />
+    <position name="Left_Arm_Joint3" joint="Left_Arm_Joint3" kp="1200" kv="65" forcerange="-100 100" />
+    <position name="Left_Arm_Joint4" joint="Left_Arm_Joint4" kp="1200" kv="65" forcerange="-100 100" />
+    <position name="Left_Arm_Joint5" joint="Left_Arm_Joint5" kp="1200" kv="65" forcerange="-100 100" />
+    <position name="Left_Arm_Joint6" joint="Left_Arm_Joint6" kp="1200" kv="65" forcerange="-100 100" />
+    <position name="Left_Arm_Joint7" joint="Left_Arm_Joint7" kp="1200" kv="65" forcerange="-100 100" />
+    <position name="Right_Arm_Joint1" joint="Right_Arm_Joint1" kp="1200" kv="65" forcerange="-100 100" />
+    <position name="Right_Arm_Joint2" joint="Right_Arm_Joint2" kp="1200" kv="65" forcerange="-100 100" />
+    <position name="Right_Arm_Joint3" joint="Right_Arm_Joint3" kp="1200" kv="65" forcerange="-100 100" />
+    <position name="Right_Arm_Joint4" joint="Right_Arm_Joint4" kp="1200" kv="65" forcerange="-100 100" />
+    <position name="Right_Arm_Joint5" joint="Right_Arm_Joint5" kp="1200" kv="65" forcerange="-100 100" />
+    <position name="Right_Arm_Joint6" joint="Right_Arm_Joint6" kp="1200" kv="65" forcerange="-100 100" />
+    <position name="Right_Arm_Joint7" joint="Right_Arm_Joint7" kp="1200" kv="65" forcerange="-100 100" />
+    <position name="left_finger_-1" joint="left_finger_-1" kp="700" kv="12" forcerange="-35 35" ctrlrange="0 .045" />
+    <position name="left_finger_1" joint="left_finger_1" kp="700" kv="12" forcerange="-35 35" ctrlrange="0 .045" />
+    <position name="right_finger_-1" joint="right_finger_-1" kp="700" kv="12" forcerange="-35 35" ctrlrange="0 .045" />
+    <position name="right_finger_1" joint="right_finger_1" kp="700" kv="12" forcerange="-35 35" ctrlrange="0 .045" />
+  </actuator>
+</mujoco>

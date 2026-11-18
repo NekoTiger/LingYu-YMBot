@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>灵驭 · Quest 3 实时仿真</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#101b25;color:#edf4f6;font:15px system-ui,"Microsoft YaHei",sans-serif}canvas{display:block}#panel{position:fixed;inset:18px 18px auto;display:flex;align-items:center;gap:14px;flex-wrap:wrap;z-index:2;background:#132331ed;border:1px solid #3e5566;border-radius:14px;padding:14px 18px}h1{font-size:19px;margin:0;margin-right:auto}button,input{font:inherit;border:1px solid #587382;border-radius:8px;padding:10px 15px;background:#264250;color:inherit}button{cursor:pointer}button:disabled{opacity:.45;cursor:wait}#enter{background:#126e64}#stop{background:#a83636}#foot{position:fixed;left:18px;bottom:18px;max-width:min(680px,calc(100vw - 36px));background:#132331ed;border-radius:12px;padding:14px 18px;line-height:1.65}#status{color:#91e5cc}#error{color:#ffbb9b;white-space:pre-wrap}details{margin-top:8px}summary{cursor:pointer}input{width:130px;padding:6px}#trials{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}#trials button{padding:7px 10px}#notice{color:#b1c3cf;font-size:13px}a{color:#91e5cc}
+</style>
+<style>
+.study-fields{display:flex;gap:12px;flex-wrap:wrap;margin:10px 0}.study-fields label{display:flex;flex-direction:column;gap:3px;font-size:13px;color:#b1c3cf}select{font:inherit;background:#264250;color:#edf4f6;border:1px solid #587382;padding:7px;border-radius:6px}.study-actions{display:flex;gap:8px;flex-wrap:wrap}.study-actions button{padding:8px 12px}#study-status{margin-top:8px;color:#91e5cc}
+</style>
+<div id="panel"><h1>灵驭 · Quest 3</h1><span id="status" role="status">加载场景…</span><button id="enter" disabled>进入 VR</button><button id="stop">停止</button><button id="resume">恢复</button><button id="reset">重置场景</button></div>
+<div id="foot">
+  <div>同时握住双侧握键：移动双手 · 双扳机：同步夹爪 · 左摇杆：底盘</div>
+  <div>松开任一握键：停移 · 右 B：停止 · 松开双握键后按左 X：恢复</div>
+  <div id="error" role="alert"></div>
+  <div id="notice">第三人称立体仿真 · 按机器人朝向理解移动方向</div>
+  <div class="study-actions"><button id="study-start" disabled>开始计时</button><button id="study-abort" disabled>终止并记失败</button></div>
+  <div id="study-status" role="status">正在读取实验安排…</div>
+  <details><summary>原对照实验</summary>
+    <div class="study-fields">
+      <label>阶段<select id="study-phase"><option value="pilot">试跑</option><option value="formal">正式采集</option></select></label>
+      <label>操作者<select id="study-participant"><option>P00</option><option>P01</option><option>P02</option><option>P03</option><option>P04</option><option>P05</option></select></label>
+      <label>试次<select id="study-index"></select></label>
+    </div>
+    <button id="study-prepare">准备场景</button>
+  </details>
+  <details id="risk-config"><summary>双层风险分配 · 预实验</summary>
+    <div class="study-fields">
+      <label>分配方法<select id="risk-policy"><option value="dual">双层联合</option><option value="fixed">固定分配</option><option value="grip_only">仅抓持风险</option><option value="payload_only">仅承载风险</option><option value="slow">统一降速</option></select></label>
+      <label>接触条件<select id="risk-scenario"><option value="normal">正常</option><option value="grip">低夹持摩擦</option><option value="payload">低承载摩擦／偏心</option><option value="combined">两层同时受限</option></select></label>
+      <button id="risk-prepare">准备风险试跑</button>
+    </div>
+    <div id="risk-state" role="status"></div>
+  </details>
+  <details id="follow-config"><summary>工作空间跟随 · 预实验</summary>
+    <div class="study-fields">
+      <label>底盘辅助<select id="follow-policy"><option value="gated">带确认的前后跟随</option><option value="off">关闭跟随（同手部映射）</option></select></label>
+      <label>目标台<select id="follow-height"><option value="0.75">75 cm</option><option value="0.60">60 cm</option></select></label>
+      <button id="follow-prepare">准备跟随试跑</button>
+    </div>
+    <div>搬起后先双手回中；前伸前进、回收后退，回中停止。左摇杆优先，松握键停止。</div>
+  </details>
+  <details><summary>实验记录与诊断</summary>
+    <div id="diagnostics"></div>
+    <div id="trials"><input id="participant" aria-label="匿名操作者编号" placeholder="操作者编号" maxlength="40"><button data-marker="start">开始试次</button><button data-marker="success">标注成功</button><button data-marker="failure">标注失败</button><button data-marker="cancel">取消试次</button></div>
+    <div>结果标记由观察员填写，不能代替物理轨迹核验。记录在电脑的 quest3/sessions 中。</div>
+  </details>
+</div>
+<script type="module" src="/app.js"></script>
+</html>

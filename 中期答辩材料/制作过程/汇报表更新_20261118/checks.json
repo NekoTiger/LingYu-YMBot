@@ -1,0 +1,29 @@
+{
+  "pages": 6,
+  "doc_docx_page_text_identical": true,
+  "doc_docx_pixels_identical": false,
+  "administrative_and_team_fields_preserved": true,
+  "required_numbers_and_date_found": true,
+  "image_sha256": {
+    "docx": [
+      "be78d4ea0af70882f61d4b743bbd1c9dfb0052810266bd1cb6b7c18f0a68813d",
+      "0b6dfe82ff9d345bd5524fb5906cfc04e76133b6be152c11c8c15eaaa6ccd14a",
+      "db2b649f23da9c23aa1ab9b86e0a1ea05aff8c6bba579f829f8dbe2d453064c2",
+      "99b17b1b2ed13e08217e7d8bc838b4935b9c286772540c0a8c23418e945f1ac7",
+      "9f8afe23c95262a8f867eab051b949ef6b1830e57b5ed3ebfb7120282befdf6b",
+      "910566feeedf6ad8f380557357d3577d09fa58b9da853ab05513bafcc0a3409a"
+    ],
+    "doc": [
+      "be78d4ea0af70882f61d4b743bbd1c9dfb0052810266bd1cb6b7c18f0a68813d",
+      "5dffeaac7484fa7373cb15678cb15dbec57150eaf73e504edc72b4220536ddb9",
+      "db2b649f23da9c23aa1ab9b86e0a1ea05aff8c6bba579f829f8dbe2d453064c2",
+      "99b17b1b2ed13e08217e7d8bc838b4935b9c286772540c0a8c23418e945f1ac7",
+      "2bb1ef3cb661c7126e2b0b48c79dace88a46c8c5049d854bc97abc3bc6b3e4d5",
+      "910566feeedf6ad8f380557357d3577d09fa58b9da853ab05513bafcc0a3409a"
+    ]
+  },
+  "final_files": {
+    "灵驭_中期汇报表.doc": "ce1c11f01753a7029cca6fd8ffa9b38bd1db6cceb281c495a3559f2485969f20",
+    "灵驭_中期汇报表.docx": "1dda55995d17c42e464c863b7292f51ecd5721bc377ba0993e6c3cfbb43f8546"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "session": "simulation\\quest3\\outputs\\follow_validation_r3_20261117\\gated_75_7400",
+  "seed": 7400,
+  "selection": "lowest seed among successful 75cm trials, else highest available height",
+  "source": "synthetic_transport_test",
+  "playback_speed": 2,
+  "fps": 25,
+  "physical_states_modified": false,
+  "rendering": "saved qpos/qvel/ctrl, no resimulation"
+}

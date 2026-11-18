@@ -1,0 +1,87 @@
+{
+  "physical_tasks": {
+    "off": {
+      "n": 4,
+      "successes": 4,
+      "elapsed_sim_s": {
+        "mean": 85.3874999999824,
+        "min": 82.79999999998843,
+        "max": 89.60999999997256,
+        "n": 4
+      },
+      "joystick_command_sim_s": {
+        "mean": 65.60249999999698,
+        "min": 62.999999999996035,
+        "max": 69.83999999999882,
+        "n": 4
+      },
+      "navigation_max_tilt_deg": {
+        "mean": 2.8349952163632297,
+        "min": 2.124779746195765,
+        "max": 3.73623198334839,
+        "n": 4
+      },
+      "navigation_max_slip_mm": {
+        "mean": 10.093587228403672,
+        "min": 9.027610924733143,
+        "max": 10.83877235693953,
+        "n": 4
+      },
+      "navigation_waist_range_deg": {
+        "mean": 1.611425993293333,
+        "min": 1.2210068291110265,
+        "max": 2.133423848663601,
+        "n": 4
+      }
+    },
+    "gated": {
+      "n": 4,
+      "successes": 4,
+      "elapsed_sim_s": {
+        "mean": 84.96499999998338,
+        "min": 84.66999999998407,
+        "max": 85.26999999998267,
+        "n": 4
+      },
+      "joystick_command_sim_s": {
+        "mean": 36.79750000000125,
+        "min": 36.43000000000132,
+        "max": 37.070000000001194,
+        "n": 4
+      },
+      "navigation_max_tilt_deg": {
+        "mean": 1.6273795632553487,
+        "min": 1.3011070793637733,
+        "max": 1.9094065902307804,
+        "n": 4
+      },
+      "navigation_max_slip_mm": {
+        "mean": 10.482395098194957,
+        "min": 9.051111650800859,
+        "max": 11.383942023045046,
+        "n": 4
+      },
+      "navigation_waist_range_deg": {
+        "mean": 1.8393494938642005,
+        "min": 1.5078982881806366,
+        "max": 1.9954172280751825,
+        "n": 4
+      }
+    }
+  },
+  "boundary_command_probe": {
+    "threshold": {
+      "unintended_command_s": 4.1175,
+      "integrated_unintended_command_m": 0.13064089369247667,
+      "command_onsets": 166.3125,
+      "intent_onset_delay_s": 0.0
+    },
+    "gated": {
+      "unintended_command_s": 0.0,
+      "integrated_unintended_command_m": 0.0,
+      "command_onsets": 0.0,
+      "intent_onset_delay_s": 0.18
+    }
+  },
+  "scope": "scripted engineering validation; not human workload or real robot evidence"
+}

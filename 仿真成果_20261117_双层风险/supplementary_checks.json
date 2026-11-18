@@ -1,0 +1,31 @@
+{
+  "risk_reversal_20261117": {
+    "identical_input_by_seed": {
+      "9600": "cd984565a9e0ddfea3327e5fdb4691852d36b395e1f5c123ccb53a8df7d9bb2a",
+      "9601": "79053aa21cadfab08348f74709d747f983907a08f5ac89b570375d86ca1190d8"
+    },
+    "complete_trials": 10,
+    "loss_before_pulse_count": 0,
+    "first_loss_times_s": []
+  },
+  "risk_reversal_adverse_20261117": {
+    "identical_input_by_seed": {
+      "9602": "c4f37dd270ad8a8520b4711bf8143a94cd60430ebab603714155d4caaee57142",
+      "9603": "6399ad9140fc2096c42ebc36d37602ae1a1e0fc6b9e49fe07762ac866ed50eaf"
+    },
+    "complete_trials": 10,
+    "loss_before_pulse_count": 10,
+    "first_loss_times_s": [
+      7.839999999999359,
+      7.839999999999359,
+      7.839999999999359,
+      7.839999999999359,
+      7.839999999999359,
+      7.909999999999351,
+      7.909999999999351,
+      7.909999999999351,
+      7.909999999999351,
+      7.909999999999351
+    ]
+  }
+}

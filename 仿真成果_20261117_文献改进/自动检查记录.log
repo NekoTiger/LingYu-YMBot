@@ -1,0 +1,33 @@
+test_engine_unloaded_hand_extension_never_drives_base (simulation.quest3.test_workspace_follow.FollowTests.test_engine_unloaded_hand_extension_never_drives_base) ... ok
+test_loaded_pause_keeps_waist_reference_and_tracking_loss_stops (simulation.quest3.test_workspace_follow.FollowTests.test_loaded_pause_keeps_waist_reference_and_tracking_loss_stops) ... ok
+test_manual_and_contact_loss_cancel_and_require_neutral (simulation.quest3.test_workspace_follow.FollowTests.test_manual_and_contact_loss_cancel_and_require_neutral) ... ok
+test_neutral_is_calibrated_to_actual_robot_hands (simulation.quest3.test_workspace_follow.FollowTests.test_neutral_is_calibrated_to_actual_robot_hands) ... ok
+test_no_start_at_boundary_until_neutral_then_dwell (simulation.quest3.test_workspace_follow.FollowTests.test_no_start_at_boundary_until_neutral_then_dwell) ... ok
+test_proximity_brake_reduces_approach_but_allows_retreat (simulation.quest3.test_workspace_follow.FollowTests.test_proximity_brake_reduces_approach_but_allows_retreat) ... ok
+test_short_excursions_do_not_start_gated_following (simulation.quest3.test_workspace_follow.FollowTests.test_short_excursions_do_not_start_gated_following) ... ok
+test_axis_mapping_and_rigid_span (simulation.quest3.test_protocol.ProtocolTests.test_axis_mapping_and_rigid_span) ... ok
+test_head_heading_and_regrip_preserve_robot_yaw (simulation.quest3.test_protocol.ProtocolTests.test_head_heading_and_regrip_preserve_robot_yaw) ... ok
+test_packet_reordering_and_buffer_delay (simulation.quest3.test_protocol.ProtocolTests.test_packet_reordering_and_buffer_delay) ... ok
+test_reject_nonfinite_pose_and_invalid_controls (simulation.quest3.test_protocol.ProtocolTests.test_reject_nonfinite_pose_and_invalid_controls) ... ok
+test_tracking_loss_is_valid_stop_signal (simulation.quest3.test_protocol.ProtocolTests.test_tracking_loss_is_valid_stop_signal) ... ok
+test_workspace_clamp (simulation.quest3.test_protocol.ProtocolTests.test_workspace_clamp) ... ok
+test_analysis_pairs_participants_and_flags_duplicate_attempts (simulation.quest3.test_study.StudyTests.test_analysis_pairs_participants_and_flags_duplicate_attempts) ... ok
+test_counterbalanced_pairs_share_scene_and_seed (simulation.quest3.test_study.StudyTests.test_counterbalanced_pairs_share_scene_and_seed) ... ok
+test_live_modes_move_and_only_assisted_anchors_waist (simulation.quest3.test_study.StudyTests.test_live_modes_move_and_only_assisted_anchors_waist) ... ok
+test_ready_does_not_move_and_timeout_is_recorded (simulation.quest3.test_study.StudyTests.test_ready_does_not_move_and_timeout_is_recorded) ... ok
+test_scoring_saved_complete_physics_trajectory (simulation.quest3.test_study.StudyTests.test_scoring_saved_complete_physics_trajectory) ... ok
+C:\Users\10141\AppData\Local\Temp\tmpvqflgf8q\analysis\结果.md
+C:\Users\10141\AppData\Local\Temp\tmpvqflgf8q\analysis\结果.md
+Quest gateway initialized (default http://localhost:8765)
+Session: C:\Users\10141\AppData\Local\Temp\tmp62v06bfl\initial
+Hardware validation: pending
+test_prepare_start_abort_and_geometry_update (simulation.quest3.test_study.StudyTransportTests.test_prepare_start_abort_and_geometry_update) ... Executing <Task pending name='Task-2' coro=<StudyTransportTests.test_prepare_start_abort_and_geometry_update() running at D:\UserData\Desktop\Coding\Innovation and Entrepreneurship\2026大创\simulation\quest3\test_study.py:140> wait_for=<_GatheringFuture pending cb=[Task.task_wakeup()] created at D:\Anaconda\Lib\asyncio\tasks.py:765> cb=[_run_until_complete_cb() at D:\Anaconda\Lib\asyncio\base_events.py:181] created at D:\Anaconda\Lib\asyncio\runners.py:100> took 7.644 seconds
+Executing <Task pending name='Task-9' coro=<RequestHandler._handle_request() running at D:\UserData\Desktop\Coding\Innovation and Entrepreneurship\2026大创\.venv\Lib\site-packages\aiohttp\web_protocol.py:510> wait_for=<Future pending cb=[Task.task_wakeup()] created at D:\Anaconda\Lib\asyncio\base_events.py:459> cb=[Task.task_wakeup()] created at D:\UserData\Desktop\Coding\Innovation and Entrepreneurship\2026大创\.venv\Lib\site-packages\aiohttp\web_protocol.py:598> took 8.167 seconds
+Executing <Task pending name='Task-9' coro=<RequestHandler._handle_request() running at D:\UserData\Desktop\Coding\Innovation and Entrepreneurship\2026大创\.venv\Lib\site-packages\aiohttp\web_protocol.py:510> wait_for=<Future pending cb=[Task.task_wakeup()] created at D:\Anaconda\Lib\asyncio\base_events.py:459> cb=[Task.task_wakeup()] created at D:\UserData\Desktop\Coding\Innovation and Entrepreneurship\2026大创\.venv\Lib\site-packages\aiohttp\web_protocol.py:598> took 8.460 seconds
+Executing <Task pending name='Task-9' coro=<RequestHandler._handle_request() running at D:\UserData\Desktop\Coding\Innovation and Entrepreneurship\2026大创\.venv\Lib\site-packages\aiohttp\web_protocol.py:510> wait_for=<Future pending cb=[Task.task_wakeup()] created at D:\Anaconda\Lib\asyncio\base_events.py:459> cb=[Task.task_wakeup()] created at D:\UserData\Desktop\Coding\Innovation and Entrepreneurship\2026大创\.venv\Lib\site-packages\aiohttp\web_protocol.py:598> took 8.640 seconds
+ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 44.135s
+
+OK

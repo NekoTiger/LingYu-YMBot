@@ -1,0 +1,47 @@
+{
+  "frozen_sources_match": true,
+  "trials": 40,
+  "unique_paired_conditions": 40,
+  "contact_friction": {
+    "normal": {
+      "cargo_left_handle + left_finger_-1_pad": 1.1,
+      "cargo_left_handle + left_finger_1_pad": 1.1,
+      "cargo_right_handle + right_finger_-1_pad": 1.1,
+      "cargo_right_handle + right_finger_1_pad": 1.1,
+      "cargo_main + parcel_geom": 0.8
+    },
+    "grip": {
+      "cargo_left_handle + left_finger_-1_pad": 0.55,
+      "cargo_left_handle + left_finger_1_pad": 0.55,
+      "cargo_right_handle + right_finger_-1_pad": 0.55,
+      "cargo_right_handle + right_finger_1_pad": 0.55,
+      "cargo_main + parcel_geom": 0.8
+    },
+    "payload": {
+      "cargo_left_handle + left_finger_-1_pad": 1.1,
+      "cargo_left_handle + left_finger_1_pad": 1.1,
+      "cargo_right_handle + right_finger_-1_pad": 1.1,
+      "cargo_right_handle + right_finger_1_pad": 1.1,
+      "cargo_main + parcel_geom": 0.16
+    },
+    "combined": {
+      "cargo_left_handle + left_finger_-1_pad": 0.55,
+      "cargo_left_handle + left_finger_1_pad": 0.55,
+      "cargo_right_handle + right_finger_-1_pad": 0.55,
+      "cargo_right_handle + right_finger_1_pad": 0.55,
+      "cargo_main + parcel_geom": 0.16
+    }
+  },
+  "loss_detection_replay": {
+    "source": "D:\\UserData\\Desktop\\Coding\\Innovation and Entrepreneurship\\2026大创\\simulation\\quest3\\outputs\\risk_dev2\\payload_dual_9001",
+    "detected_sim_s": 7.659999999999378,
+    "scope": "regression replay of saved states; not a new physical policy trial"
+  },
+  "isolated_allocator_replay_ms": {
+    "n": 7453,
+    "median": 0.2583999994385522,
+    "p95": 0.4845599993132053,
+    "max": 5.674100000760518,
+    "scope": "allocator only; not full loop or VR latency"
+  }
+}

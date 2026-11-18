@@ -1,0 +1,12 @@
+{
+  "counts": {
+    "progress": 1338,
+    "innovation": 367,
+    "reflections": 649,
+    "plan": 635
+  },
+  "changed_parts": [
+    "word/document.xml"
+  ],
+  "source_sha256": "3db8857a3db1eccb9cffb6744e8fbe2f925aaea0c2343c4a2a27d0710b999a88"
+}

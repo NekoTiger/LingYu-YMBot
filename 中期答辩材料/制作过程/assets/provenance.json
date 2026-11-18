@@ -1,0 +1,26 @@
+[
+  {
+    "image": "cover.png",
+    "source": "D:\\UserData\\Desktop\\Coding\\Innovation and Entrepreneurship\\2026大创\\simulation\\research\\outputs\\demo_dynamic\\trajectory.npz",
+    "frame_index": 800,
+    "render_only": true
+  },
+  {
+    "image": "task.png",
+    "source": "D:\\UserData\\Desktop\\Coding\\Innovation and Entrepreneurship\\2026大创\\simulation\\research\\outputs\\demo_dynamic\\trajectory.npz",
+    "frame_index": 2500,
+    "render_only": true
+  },
+  {
+    "image": "placement.png",
+    "source": "D:\\UserData\\Desktop\\Coding\\Innovation and Entrepreneurship\\2026大创\\simulation\\research\\outputs\\demo_dynamic\\trajectory.npz",
+    "frame_index": 5450,
+    "render_only": true
+  },
+  {
+    "image": "quest_live.png",
+    "source": "D:\\UserData\\Desktop\\Coding\\Innovation and Entrepreneurship\\2026大创\\simulation\\quest3\\sessions\\20261116_115607_04cd8e\\states_0009.npz",
+    "frame_index": 658,
+    "render_only": true
+  }
+]

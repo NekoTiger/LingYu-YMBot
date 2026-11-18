@@ -1,0 +1,16 @@
+C:\Users\10141\AppData\Local\Temp\tmp0b9r7y7g\analysis\结果.md
+C:\Users\10141\AppData\Local\Temp\tmp0b9r7y7g\analysis\结果.md
+Quest gateway initialized (default http://localhost:8765)
+Session: C:\Users\10141\AppData\Local\Temp\tmp7oue7f25\initial
+Hardware validation: pending
+.........................Executing <Task pending name='Task-2' coro=<StudyTransportTests.test_prepare_start_abort_and_geometry_update() running at D:\UserData\Desktop\Coding\Innovation and Entrepreneurship\2026大创\simulation\quest3\test_study.py:140> wait_for=<_GatheringFuture pending cb=[Task.task_wakeup()] created at D:\Anaconda\Lib\asyncio\tasks.py:765> cb=[_run_until_complete_cb() at D:\Anaconda\Lib\asyncio\base_events.py:181] created at D:\Anaconda\Lib\asyncio\runners.py:100> took 7.235 seconds
+Executing <Task pending name='Task-9' coro=<RequestHandler._handle_request() running at D:\UserData\Desktop\Coding\Innovation and Entrepreneurship\2026大创\.venv\Lib\site-packages\aiohttp\web_protocol.py:510> wait_for=<Future pending cb=[Task.task_wakeup()] created at D:\Anaconda\Lib\asyncio\base_events.py:459> cb=[Task.task_wakeup()] created at D:\UserData\Desktop\Coding\Innovation and Entrepreneurship\2026大创\.venv\Lib\site-packages\aiohttp\web_protocol.py:598> took 7.635 seconds
+Executing <Task pending name='Task-9' coro=<RequestHandler._handle_request() running at D:\UserData\Desktop\Coding\Innovation and Entrepreneurship\2026大创\.venv\Lib\site-packages\aiohttp\web_protocol.py:510> wait_for=<Future pending cb=[Task.task_wakeup()] created at D:\Anaconda\Lib\asyncio\base_events.py:459> cb=[Task.task_wakeup()] created at D:\UserData\Desktop\Coding\Innovation and Entrepreneurship\2026大创\.venv\Lib\site-packages\aiohttp\web_protocol.py:598> took 7.326 seconds
+Executing <Task pending name='Task-9' coro=<RequestHandler._handle_request() running at D:\UserData\Desktop\Coding\Innovation and Entrepreneurship\2026大创\.venv\Lib\site-packages\aiohttp\web_protocol.py:510> wait_for=<Future pending cb=[Task.task_wakeup()] created at D:\Anaconda\Lib\asyncio\base_events.py:459> cb=[Task.task_wakeup()] created at D:\UserData\Desktop\Coding\Innovation and Entrepreneurship\2026大创\.venv\Lib\site-packages\aiohttp\web_protocol.py:598> took 6.179 seconds
+Executing <Task pending name='Task-9' coro=<RequestHandler._handle_request() running at D:\UserData\Desktop\Coding\Innovation and Entrepreneurship\2026大创\.venv\Lib\site-packages\aiohttp\web_protocol.py:510> wait_for=<Future pending cb=[Task.task_wakeup()] created at D:\Anaconda\Lib\asyncio\base_events.py:459> cb=[Task.task_wakeup()] created at D:\UserData\Desktop\Coding\Innovation and Entrepreneurship\2026大创\.venv\Lib\site-packages\aiohttp\web_protocol.py:598> took 7.953 seconds
+Executing <Task pending name='Task-9' coro=<RequestHandler._handle_request() running at D:\UserData\Desktop\Coding\Innovation and Entrepreneurship\2026大创\.venv\Lib\site-packages\aiohttp\web_protocol.py:510> wait_for=<Future pending cb=[Task.task_wakeup()] created at D:\Anaconda\Lib\asyncio\base_events.py:459> cb=[Task.task_wakeup()] created at D:\UserData\Desktop\Coding\Innovation and Entrepreneurship\2026大创\.venv\Lib\site-packages\aiohttp\web_protocol.py:598> took 7.846 seconds
+.
+----------------------------------------------------------------------
+Ran 26 tests in 63.590s
+
+OK

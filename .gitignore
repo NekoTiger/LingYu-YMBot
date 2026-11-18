@@ -1,0 +1,23 @@
+# Python 虚拟环境与缓存
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Node 依赖
+node_modules/
+
+# 仿真过程大数据（体积超 17 GB，保留在本地，不进仓库）
+simulation/outputs/
+simulation/*/outputs/
+simulation/quest3/sessions/
+simulation/quest3/study_sessions/
+simulation/quest3/risk_sessions/
+simulation/quest3/follow_sessions/
+simulation/dev/
+
+# 系统与编辑器临时文件
+Thumbs.db
+Desktop.ini
+~$*
+*.tmp

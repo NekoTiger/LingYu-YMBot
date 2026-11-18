@@ -1,0 +1,2 @@
+# Install into the existing project .venv; base MuJoCo/Mink requirements stay unchanged.
+aiohttp==3.13.2

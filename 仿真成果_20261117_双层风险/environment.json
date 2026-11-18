@@ -1,0 +1,14 @@
+{
+  "python": "3.13.12 | packaged by Anaconda, Inc. | (main, Feb 24 2026, 16:05:56) [MSC v.1942 64 bit (AMD64)]",
+  "os": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "mujoco": "4.0.1",
+    "mink": "1.4.0",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "daqp": "0.11.2",
+    "aiohttp": "3.13.2",
+    "matplotlib": "3.11.2",
+    "imageio": "2.38.1"
+  }
+}

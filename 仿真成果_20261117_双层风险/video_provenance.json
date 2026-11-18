@@ -1,0 +1,11 @@
+{
+  "session": "D:\\UserData\\Desktop\\Coding\\Innovation and Entrepreneurship\\2026大创\\simulation\\quest3\\outputs\\risk_validation_20261117\\combined_dual_9400",
+  "seed": 9400,
+  "scenario": "combined",
+  "selection": "combined scenario, dual policy, minimum validation seed; no success filtering",
+  "source": "synthetic_transport_test",
+  "outcome": "success",
+  "playback_speed": 2,
+  "fps": 25,
+  "physical_states_modified": false
+}

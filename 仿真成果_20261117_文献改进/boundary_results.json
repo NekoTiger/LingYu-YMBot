@@ -1,0 +1,322 @@
+[
+  {
+    "seed": 8200,
+    "policy": "threshold",
+    "noise_std_m": 0.006,
+    "unintended_command_s": 4.0200000000000005,
+    "integrated_unintended_command_m": 0.1290225381977434,
+    "command_onsets": 162,
+    "intent_onset_delay_s": 0.0,
+    "neutral_first_command_m_s": 0.0
+  },
+  {
+    "seed": 8200,
+    "policy": "gated",
+    "noise_std_m": 0.006,
+    "unintended_command_s": 0.0,
+    "integrated_unintended_command_m": 0.0,
+    "command_onsets": 0,
+    "intent_onset_delay_s": 0.18,
+    "neutral_first_command_m_s": 0.0
+  },
+  {
+    "seed": 8201,
+    "policy": "threshold",
+    "noise_std_m": 0.006,
+    "unintended_command_s": 4.14,
+    "integrated_unintended_command_m": 0.12984799656381266,
+    "command_onsets": 167,
+    "intent_onset_delay_s": 0.0,
+    "neutral_first_command_m_s": 0.0
+  },
+  {
+    "seed": 8201,
+    "policy": "gated",
+    "noise_std_m": 0.006,
+    "unintended_command_s": 0.0,
+    "integrated_unintended_command_m": 0.0,
+    "command_onsets": 0,
+    "intent_onset_delay_s": 0.18,
+    "neutral_first_command_m_s": 0.0
+  },
+  {
+    "seed": 8202,
+    "policy": "threshold",
+    "noise_std_m": 0.006,
+    "unintended_command_s": 3.84,
+    "integrated_unintended_command_m": 0.12245881671661384,
+    "command_onsets": 155,
+    "intent_onset_delay_s": 0.0,
+    "neutral_first_command_m_s": 0.0
+  },
+  {
+    "seed": 8202,
+    "policy": "gated",
+    "noise_std_m": 0.006,
+    "unintended_command_s": 0.0,
+    "integrated_unintended_command_m": 0.0,
+    "command_onsets": 0,
+    "intent_onset_delay_s": 0.18,
+    "neutral_first_command_m_s": 0.0
+  },
+  {
+    "seed": 8203,
+    "policy": "threshold",
+    "noise_std_m": 0.006,
+    "unintended_command_s": 4.1,
+    "integrated_unintended_command_m": 0.13042984308748684,
+    "command_onsets": 164,
+    "intent_onset_delay_s": 0.0,
+    "neutral_first_command_m_s": 0.0
+  },
+  {
+    "seed": 8203,
+    "policy": "gated",
+    "noise_std_m": 0.006,
+    "unintended_command_s": 0.0,
+    "integrated_unintended_command_m": 0.0,
+    "command_onsets": 0,
+    "intent_onset_delay_s": 0.18,
+    "neutral_first_command_m_s": 0.0
+  },
+  {
+    "seed": 8204,
+    "policy": "threshold",
+    "noise_std_m": 0.006,
+    "unintended_command_s": 3.7600000000000002,
+    "integrated_unintended_command_m": 0.11743675167875267,
+    "command_onsets": 158,
+    "intent_onset_delay_s": 0.0,
+    "neutral_first_command_m_s": 0.0
+  },
+  {
+    "seed": 8204,
+    "policy": "gated",
+    "noise_std_m": 0.006,
+    "unintended_command_s": 0.0,
+    "integrated_unintended_command_m": 0.0,
+    "command_onsets": 0,
+    "intent_onset_delay_s": 0.18,
+    "neutral_first_command_m_s": 0.0
+  },
+  {
+    "seed": 8205,
+    "policy": "threshold",
+    "noise_std_m": 0.006,
+    "unintended_command_s": 4.46,
+    "integrated_unintended_command_m": 0.14217126589150073,
+    "command_onsets": 181,
+    "intent_onset_delay_s": 0.0,
+    "neutral_first_command_m_s": 0.0
+  },
+  {
+    "seed": 8205,
+    "policy": "gated",
+    "noise_std_m": 0.006,
+    "unintended_command_s": 0.0,
+    "integrated_unintended_command_m": 0.0,
+    "command_onsets": 0,
+    "intent_onset_delay_s": 0.18,
+    "neutral_first_command_m_s": 0.0
+  },
+  {
+    "seed": 8206,
+    "policy": "threshold",
+    "noise_std_m": 0.006,
+    "unintended_command_s": 4.14,
+    "integrated_unintended_command_m": 0.13014545151884016,
+    "command_onsets": 162,
+    "intent_onset_delay_s": 0.0,
+    "neutral_first_command_m_s": 0.0
+  },
+  {
+    "seed": 8206,
+    "policy": "gated",
+    "noise_std_m": 0.006,
+    "unintended_command_s": 0.0,
+    "integrated_unintended_command_m": 0.0,
+    "command_onsets": 0,
+    "intent_onset_delay_s": 0.18,
+    "neutral_first_command_m_s": 0.0
+  },
+  {
+    "seed": 8207,
+    "policy": "threshold",
+    "noise_std_m": 0.006,
+    "unintended_command_s": 4.5,
+    "integrated_unintended_command_m": 0.14277233516135668,
+    "command_onsets": 184,
+    "intent_onset_delay_s": 0.0,
+    "neutral_first_command_m_s": 0.0
+  },
+  {
+    "seed": 8207,
+    "policy": "gated",
+    "noise_std_m": 0.006,
+    "unintended_command_s": 0.0,
+    "integrated_unintended_command_m": 0.0,
+    "command_onsets": 0,
+    "intent_onset_delay_s": 0.18,
+    "neutral_first_command_m_s": 0.0
+  },
+  {
+    "seed": 8208,
+    "policy": "threshold",
+    "noise_std_m": 0.006,
+    "unintended_command_s": 4.24,
+    "integrated_unintended_command_m": 0.13615054767910129,
+    "command_onsets": 173,
+    "intent_onset_delay_s": 0.0,
+    "neutral_first_command_m_s": 0.0
+  },
+  {
+    "seed": 8208,
+    "policy": "gated",
+    "noise_std_m": 0.006,
+    "unintended_command_s": 0.0,
+    "integrated_unintended_command_m": 0.0,
+    "command_onsets": 0,
+    "intent_onset_delay_s": 0.18,
+    "neutral_first_command_m_s": 0.0
+  },
+  {
+    "seed": 8209,
+    "policy": "threshold",
+    "noise_std_m": 0.006,
+    "unintended_command_s": 4.54,
+    "integrated_unintended_command_m": 0.14300400971639474,
+    "command_onsets": 179,
+    "intent_onset_delay_s": 0.0,
+    "neutral_first_command_m_s": 0.0
+  },
+  {
+    "seed": 8209,
+    "policy": "gated",
+    "noise_std_m": 0.006,
+    "unintended_command_s": 0.0,
+    "integrated_unintended_command_m": 0.0,
+    "command_onsets": 0,
+    "intent_onset_delay_s": 0.18,
+    "neutral_first_command_m_s": 0.0
+  },
+  {
+    "seed": 8210,
+    "policy": "threshold",
+    "noise_std_m": 0.006,
+    "unintended_command_s": 4.0600000000000005,
+    "integrated_unintended_command_m": 0.12871551228134237,
+    "command_onsets": 165,
+    "intent_onset_delay_s": 0.0,
+    "neutral_first_command_m_s": 0.0
+  },
+  {
+    "seed": 8210,
+    "policy": "gated",
+    "noise_std_m": 0.006,
+    "unintended_command_s": 0.0,
+    "integrated_unintended_command_m": 0.0,
+    "command_onsets": 0,
+    "intent_onset_delay_s": 0.18,
+    "neutral_first_command_m_s": 0.0
+  },
+  {
+    "seed": 8211,
+    "policy": "threshold",
+    "noise_std_m": 0.006,
+    "unintended_command_s": 3.9,
+    "integrated_unintended_command_m": 0.12453776987355739,
+    "command_onsets": 159,
+    "intent_onset_delay_s": 0.0,
+    "neutral_first_command_m_s": 0.0
+  },
+  {
+    "seed": 8211,
+    "policy": "gated",
+    "noise_std_m": 0.006,
+    "unintended_command_s": 0.0,
+    "integrated_unintended_command_m": 0.0,
+    "command_onsets": 0,
+    "intent_onset_delay_s": 0.18,
+    "neutral_first_command_m_s": 0.0
+  },
+  {
+    "seed": 8212,
+    "policy": "threshold",
+    "noise_std_m": 0.006,
+    "unintended_command_s": 4.16,
+    "integrated_unintended_command_m": 0.13122778173030053,
+    "command_onsets": 163,
+    "intent_onset_delay_s": 0.0,
+    "neutral_first_command_m_s": 0.0
+  },
+  {
+    "seed": 8212,
+    "policy": "gated",
+    "noise_std_m": 0.006,
+    "unintended_command_s": 0.0,
+    "integrated_unintended_command_m": 0.0,
+    "command_onsets": 0,
+    "intent_onset_delay_s": 0.18,
+    "neutral_first_command_m_s": 0.0
+  },
+  {
+    "seed": 8213,
+    "policy": "threshold",
+    "noise_std_m": 0.006,
+    "unintended_command_s": 3.8000000000000003,
+    "integrated_unintended_command_m": 0.12003927987245568,
+    "command_onsets": 163,
+    "intent_onset_delay_s": 0.0,
+    "neutral_first_command_m_s": 0.0
+  },
+  {
+    "seed": 8213,
+    "policy": "gated",
+    "noise_std_m": 0.006,
+    "unintended_command_s": 0.0,
+    "integrated_unintended_command_m": 0.0,
+    "command_onsets": 0,
+    "intent_onset_delay_s": 0.18,
+    "neutral_first_command_m_s": 0.0
+  },
+  {
+    "seed": 8214,
+    "policy": "threshold",
+    "noise_std_m": 0.006,
+    "unintended_command_s": 3.98,
+    "integrated_unintended_command_m": 0.12804925421079172,
+    "command_onsets": 157,
+    "intent_onset_delay_s": 0.0,
+    "neutral_first_command_m_s": 0.0
+  },
+  {
+    "seed": 8214,
+    "policy": "gated",
+    "noise_std_m": 0.006,
+    "unintended_command_s": 0.0,
+    "integrated_unintended_command_m": 0.0,
+    "command_onsets": 0,
+    "intent_onset_delay_s": 0.18,
+    "neutral_first_command_m_s": 0.0
+  },
+  {
+    "seed": 8215,
+    "policy": "threshold",
+    "noise_std_m": 0.006,
+    "unintended_command_s": 4.24,
+    "integrated_unintended_command_m": 0.1342451448995758,
+    "command_onsets": 169,
+    "intent_onset_delay_s": 0.0,
+    "neutral_first_command_m_s": 0.0
+  },
+  {
+    "seed": 8215,
+    "policy": "gated",
+    "noise_std_m": 0.006,
+    "unintended_command_s": 0.0,
+    "integrated_unintended_command_m": 0.0,
+    "command_onsets": 0,
+    "intent_onset_delay_s": 0.18,
+    "neutral_first_command_m_s": 0.0
+  }
+]

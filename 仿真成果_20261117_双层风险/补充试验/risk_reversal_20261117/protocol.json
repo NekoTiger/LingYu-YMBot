@@ -1,0 +1,48 @@
+{
+  "label": "exploratory targeted mechanism test, designed after observing conventional-route results",
+  "source_sha256": {
+    "quest3\\engine.py": "c07ff4388252176e41997ec9c069eab3c5c61964a34fa72a8e19a79f96770d6b",
+    "quest3\\protocol.py": "946498b60a5bcaf8b13bdc68f7340875cd08d1797db672d8221d754160d0d51c",
+    "quest3\\trial.py": "55c1780e4b9525ab652749891692b060b64974b156ffd26fea35b6268936a387",
+    "quest3\\carry_assist.py": "7dcc19d9aed76bf0832398e2c88a67fb310b7d6a6914da49dae9f0813530ac0f",
+    "quest3\\workspace_follow.py": "31a4722c28a2f71c6eb48074174728fd5a0f574cce806286336aa5f15558d3c6",
+    "quest3\\follow_study.py": "d76a918ea71a1878d1140707dad70872d4b8ddc264caf3894801b1d8e73099a2",
+    "quest3\\study.py": "d39b8f92ad95e2e87c1826437c0e2b5733d9a4f8054f957f51e6536428847f0a",
+    "quest3\\server.py": "4bb3e0d5978e3c331334211dee9509346d38c94cf1f293dfa9b92f8e8499ddeb",
+    "quest3\\web\\app.js": "a96f8d17a74760b984ae5847bcdaf1e8b1efd4dd329865bf4f53e810b18fe379",
+    "quest3\\web\\input.js": "6e1f70a2761bbe8425d77909681e37c1dc3fbca2dff6887137039bf46f89befe",
+    "quest3\\web\\index.html": "933ab3e43a68dadc3205984da865ac545cbb552595a1cdf9b4d6eeb44e7e65e2",
+    "quest3\\web\\package-lock.json": "f670501c717ce5a7b9eebadbd0123c28f9e308cb18ddf6cf6f754d987759d4c7",
+    "control.py": "3d492b216e0d239f850e101d5b0acc87b9ad7e2f8f8e0eaf5c60608764ef9f48",
+    "v2\\model.py": "206afe1a99f2277bb268b324aad2152efee0c3637db1417e24f90636f279c906",
+    "v2\\stable_control.py": "c996bb18d05ca4b7c483acc809a32e37811a756067818075bbb768fb3588196c",
+    "build_model.py": "49257ed75f26349fbe8bd34415e5382bcf5d7655aeff190f46f79bbd3405c737",
+    "quest3/risk_allocation.py": "d2ebd8b4d0569067342459f157264b4f55a5e8101d8db03e9380f2c984c5165b",
+    "quest3/risk_engine.py": "a317ea541cb7a5f1bf0ecb1114f81cc7087fa46800d1f28c0d5f291dea682767",
+    "quest3/risk_model.py": "00b2cb7cd7228fb3110b816b61a3402008ec4402b31ed4b1b602a0571a7e503d",
+    "quest3/risk_protocol.py": "17925a014d0dafa7592da7b0af99f57b69391a18bf24008e4ba8a7abc95af43d",
+    "quest3/risk_benchmark.py": "ae8d20101b84ba981522840b4f8f998e350fedf039045c9f28e076cbd145220b",
+    "quest3/risk_suite.py": "4064ce5ab4bada2acee35aa0d2a24ef7cd5f299c26bd54ac5124da5ffdfa660a",
+    "quest3/follow_benchmark.py": "0e0cc1b33ae17b6a6341ccf0b0417e64d24411bbc10174d35b155a8fc0623c4d"
+  },
+  "generator_sha256": "4f46ed4173df9a2a4fc2f8cb9c3b59903f11814fbe6d29a0c8cf47b887b4c0c7",
+  "seeds": [
+    9600,
+    9601
+  ],
+  "policies": [
+    "fixed",
+    "grip_only",
+    "payload_only",
+    "dual",
+    "slow"
+  ],
+  "scenario": "combined",
+  "input": "fixed time schedule, no noise, paired initial model; 8 cycles +/-0.16 m/s before common guards",
+  "physical_duration_s": 24.0,
+  "measurement_interval_s": [
+    10.0,
+    24.0
+  ],
+  "controller_retuned": false
+}

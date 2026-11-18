@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import {controls,makePacket} from './input.js';
+const gamepad={mapping:'xr-standard',buttons:[.8,.9,0,0,1,0].map(value=>({value})),axes:[0,0,.2,-.3]};
+const c=controls(gamepad);assert.deepEqual(c,{trigger:.8,squeeze:.9,stick:[.2,-.3],primary:true,secondary:false});
+assert.equal(controls({...gamepad,mapping:''}),null);
+const pose={transform:{position:{x:1,y:2,z:3},orientation:{x:0,y:0,z:0,w:1}},emulatedPosition:false};
+const hand={pose,controls:c,profiles:['oculus-touch-v3']};
+const p=makePacket(7,1000,pose,hand,hand);
+assert.equal(p.tracked,true);assert.equal(p.capture_s,1);assert.deepEqual(p.left.position,[1,2,3]);assert.deepEqual(p.squeeze,[.9,.9]);
+assert.equal(makePacket(8,1020,pose,null,hand).tracked,false);
+assert.equal(makePacket(9,1040,pose,{...hand,pose:{...pose,emulatedPosition:true}},hand).tracked,false);
+assert.equal(makePacket(10,1060,null,hand,{...hand,controls:{...c,secondary:true}}).estop,true);
+console.log('PASS: xr-standard mapping, pose schema, missing/emulated tracking, stop button.');

@@ -1,0 +1,16 @@
+{
+  "slides": 12,
+  "font": "Microsoft YaHei",
+  "ratio": "90.8",
+  "nativeCharts": [
+    4,
+    5
+  ],
+  "nativeTables": [
+    3,
+    7,
+    9,
+    11
+  ],
+  "notes": true
+}

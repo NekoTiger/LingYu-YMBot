@@ -1,0 +1,83 @@
+{
+  "created_unix_s": 1794899054.4825892,
+  "source_sha256": {
+    "quest3\\engine.py": "6a6f45330bea923c93012d7c2ce0674bd9c72fc6caac14923883ba6873e68119",
+    "quest3\\protocol.py": "946498b60a5bcaf8b13bdc68f7340875cd08d1797db672d8221d754160d0d51c",
+    "quest3\\trial.py": "55c1780e4b9525ab652749891692b060b64974b156ffd26fea35b6268936a387",
+    "quest3\\carry_assist.py": "7dcc19d9aed76bf0832398e2c88a67fb310b7d6a6914da49dae9f0813530ac0f",
+    "quest3\\workspace_follow.py": "31a4722c28a2f71c6eb48074174728fd5a0f574cce806286336aa5f15558d3c6",
+    "quest3\\follow_study.py": "d76a918ea71a1878d1140707dad70872d4b8ddc264caf3894801b1d8e73099a2",
+    "quest3\\study.py": "d39b8f92ad95e2e87c1826437c0e2b5733d9a4f8054f957f51e6536428847f0a",
+    "quest3\\server.py": "7f373d4e0a21225263adbd51a24460bec2972a41a697daf0b955a3f64c736868",
+    "quest3\\web\\app.js": "6742f80153ed8a1ce0ada14bc056da365cbb85188244b8af02b9ada60272d444",
+    "quest3\\web\\input.js": "6e1f70a2761bbe8425d77909681e37c1dc3fbca2dff6887137039bf46f89befe",
+    "quest3\\web\\index.html": "e30804d8cf0c6361db6dcd08f9d4fcdc8a07bc09b9cba408bee9c510423fadc6",
+    "quest3\\web\\package-lock.json": "f670501c717ce5a7b9eebadbd0123c28f9e308cb18ddf6cf6f754d987759d4c7",
+    "control.py": "3d492b216e0d239f850e101d5b0acc87b9ad7e2f8f8e0eaf5c60608764ef9f48",
+    "v2\\model.py": "206afe1a99f2277bb268b324aad2152efee0c3637db1417e24f90636f279c906",
+    "v2\\stable_control.py": "c996bb18d05ca4b7c483acc809a32e37811a756067818075bbb768fb3588196c",
+    "build_model.py": "49257ed75f26349fbe8bd34415e5382bcf5d7655aeff190f46f79bbd3405c737",
+    "quest3/follow_benchmark.py": "4cd889774a1ed8e99bc29906e6193905c9a7d45377f93c4801eda54f75d139f4",
+    "quest3/follow_suite.py": "a0c5f90778f971c1fac5c587177e498dccfc3a42bbab6053c715febf1127478f"
+  },
+  "cases": [
+    {
+      "policy": "off",
+      "height": 0.6,
+      "seed": 7400,
+      "noise_mm": 6.0
+    },
+    {
+      "policy": "gated",
+      "height": 0.6,
+      "seed": 7400,
+      "noise_mm": 6.0
+    },
+    {
+      "policy": "off",
+      "height": 0.6,
+      "seed": 7401,
+      "noise_mm": 6.0
+    },
+    {
+      "policy": "gated",
+      "height": 0.6,
+      "seed": 7401,
+      "noise_mm": 6.0
+    },
+    {
+      "policy": "off",
+      "height": 0.75,
+      "seed": 7400,
+      "noise_mm": 6.0
+    },
+    {
+      "policy": "gated",
+      "height": 0.75,
+      "seed": 7400,
+      "noise_mm": 6.0
+    },
+    {
+      "policy": "off",
+      "height": 0.75,
+      "seed": 7401,
+      "noise_mm": 6.0
+    },
+    {
+      "policy": "gated",
+      "height": 0.75,
+      "seed": 7401,
+      "noise_mm": 6.0
+    }
+  ],
+  "data_type": "synthetic fixed-step engineering validation, not human study",
+  "comparison": "matched physics and arm constraints; controller-specific scripted inputs pursue the same waypoints",
+  "primary": [
+    "task_success",
+    "elapsed_sim_s",
+    "navigation_max_tilt_deg",
+    "navigation_max_slip_mm"
+  ],
+  "command_metric_warning": "joystick duration is a scripted interface-use metric, not measured human workload",
+  "boundary_probe": "16 independent noise seeds; 20s at 5mm inside threshold with 6mm Gaussian noise, then 2s deliberate extension"
+}

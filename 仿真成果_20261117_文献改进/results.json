@@ -1,0 +1,802 @@
+[
+  {
+    "participant": "P00",
+    "phase": "pilot",
+    "index": 1,
+    "repeat": 1,
+    "mode": "follow",
+    "follow_policy": "gated",
+    "scene": "F60",
+    "target_height": 0.6,
+    "seed": 7400,
+    "time_limit_s": 240,
+    "protocol_version": "20261117-workspace-follow-pilot3",
+    "source_sha256": {
+      "quest3\\engine.py": "6a6f45330bea923c93012d7c2ce0674bd9c72fc6caac14923883ba6873e68119",
+      "quest3\\protocol.py": "946498b60a5bcaf8b13bdc68f7340875cd08d1797db672d8221d754160d0d51c",
+      "quest3\\trial.py": "55c1780e4b9525ab652749891692b060b64974b156ffd26fea35b6268936a387",
+      "quest3\\carry_assist.py": "7dcc19d9aed76bf0832398e2c88a67fb310b7d6a6914da49dae9f0813530ac0f",
+      "quest3\\workspace_follow.py": "31a4722c28a2f71c6eb48074174728fd5a0f574cce806286336aa5f15558d3c6",
+      "quest3\\follow_study.py": "d76a918ea71a1878d1140707dad70872d4b8ddc264caf3894801b1d8e73099a2",
+      "quest3\\study.py": "d39b8f92ad95e2e87c1826437c0e2b5733d9a4f8054f957f51e6536428847f0a",
+      "quest3\\server.py": "7f373d4e0a21225263adbd51a24460bec2972a41a697daf0b955a3f64c736868",
+      "quest3\\web\\app.js": "6742f80153ed8a1ce0ada14bc056da365cbb85188244b8af02b9ada60272d444",
+      "quest3\\web\\input.js": "6e1f70a2761bbe8425d77909681e37c1dc3fbca2dff6887137039bf46f89befe",
+      "quest3\\web\\index.html": "e30804d8cf0c6361db6dcd08f9d4fcdc8a07bc09b9cba408bee9c510423fadc6",
+      "quest3\\web\\package-lock.json": "f670501c717ce5a7b9eebadbd0123c28f9e308cb18ddf6cf6f754d987759d4c7",
+      "control.py": "3d492b216e0d239f850e101d5b0acc87b9ad7e2f8f8e0eaf5c60608764ef9f48",
+      "v2\\model.py": "206afe1a99f2277bb268b324aad2152efee0c3637db1417e24f90636f279c906",
+      "v2\\stable_control.py": "c996bb18d05ca4b7c483acc809a32e37811a756067818075bbb768fb3588196c",
+      "build_model.py": "49257ed75f26349fbe8bd34415e5382bcf5d7655aeff190f46f79bbd3405c737"
+    },
+    "outcome": "success",
+    "reason": "destination_support_release_retreat_stable",
+    "source": "synthetic_transport_test",
+    "sources_seen": [
+      "synthetic_transport_test"
+    ],
+    "clock_mode": "synthetic_fixed_step; not a human performance measurement",
+    "elapsed_wall_s": 84.82999999999993,
+    "elapsed_sim_s": 84.83999999998368,
+    "grasp_verified": true,
+    "lift_verified": true,
+    "max_lift_m": 0.11743034056181136,
+    "max_tilt_deg": 12.243879735417469,
+    "waist_range_during_drive_deg": 1.1712801155244423,
+    "clutch_calibrations": 1,
+    "tracking_loss_wall_s": 0.0,
+    "control_enabled_wall_s": 84.63999999999987,
+    "workspace_follow": {
+      "policy": "gated",
+      "state": "load_not_ready",
+      "requested_speed_m_s": 0.0,
+      "neutral_center_x_m": 0.390442672727904,
+      "transitions": 10,
+      "automatic_command_sim_s": 25.820000000001237,
+      "manual_command_sim_s": 36.90000000000123
+    },
+    "final_observation": {
+      "hand_contacts": [
+        0,
+        0
+      ],
+      "hand_forces": [
+        0.0,
+        0.0
+      ],
+      "source_support_n": 0.0,
+      "destination_support_n": 7.158210476431444,
+      "obstacle_contacts": 0,
+      "cargo_position": [
+        0.3724173851620476,
+        1.8440707618356402,
+        0.6198637503576209
+      ],
+      "cargo_tilt_rad": 0.0004547405303843818,
+      "cargo_linear_speed": 1.3822974902461393e-07,
+      "cargo_angular_speed": 3.1028172917069186e-09,
+      "parcel_retained": true,
+      "parcel_height": 0.6697356029357706,
+      "hand_positions": [
+        [
+          0.37379889779216524,
+          2.14412482228927,
+          0.7800218195617058
+        ],
+        [
+          0.38321076598400683,
+          1.5441982640248078,
+          0.7796637329130761
+        ]
+      ]
+    },
+    "session": "simulation\\quest3\\outputs\\follow_validation_r3_20261117\\gated_60_7400",
+    "result_authority": "automatic_physical_criteria",
+    "input_kind": "scripted_waypoint_operator_not_human",
+    "input_noise_mm": 6.0,
+    "joystick_command_sim_s": 36.89000000000123,
+    "navigation_max_tilt_deg": 1.3011070793637733,
+    "navigation_max_slip_mm": 11.383942023045046,
+    "navigation_waist_range_deg": 1.8663260021801875
+  },
+  {
+    "participant": "P00",
+    "phase": "pilot",
+    "index": 1,
+    "repeat": 1,
+    "mode": "follow",
+    "follow_policy": "off",
+    "scene": "F60",
+    "target_height": 0.6,
+    "seed": 7400,
+    "time_limit_s": 240,
+    "protocol_version": "20261117-workspace-follow-pilot3",
+    "source_sha256": {
+      "quest3\\engine.py": "6a6f45330bea923c93012d7c2ce0674bd9c72fc6caac14923883ba6873e68119",
+      "quest3\\protocol.py": "946498b60a5bcaf8b13bdc68f7340875cd08d1797db672d8221d754160d0d51c",
+      "quest3\\trial.py": "55c1780e4b9525ab652749891692b060b64974b156ffd26fea35b6268936a387",
+      "quest3\\carry_assist.py": "7dcc19d9aed76bf0832398e2c88a67fb310b7d6a6914da49dae9f0813530ac0f",
+      "quest3\\workspace_follow.py": "31a4722c28a2f71c6eb48074174728fd5a0f574cce806286336aa5f15558d3c6",
+      "quest3\\follow_study.py": "d76a918ea71a1878d1140707dad70872d4b8ddc264caf3894801b1d8e73099a2",
+      "quest3\\study.py": "d39b8f92ad95e2e87c1826437c0e2b5733d9a4f8054f957f51e6536428847f0a",
+      "quest3\\server.py": "7f373d4e0a21225263adbd51a24460bec2972a41a697daf0b955a3f64c736868",
+      "quest3\\web\\app.js": "6742f80153ed8a1ce0ada14bc056da365cbb85188244b8af02b9ada60272d444",
+      "quest3\\web\\input.js": "6e1f70a2761bbe8425d77909681e37c1dc3fbca2dff6887137039bf46f89befe",
+      "quest3\\web\\index.html": "e30804d8cf0c6361db6dcd08f9d4fcdc8a07bc09b9cba408bee9c510423fadc6",
+      "quest3\\web\\package-lock.json": "f670501c717ce5a7b9eebadbd0123c28f9e308cb18ddf6cf6f754d987759d4c7",
+      "control.py": "3d492b216e0d239f850e101d5b0acc87b9ad7e2f8f8e0eaf5c60608764ef9f48",
+      "v2\\model.py": "206afe1a99f2277bb268b324aad2152efee0c3637db1417e24f90636f279c906",
+      "v2\\stable_control.py": "c996bb18d05ca4b7c483acc809a32e37811a756067818075bbb768fb3588196c",
+      "build_model.py": "49257ed75f26349fbe8bd34415e5382bcf5d7655aeff190f46f79bbd3405c737"
+    },
+    "outcome": "success",
+    "reason": "destination_support_release_retreat_stable",
+    "source": "synthetic_transport_test",
+    "sources_seen": [
+      "synthetic_transport_test"
+    ],
+    "clock_mode": "synthetic_fixed_step; not a human performance measurement",
+    "elapsed_wall_s": 82.78999999999996,
+    "elapsed_sim_s": 82.79999999998843,
+    "grasp_verified": true,
+    "lift_verified": true,
+    "max_lift_m": 0.11337314878936745,
+    "max_tilt_deg": 11.487334115628649,
+    "waist_range_during_drive_deg": 1.3450187996109695,
+    "clutch_calibrations": 1,
+    "tracking_loss_wall_s": 0.0,
+    "control_enabled_wall_s": 82.59999999999991,
+    "workspace_follow": {
+      "policy": "off",
+      "state": "off",
+      "requested_speed_m_s": 0.0,
+      "neutral_center_x_m": 0.390442672727904,
+      "transitions": 0,
+      "automatic_command_sim_s": 0.0,
+      "manual_command_sim_s": 62.999999999996035
+    },
+    "final_observation": {
+      "hand_contacts": [
+        0,
+        0
+      ],
+      "hand_forces": [
+        0.0,
+        0.0
+      ],
+      "source_support_n": 0.0,
+      "destination_support_n": 7.158210476431198,
+      "obstacle_contacts": 0,
+      "cargo_position": [
+        0.3752682342922372,
+        1.8435185827056022,
+        0.6198651941938274
+      ],
+      "cargo_tilt_rad": 0.00040374602760701945,
+      "cargo_linear_speed": 1.2275012068923055e-07,
+      "cargo_angular_speed": 2.5880578634520503e-09,
+      "parcel_retained": true,
+      "parcel_height": 0.6697371157873703,
+      "hand_positions": [
+        [
+          0.37413604202580375,
+          2.143584133135812,
+          0.7798146912125343
+        ],
+        [
+          0.38274941051922606,
+          1.5436399519021042,
+          0.7792760426428652
+        ]
+      ]
+    },
+    "session": "simulation\\quest3\\outputs\\follow_validation_r3_20261117\\off_60_7400",
+    "result_authority": "automatic_physical_criteria",
+    "input_kind": "scripted_waypoint_operator_not_human",
+    "input_noise_mm": 6.0,
+    "joystick_command_sim_s": 62.999999999996035,
+    "navigation_max_tilt_deg": 2.124779746195765,
+    "navigation_max_slip_mm": 9.985879696557621,
+    "navigation_waist_range_deg": 1.3450187996109695
+  },
+  {
+    "participant": "P00",
+    "phase": "pilot",
+    "index": 1,
+    "repeat": 1,
+    "mode": "follow",
+    "follow_policy": "gated",
+    "scene": "F60",
+    "target_height": 0.6,
+    "seed": 7401,
+    "time_limit_s": 240,
+    "protocol_version": "20261117-workspace-follow-pilot3",
+    "source_sha256": {
+      "quest3\\engine.py": "6a6f45330bea923c93012d7c2ce0674bd9c72fc6caac14923883ba6873e68119",
+      "quest3\\protocol.py": "946498b60a5bcaf8b13bdc68f7340875cd08d1797db672d8221d754160d0d51c",
+      "quest3\\trial.py": "55c1780e4b9525ab652749891692b060b64974b156ffd26fea35b6268936a387",
+      "quest3\\carry_assist.py": "7dcc19d9aed76bf0832398e2c88a67fb310b7d6a6914da49dae9f0813530ac0f",
+      "quest3\\workspace_follow.py": "31a4722c28a2f71c6eb48074174728fd5a0f574cce806286336aa5f15558d3c6",
+      "quest3\\follow_study.py": "d76a918ea71a1878d1140707dad70872d4b8ddc264caf3894801b1d8e73099a2",
+      "quest3\\study.py": "d39b8f92ad95e2e87c1826437c0e2b5733d9a4f8054f957f51e6536428847f0a",
+      "quest3\\server.py": "7f373d4e0a21225263adbd51a24460bec2972a41a697daf0b955a3f64c736868",
+      "quest3\\web\\app.js": "6742f80153ed8a1ce0ada14bc056da365cbb85188244b8af02b9ada60272d444",
+      "quest3\\web\\input.js": "6e1f70a2761bbe8425d77909681e37c1dc3fbca2dff6887137039bf46f89befe",
+      "quest3\\web\\index.html": "e30804d8cf0c6361db6dcd08f9d4fcdc8a07bc09b9cba408bee9c510423fadc6",
+      "quest3\\web\\package-lock.json": "f670501c717ce5a7b9eebadbd0123c28f9e308cb18ddf6cf6f754d987759d4c7",
+      "control.py": "3d492b216e0d239f850e101d5b0acc87b9ad7e2f8f8e0eaf5c60608764ef9f48",
+      "v2\\model.py": "206afe1a99f2277bb268b324aad2152efee0c3637db1417e24f90636f279c906",
+      "v2\\stable_control.py": "c996bb18d05ca4b7c483acc809a32e37811a756067818075bbb768fb3588196c",
+      "build_model.py": "49257ed75f26349fbe8bd34415e5382bcf5d7655aeff190f46f79bbd3405c737"
+    },
+    "outcome": "success",
+    "reason": "destination_support_release_retreat_stable",
+    "source": "synthetic_transport_test",
+    "sources_seen": [
+      "synthetic_transport_test"
+    ],
+    "clock_mode": "synthetic_fixed_step; not a human performance measurement",
+    "elapsed_wall_s": 85.07000000000016,
+    "elapsed_sim_s": 85.07999999998312,
+    "grasp_verified": true,
+    "lift_verified": true,
+    "max_lift_m": 0.11528585039625851,
+    "max_tilt_deg": 12.114873702048962,
+    "waist_range_during_drive_deg": 1.1536612051336617,
+    "clutch_calibrations": 1,
+    "tracking_loss_wall_s": 0.0,
+    "control_enabled_wall_s": 84.88000000000011,
+    "workspace_follow": {
+      "policy": "gated",
+      "state": "load_not_ready",
+      "requested_speed_m_s": 0.0,
+      "neutral_center_x_m": 0.39822038890932565,
+      "transitions": 10,
+      "automatic_command_sim_s": 25.880000000001246,
+      "manual_command_sim_s": 37.08000000000119
+    },
+    "final_observation": {
+      "hand_contacts": [
+        0,
+        0
+      ],
+      "hand_forces": [
+        0.0,
+        0.0
+      ],
+      "source_support_n": 0.0,
+      "destination_support_n": 8.201336300405245,
+      "obstacle_contacts": 0,
+      "cargo_position": [
+        0.3802412471701915,
+        1.8395642415242397,
+        0.6198703650233863
+      ],
+      "cargo_tilt_rad": 0.00031658505480562264,
+      "cargo_linear_speed": 9.400449924276769e-08,
+      "cargo_angular_speed": 1.6843431874517966e-09,
+      "parcel_retained": true,
+      "parcel_height": 0.6697452217472967,
+      "hand_positions": [
+        [
+          0.38190926364080224,
+          2.13967659578993,
+          0.7795903789222244
+        ],
+        [
+          0.3905258681402159,
+          1.5397386135566606,
+          0.779977980110802
+        ]
+      ]
+    },
+    "session": "simulation\\quest3\\outputs\\follow_validation_r3_20261117\\gated_60_7401",
+    "result_authority": "automatic_physical_criteria",
+    "input_kind": "scripted_waypoint_operator_not_human",
+    "input_noise_mm": 6.0,
+    "joystick_command_sim_s": 37.070000000001194,
+    "navigation_max_tilt_deg": 1.6423583318593065,
+    "navigation_max_slip_mm": 11.307360036908243,
+    "navigation_waist_range_deg": 1.9954172280751825
+  },
+  {
+    "participant": "P00",
+    "phase": "pilot",
+    "index": 1,
+    "repeat": 1,
+    "mode": "follow",
+    "follow_policy": "off",
+    "scene": "F60",
+    "target_height": 0.6,
+    "seed": 7401,
+    "time_limit_s": 240,
+    "protocol_version": "20261117-workspace-follow-pilot3",
+    "source_sha256": {
+      "quest3\\engine.py": "6a6f45330bea923c93012d7c2ce0674bd9c72fc6caac14923883ba6873e68119",
+      "quest3\\protocol.py": "946498b60a5bcaf8b13bdc68f7340875cd08d1797db672d8221d754160d0d51c",
+      "quest3\\trial.py": "55c1780e4b9525ab652749891692b060b64974b156ffd26fea35b6268936a387",
+      "quest3\\carry_assist.py": "7dcc19d9aed76bf0832398e2c88a67fb310b7d6a6914da49dae9f0813530ac0f",
+      "quest3\\workspace_follow.py": "31a4722c28a2f71c6eb48074174728fd5a0f574cce806286336aa5f15558d3c6",
+      "quest3\\follow_study.py": "d76a918ea71a1878d1140707dad70872d4b8ddc264caf3894801b1d8e73099a2",
+      "quest3\\study.py": "d39b8f92ad95e2e87c1826437c0e2b5733d9a4f8054f957f51e6536428847f0a",
+      "quest3\\server.py": "7f373d4e0a21225263adbd51a24460bec2972a41a697daf0b955a3f64c736868",
+      "quest3\\web\\app.js": "6742f80153ed8a1ce0ada14bc056da365cbb85188244b8af02b9ada60272d444",
+      "quest3\\web\\input.js": "6e1f70a2761bbe8425d77909681e37c1dc3fbca2dff6887137039bf46f89befe",
+      "quest3\\web\\index.html": "e30804d8cf0c6361db6dcd08f9d4fcdc8a07bc09b9cba408bee9c510423fadc6",
+      "quest3\\web\\package-lock.json": "f670501c717ce5a7b9eebadbd0123c28f9e308cb18ddf6cf6f754d987759d4c7",
+      "control.py": "3d492b216e0d239f850e101d5b0acc87b9ad7e2f8f8e0eaf5c60608764ef9f48",
+      "v2\\model.py": "206afe1a99f2277bb268b324aad2152efee0c3637db1417e24f90636f279c906",
+      "v2\\stable_control.py": "c996bb18d05ca4b7c483acc809a32e37811a756067818075bbb768fb3588196c",
+      "build_model.py": "49257ed75f26349fbe8bd34415e5382bcf5d7655aeff190f46f79bbd3405c737"
+    },
+    "outcome": "success",
+    "reason": "destination_support_release_retreat_stable",
+    "source": "synthetic_transport_test",
+    "sources_seen": [
+      "synthetic_transport_test"
+    ],
+    "clock_mode": "synthetic_fixed_step; not a human performance measurement",
+    "elapsed_wall_s": 82.98999999999978,
+    "elapsed_sim_s": 82.99999999998796,
+    "grasp_verified": true,
+    "lift_verified": true,
+    "max_lift_m": 0.11255843617686757,
+    "max_tilt_deg": 11.537898837988047,
+    "waist_range_during_drive_deg": 1.2210068291110265,
+    "clutch_calibrations": 1,
+    "tracking_loss_wall_s": 0.0,
+    "control_enabled_wall_s": 82.79999999999973,
+    "workspace_follow": {
+      "policy": "off",
+      "state": "off",
+      "requested_speed_m_s": 0.0,
+      "neutral_center_x_m": 0.39822038890932565,
+      "transitions": 0,
+      "automatic_command_sim_s": 0.0,
+      "manual_command_sim_s": 63.159999999996
+    },
+    "final_observation": {
+      "hand_contacts": [
+        0,
+        0
+      ],
+      "hand_forces": [
+        0.0,
+        0.0
+      ],
+      "source_support_n": 0.0,
+      "destination_support_n": 8.201336300402145,
+      "obstacle_contacts": 0,
+      "cargo_position": [
+        0.38332159374540026,
+        1.8401533852734198,
+        0.6198713811370794
+      ],
+      "cargo_tilt_rad": 0.0002724568328364289,
+      "cargo_linear_speed": 8.091075427088477e-08,
+      "cargo_angular_speed": 1.4865377638346731e-09,
+      "parcel_retained": true,
+      "parcel_height": 0.6697462601762532,
+      "hand_positions": [
+        [
+          0.382094198263992,
+          2.1395047486383008,
+          0.7795351400876269
+        ],
+        [
+          0.39060677336097055,
+          1.5395660679318752,
+          0.7799164823908464
+        ]
+      ]
+    },
+    "session": "simulation\\quest3\\outputs\\follow_validation_r3_20261117\\off_60_7401",
+    "result_authority": "automatic_physical_criteria",
+    "input_kind": "scripted_waypoint_operator_not_human",
+    "input_noise_mm": 6.0,
+    "joystick_command_sim_s": 63.199999999995995,
+    "navigation_max_tilt_deg": 2.4378781873147575,
+    "navigation_max_slip_mm": 10.83877235693953,
+    "navigation_waist_range_deg": 1.2210068291110265
+  },
+  {
+    "participant": "P00",
+    "phase": "pilot",
+    "index": 1,
+    "repeat": 1,
+    "mode": "follow",
+    "follow_policy": "off",
+    "scene": "F75",
+    "target_height": 0.75,
+    "seed": 7400,
+    "time_limit_s": 240,
+    "protocol_version": "20261117-workspace-follow-pilot3",
+    "source_sha256": {
+      "quest3\\engine.py": "6a6f45330bea923c93012d7c2ce0674bd9c72fc6caac14923883ba6873e68119",
+      "quest3\\protocol.py": "946498b60a5bcaf8b13bdc68f7340875cd08d1797db672d8221d754160d0d51c",
+      "quest3\\trial.py": "55c1780e4b9525ab652749891692b060b64974b156ffd26fea35b6268936a387",
+      "quest3\\carry_assist.py": "7dcc19d9aed76bf0832398e2c88a67fb310b7d6a6914da49dae9f0813530ac0f",
+      "quest3\\workspace_follow.py": "31a4722c28a2f71c6eb48074174728fd5a0f574cce806286336aa5f15558d3c6",
+      "quest3\\follow_study.py": "d76a918ea71a1878d1140707dad70872d4b8ddc264caf3894801b1d8e73099a2",
+      "quest3\\study.py": "d39b8f92ad95e2e87c1826437c0e2b5733d9a4f8054f957f51e6536428847f0a",
+      "quest3\\server.py": "7f373d4e0a21225263adbd51a24460bec2972a41a697daf0b955a3f64c736868",
+      "quest3\\web\\app.js": "6742f80153ed8a1ce0ada14bc056da365cbb85188244b8af02b9ada60272d444",
+      "quest3\\web\\input.js": "6e1f70a2761bbe8425d77909681e37c1dc3fbca2dff6887137039bf46f89befe",
+      "quest3\\web\\index.html": "e30804d8cf0c6361db6dcd08f9d4fcdc8a07bc09b9cba408bee9c510423fadc6",
+      "quest3\\web\\package-lock.json": "f670501c717ce5a7b9eebadbd0123c28f9e308cb18ddf6cf6f754d987759d4c7",
+      "control.py": "3d492b216e0d239f850e101d5b0acc87b9ad7e2f8f8e0eaf5c60608764ef9f48",
+      "v2\\model.py": "206afe1a99f2277bb268b324aad2152efee0c3637db1417e24f90636f279c906",
+      "v2\\stable_control.py": "c996bb18d05ca4b7c483acc809a32e37811a756067818075bbb768fb3588196c",
+      "build_model.py": "49257ed75f26349fbe8bd34415e5382bcf5d7655aeff190f46f79bbd3405c737"
+    },
+    "outcome": "success",
+    "reason": "destination_support_release_retreat_stable",
+    "source": "synthetic_transport_test",
+    "sources_seen": [
+      "synthetic_transport_test"
+    ],
+    "clock_mode": "synthetic_fixed_step; not a human performance measurement",
+    "elapsed_wall_s": 86.13000000000011,
+    "elapsed_sim_s": 86.13999999998065,
+    "grasp_verified": true,
+    "lift_verified": true,
+    "max_lift_m": 0.14079254897214646,
+    "max_tilt_deg": 10.270411815374871,
+    "waist_range_during_drive_deg": 1.7462544957877353,
+    "clutch_calibrations": 1,
+    "tracking_loss_wall_s": 0.0,
+    "control_enabled_wall_s": 85.94000000000005,
+    "workspace_follow": {
+      "policy": "off",
+      "state": "off",
+      "requested_speed_m_s": 0.0,
+      "neutral_center_x_m": 0.390442672727904,
+      "transitions": 0,
+      "automatic_command_sim_s": 0.0,
+      "manual_command_sim_s": 66.35999999999704
+    },
+    "final_observation": {
+      "hand_contacts": [
+        0,
+        0
+      ],
+      "hand_forces": [
+        0.0,
+        0.0
+      ],
+      "source_support_n": 0.0,
+      "destination_support_n": 7.158210476431429,
+      "obstacle_contacts": 0,
+      "cargo_position": [
+        0.365354051757726,
+        1.8424455338684163,
+        0.7698592431388928
+      ],
+      "cargo_tilt_rad": 0.0005969033579661168,
+      "cargo_linear_speed": 1.8134521477539683e-07,
+      "cargo_angular_speed": 4.818598678949289e-09,
+      "parcel_retained": true,
+      "parcel_height": 0.819731244747513,
+      "hand_positions": [
+        [
+          0.3758990993316486,
+          2.143550907397489,
+          0.9206099303652561
+        ],
+        [
+          0.386725803331904,
+          1.5436422861845538,
+          0.9205192222594746
+        ]
+      ]
+    },
+    "session": "simulation\\quest3\\outputs\\follow_validation_r3_20261117\\off_75_7400",
+    "result_authority": "automatic_physical_criteria",
+    "input_kind": "scripted_waypoint_operator_not_human",
+    "input_noise_mm": 6.0,
+    "joystick_command_sim_s": 66.36999999999705,
+    "navigation_max_tilt_deg": 3.041090948594008,
+    "navigation_max_slip_mm": 9.027610924733143,
+    "navigation_waist_range_deg": 1.7462544957877353
+  },
+  {
+    "participant": "P00",
+    "phase": "pilot",
+    "index": 1,
+    "repeat": 1,
+    "mode": "follow",
+    "follow_policy": "gated",
+    "scene": "F75",
+    "target_height": 0.75,
+    "seed": 7400,
+    "time_limit_s": 240,
+    "protocol_version": "20261117-workspace-follow-pilot3",
+    "source_sha256": {
+      "quest3\\engine.py": "6a6f45330bea923c93012d7c2ce0674bd9c72fc6caac14923883ba6873e68119",
+      "quest3\\protocol.py": "946498b60a5bcaf8b13bdc68f7340875cd08d1797db672d8221d754160d0d51c",
+      "quest3\\trial.py": "55c1780e4b9525ab652749891692b060b64974b156ffd26fea35b6268936a387",
+      "quest3\\carry_assist.py": "7dcc19d9aed76bf0832398e2c88a67fb310b7d6a6914da49dae9f0813530ac0f",
+      "quest3\\workspace_follow.py": "31a4722c28a2f71c6eb48074174728fd5a0f574cce806286336aa5f15558d3c6",
+      "quest3\\follow_study.py": "d76a918ea71a1878d1140707dad70872d4b8ddc264caf3894801b1d8e73099a2",
+      "quest3\\study.py": "d39b8f92ad95e2e87c1826437c0e2b5733d9a4f8054f957f51e6536428847f0a",
+      "quest3\\server.py": "7f373d4e0a21225263adbd51a24460bec2972a41a697daf0b955a3f64c736868",
+      "quest3\\web\\app.js": "6742f80153ed8a1ce0ada14bc056da365cbb85188244b8af02b9ada60272d444",
+      "quest3\\web\\input.js": "6e1f70a2761bbe8425d77909681e37c1dc3fbca2dff6887137039bf46f89befe",
+      "quest3\\web\\index.html": "e30804d8cf0c6361db6dcd08f9d4fcdc8a07bc09b9cba408bee9c510423fadc6",
+      "quest3\\web\\package-lock.json": "f670501c717ce5a7b9eebadbd0123c28f9e308cb18ddf6cf6f754d987759d4c7",
+      "control.py": "3d492b216e0d239f850e101d5b0acc87b9ad7e2f8f8e0eaf5c60608764ef9f48",
+      "v2\\model.py": "206afe1a99f2277bb268b324aad2152efee0c3637db1417e24f90636f279c906",
+      "v2\\stable_control.py": "c996bb18d05ca4b7c483acc809a32e37811a756067818075bbb768fb3588196c",
+      "build_model.py": "49257ed75f26349fbe8bd34415e5382bcf5d7655aeff190f46f79bbd3405c737"
+    },
+    "outcome": "success",
+    "reason": "destination_support_release_retreat_stable",
+    "source": "synthetic_transport_test",
+    "sources_seen": [
+      "synthetic_transport_test"
+    ],
+    "clock_mode": "synthetic_fixed_step; not a human performance measurement",
+    "elapsed_wall_s": 84.65999999999985,
+    "elapsed_sim_s": 84.66999999998407,
+    "grasp_verified": true,
+    "lift_verified": true,
+    "max_lift_m": 0.14607143784334012,
+    "max_tilt_deg": 10.270411815374871,
+    "waist_range_during_drive_deg": 1.1802154485254541,
+    "clutch_calibrations": 1,
+    "tracking_loss_wall_s": 0.0,
+    "control_enabled_wall_s": 84.4699999999998,
+    "workspace_follow": {
+      "policy": "gated",
+      "state": "load_not_ready",
+      "requested_speed_m_s": 0.0,
+      "neutral_center_x_m": 0.390442672727904,
+      "transitions": 10,
+      "automatic_command_sim_s": 26.09000000000128,
+      "manual_command_sim_s": 36.42000000000132
+    },
+    "final_observation": {
+      "hand_contacts": [
+        0,
+        0
+      ],
+      "hand_forces": [
+        0.0,
+        0.0
+      ],
+      "source_support_n": 0.0,
+      "destination_support_n": 7.158210476431463,
+      "obstacle_contacts": 0,
+      "cargo_position": [
+        0.36754048066786527,
+        1.8418392637582222,
+        0.7698607874833877
+      ],
+      "cargo_tilt_rad": 0.0005506001280734504,
+      "cargo_linear_speed": 1.6730862442812377e-07,
+      "cargo_angular_speed": 4.2149861012041935e-09,
+      "parcel_retained": true,
+      "parcel_height": 0.819732620352848,
+      "hand_positions": [
+        [
+          0.37434247946620847,
+          2.1368582143085124,
+          0.9146638087943357
+        ],
+        [
+          0.3857651177691695,
+          1.537130066319556,
+          0.9188979909938134
+        ]
+      ]
+    },
+    "session": "simulation\\quest3\\outputs\\follow_validation_r3_20261117\\gated_75_7400",
+    "result_authority": "automatic_physical_criteria",
+    "input_kind": "scripted_waypoint_operator_not_human",
+    "input_noise_mm": 6.0,
+    "joystick_command_sim_s": 36.43000000000132,
+    "navigation_max_tilt_deg": 1.6566462515675349,
+    "navigation_max_slip_mm": 9.051111650800859,
+    "navigation_waist_range_deg": 1.9877564570207957
+  },
+  {
+    "participant": "P00",
+    "phase": "pilot",
+    "index": 1,
+    "repeat": 1,
+    "mode": "follow",
+    "follow_policy": "gated",
+    "scene": "F75",
+    "target_height": 0.75,
+    "seed": 7401,
+    "time_limit_s": 240,
+    "protocol_version": "20261117-workspace-follow-pilot3",
+    "source_sha256": {
+      "quest3\\engine.py": "6a6f45330bea923c93012d7c2ce0674bd9c72fc6caac14923883ba6873e68119",
+      "quest3\\protocol.py": "946498b60a5bcaf8b13bdc68f7340875cd08d1797db672d8221d754160d0d51c",
+      "quest3\\trial.py": "55c1780e4b9525ab652749891692b060b64974b156ffd26fea35b6268936a387",
+      "quest3\\carry_assist.py": "7dcc19d9aed76bf0832398e2c88a67fb310b7d6a6914da49dae9f0813530ac0f",
+      "quest3\\workspace_follow.py": "31a4722c28a2f71c6eb48074174728fd5a0f574cce806286336aa5f15558d3c6",
+      "quest3\\follow_study.py": "d76a918ea71a1878d1140707dad70872d4b8ddc264caf3894801b1d8e73099a2",
+      "quest3\\study.py": "d39b8f92ad95e2e87c1826437c0e2b5733d9a4f8054f957f51e6536428847f0a",
+      "quest3\\server.py": "7f373d4e0a21225263adbd51a24460bec2972a41a697daf0b955a3f64c736868",
+      "quest3\\web\\app.js": "6742f80153ed8a1ce0ada14bc056da365cbb85188244b8af02b9ada60272d444",
+      "quest3\\web\\input.js": "6e1f70a2761bbe8425d77909681e37c1dc3fbca2dff6887137039bf46f89befe",
+      "quest3\\web\\index.html": "e30804d8cf0c6361db6dcd08f9d4fcdc8a07bc09b9cba408bee9c510423fadc6",
+      "quest3\\web\\package-lock.json": "f670501c717ce5a7b9eebadbd0123c28f9e308cb18ddf6cf6f754d987759d4c7",
+      "control.py": "3d492b216e0d239f850e101d5b0acc87b9ad7e2f8f8e0eaf5c60608764ef9f48",
+      "v2\\model.py": "206afe1a99f2277bb268b324aad2152efee0c3637db1417e24f90636f279c906",
+      "v2\\stable_control.py": "c996bb18d05ca4b7c483acc809a32e37811a756067818075bbb768fb3588196c",
+      "build_model.py": "49257ed75f26349fbe8bd34415e5382bcf5d7655aeff190f46f79bbd3405c737"
+    },
+    "outcome": "success",
+    "reason": "destination_support_release_retreat_stable",
+    "source": "synthetic_transport_test",
+    "sources_seen": [
+      "synthetic_transport_test"
+    ],
+    "clock_mode": "synthetic_fixed_step; not a human performance measurement",
+    "elapsed_wall_s": 85.26000000000022,
+    "elapsed_sim_s": 85.26999999998267,
+    "grasp_verified": true,
+    "lift_verified": true,
+    "max_lift_m": 0.1435846657668303,
+    "max_tilt_deg": 10.276520856625414,
+    "waist_range_during_drive_deg": 1.1503046722016776,
+    "clutch_calibrations": 1,
+    "tracking_loss_wall_s": 0.0,
+    "control_enabled_wall_s": 85.07000000000016,
+    "workspace_follow": {
+      "policy": "gated",
+      "state": "load_not_ready",
+      "requested_speed_m_s": 0.0,
+      "neutral_center_x_m": 0.39822038890932565,
+      "transitions": 10,
+      "automatic_command_sim_s": 26.320000000001315,
+      "manual_command_sim_s": 36.820000000001244
+    },
+    "final_observation": {
+      "hand_contacts": [
+        0,
+        0
+      ],
+      "hand_forces": [
+        0.0,
+        0.0
+      ],
+      "source_support_n": 0.0,
+      "destination_support_n": 8.201336300402527,
+      "obstacle_contacts": 0,
+      "cargo_position": [
+        0.37791288965750713,
+        1.8402141034546398,
+        0.7698694691486639
+      ],
+      "cargo_tilt_rad": 0.00035262189577541376,
+      "cargo_linear_speed": 1.0469433576249921e-07,
+      "cargo_angular_speed": 1.981782563107533e-09,
+      "parcel_retained": true,
+      "parcel_height": 0.819744335998805,
+      "hand_positions": [
+        [
+          0.3878709034899987,
+          2.1400007802881844,
+          0.9169097375632064
+        ],
+        [
+          0.39426545437257166,
+          1.5400873746527959,
+          0.9172774083229008
+        ]
+      ]
+    },
+    "session": "simulation\\quest3\\outputs\\follow_validation_r3_20261117\\gated_75_7401",
+    "result_authority": "automatic_physical_criteria",
+    "input_kind": "scripted_waypoint_operator_not_human",
+    "input_noise_mm": 6.0,
+    "joystick_command_sim_s": 36.80000000000125,
+    "navigation_max_tilt_deg": 1.9094065902307804,
+    "navigation_max_slip_mm": 10.187166682025683,
+    "navigation_waist_range_deg": 1.5078982881806366
+  },
+  {
+    "participant": "P00",
+    "phase": "pilot",
+    "index": 1,
+    "repeat": 1,
+    "mode": "follow",
+    "follow_policy": "off",
+    "scene": "F75",
+    "target_height": 0.75,
+    "seed": 7401,
+    "time_limit_s": 240,
+    "protocol_version": "20261117-workspace-follow-pilot3",
+    "source_sha256": {
+      "quest3\\engine.py": "6a6f45330bea923c93012d7c2ce0674bd9c72fc6caac14923883ba6873e68119",
+      "quest3\\protocol.py": "946498b60a5bcaf8b13bdc68f7340875cd08d1797db672d8221d754160d0d51c",
+      "quest3\\trial.py": "55c1780e4b9525ab652749891692b060b64974b156ffd26fea35b6268936a387",
+      "quest3\\carry_assist.py": "7dcc19d9aed76bf0832398e2c88a67fb310b7d6a6914da49dae9f0813530ac0f",
+      "quest3\\workspace_follow.py": "31a4722c28a2f71c6eb48074174728fd5a0f574cce806286336aa5f15558d3c6",
+      "quest3\\follow_study.py": "d76a918ea71a1878d1140707dad70872d4b8ddc264caf3894801b1d8e73099a2",
+      "quest3\\study.py": "d39b8f92ad95e2e87c1826437c0e2b5733d9a4f8054f957f51e6536428847f0a",
+      "quest3\\server.py": "7f373d4e0a21225263adbd51a24460bec2972a41a697daf0b955a3f64c736868",
+      "quest3\\web\\app.js": "6742f80153ed8a1ce0ada14bc056da365cbb85188244b8af02b9ada60272d444",
+      "quest3\\web\\input.js": "6e1f70a2761bbe8425d77909681e37c1dc3fbca2dff6887137039bf46f89befe",
+      "quest3\\web\\index.html": "e30804d8cf0c6361db6dcd08f9d4fcdc8a07bc09b9cba408bee9c510423fadc6",
+      "quest3\\web\\package-lock.json": "f670501c717ce5a7b9eebadbd0123c28f9e308cb18ddf6cf6f754d987759d4c7",
+      "control.py": "3d492b216e0d239f850e101d5b0acc87b9ad7e2f8f8e0eaf5c60608764ef9f48",
+      "v2\\model.py": "206afe1a99f2277bb268b324aad2152efee0c3637db1417e24f90636f279c906",
+      "v2\\stable_control.py": "c996bb18d05ca4b7c483acc809a32e37811a756067818075bbb768fb3588196c",
+      "build_model.py": "49257ed75f26349fbe8bd34415e5382bcf5d7655aeff190f46f79bbd3405c737"
+    },
+    "outcome": "success",
+    "reason": "destination_support_release_retreat_stable",
+    "source": "synthetic_transport_test",
+    "sources_seen": [
+      "synthetic_transport_test"
+    ],
+    "clock_mode": "synthetic_fixed_step; not a human performance measurement",
+    "elapsed_wall_s": 89.59999999999991,
+    "elapsed_sim_s": 89.60999999997256,
+    "grasp_verified": true,
+    "lift_verified": true,
+    "max_lift_m": 0.1430665495375806,
+    "max_tilt_deg": 10.276520856625414,
+    "waist_range_during_drive_deg": 2.133423848663601,
+    "clutch_calibrations": 1,
+    "tracking_loss_wall_s": 0.0,
+    "control_enabled_wall_s": 89.40999999999985,
+    "workspace_follow": {
+      "policy": "off",
+      "state": "off",
+      "requested_speed_m_s": 0.0,
+      "neutral_center_x_m": 0.39822038890932565,
+      "transitions": 0,
+      "automatic_command_sim_s": 0.0,
+      "manual_command_sim_s": 69.85999999999883
+    },
+    "final_observation": {
+      "hand_contacts": [
+        0,
+        0
+      ],
+      "hand_forces": [
+        0.0,
+        0.0
+      ],
+      "source_support_n": 0.0,
+      "destination_support_n": 8.201336300401309,
+      "obstacle_contacts": 0,
+      "cargo_position": [
+        0.37216544190498896,
+        1.8404198372248113,
+        0.7698667876100102
+      ],
+      "cargo_tilt_rad": 0.000448976694793328,
+      "cargo_linear_speed": 1.332611654003987e-07,
+      "cargo_angular_speed": 2.923680088845786e-09,
+      "parcel_retained": true,
+      "parcel_height": 0.8197418001832479,
+      "hand_positions": [
+        [
+          0.38538978758155884,
+          2.1398375924368165,
+          0.9217604830130439
+        ],
+        [
+          0.39125947930412036,
+          1.53984613361757,
+          0.9214175237156481
+        ]
+      ]
+    },
+    "session": "simulation\\quest3\\outputs\\follow_validation_r3_20261117\\off_75_7401",
+    "result_authority": "automatic_physical_criteria",
+    "input_kind": "scripted_waypoint_operator_not_human",
+    "input_noise_mm": 6.0,
+    "joystick_command_sim_s": 69.83999999999882,
+    "navigation_max_tilt_deg": 3.73623198334839,
+    "navigation_max_slip_mm": 10.522085935384396,
+    "navigation_waist_range_deg": 2.133423848663601
+  }
+]

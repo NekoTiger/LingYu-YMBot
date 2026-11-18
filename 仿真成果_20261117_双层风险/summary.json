@@ -1,0 +1,62 @@
+{
+  "fixed": {
+    "n": 8,
+    "successes": 8,
+    "elapsed_sim_s": 84.77374999998383,
+    "navigation_max_slip_mm": 9.601914682402722,
+    "min_edge_margin_mm": 39.403580195277684,
+    "navigation_max_tilt_deg": 1.8349478658698661,
+    "navigation_waist_range_deg": 1.661355083350766,
+    "intent_rmse_m_s": 0.02492089481758734,
+    "allocation_p95_ms": 0.057713124465408314,
+    "max_sum_relaxation_m_s": 0.0
+  },
+  "grip_only": {
+    "n": 8,
+    "successes": 8,
+    "elapsed_sim_s": 84.22124999998512,
+    "navigation_max_slip_mm": 9.532656856176615,
+    "min_edge_margin_mm": 39.40856413852238,
+    "navigation_max_tilt_deg": 2.1994890217394136,
+    "navigation_waist_range_deg": 1.6384824323707277,
+    "intent_rmse_m_s": 0.026125811606323067,
+    "allocation_p95_ms": 1.4536231246893294,
+    "max_sum_relaxation_m_s": 2.878556767949014e-17
+  },
+  "payload_only": {
+    "n": 8,
+    "successes": 8,
+    "elapsed_sim_s": 84.81374999998374,
+    "navigation_max_slip_mm": 9.592661431760478,
+    "min_edge_margin_mm": 39.405482429848036,
+    "navigation_max_tilt_deg": 1.7899528007381584,
+    "navigation_waist_range_deg": 1.6670504543851785,
+    "intent_rmse_m_s": 0.025240773299954798,
+    "allocation_p95_ms": 1.453257500293148,
+    "max_sum_relaxation_m_s": 3.2255014631443757e-17
+  },
+  "dual": {
+    "n": 8,
+    "successes": 8,
+    "elapsed_sim_s": 84.47374999998453,
+    "navigation_max_slip_mm": 9.542345781063776,
+    "min_edge_margin_mm": 39.41232483643938,
+    "navigation_max_tilt_deg": 2.1143483616784677,
+    "navigation_waist_range_deg": 1.6471098386216863,
+    "intent_rmse_m_s": 0.026290932006337173,
+    "allocation_p95_ms": 1.461915625145593,
+    "max_sum_relaxation_m_s": 2.8189256484623115e-17
+  },
+  "slow": {
+    "n": 8,
+    "successes": 4,
+    "elapsed_sim_s": 172.84000000017653,
+    "navigation_max_slip_mm": 21.62496460579551,
+    "min_edge_margin_mm": 39.280523619403134,
+    "navigation_max_tilt_deg": 1.7212062419972876,
+    "navigation_waist_range_deg": 1.609956855317728,
+    "intent_rmse_m_s": 0.03995474555606053,
+    "allocation_p95_ms": 0.05609249992630794,
+    "max_sum_relaxation_m_s": 0.0
+  }
+}
