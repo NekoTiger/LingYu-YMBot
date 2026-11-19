@@ -1,0 +1,355 @@
+{
+  "protocol": {
+    "version": "20261117-dual-contact-v1",
+    "time_limit_s": 240,
+    "participants": [
+      "P01",
+      "P02",
+      "P03",
+      "P04",
+      "P05"
+    ],
+    "policies": {
+      "fixed": "固定分配（基线）",
+      "dual": "双层联合（新方法）"
+    },
+    "scenes": {
+      "normal": "正常摩擦",
+      "low": "低摩擦（夹持与承载同时受限）"
+    },
+    "scene_models": {
+      "normal": "normal",
+      "low": "combined"
+    },
+    "target_height": 0.75,
+    "common": "五组共用滑移夹持、载荷限速、工作空间跟随、腕部水平约束与阶段判定",
+    "success": "双侧夹持、抬升至少 8 cm、目标台承重、松爪、双手撤离、物件留存并稳定 1 秒",
+    "failures": [
+      "obstacle_collision",
+      "payload_dropped",
+      "parcel_left_tray",
+      "timeout",
+      "operator_abort",
+      "reset_or_shutdown_during_trial"
+    ]
+  },
+  "source_sha256": {
+    "quest3\\engine.py": "c02de24299657993af92cbf8512c52583290d0d58ed21813230f97c5a1bbc6b6",
+    "quest3\\protocol.py": "946498b60a5bcaf8b13bdc68f7340875cd08d1797db672d8221d754160d0d51c",
+    "quest3\\trial.py": "55c1780e4b9525ab652749891692b060b64974b156ffd26fea35b6268936a387",
+    "quest3\\carry_assist.py": "4341780fd46b24dd4a62e4a5f1c3e609fe7eb53c760f1322183c55f49a3bef58",
+    "quest3\\workspace_follow.py": "31a4722c28a2f71c6eb48074174728fd5a0f574cce806286336aa5f15558d3c6",
+    "quest3\\follow_study.py": "d76a918ea71a1878d1140707dad70872d4b8ddc264caf3894801b1d8e73099a2",
+    "quest3\\study.py": "d39b8f92ad95e2e87c1826437c0e2b5733d9a4f8054f957f51e6536428847f0a",
+    "quest3\\server.py": "08dd2ce4052c38559e6f91be139022f1a2cedaed914f3239399c089daa70661c",
+    "quest3\\web\\app.js": "637760e9bb8eed4d4644ddd46009fe856fafd610662c92d987c35e16d9f63fae",
+    "quest3\\web\\input.js": "a82fadc52271b55b5a0a8d9fc7cb27ee364b2316ca167f20e6773f2e12bd6944",
+    "quest3\\web\\index.html": "4d774bde99873292cd7dee29d7bdae9088de407c808fa77d79238d442680f56e",
+    "quest3\\web\\package-lock.json": "f670501c717ce5a7b9eebadbd0123c28f9e308cb18ddf6cf6f754d987759d4c7",
+    "control.py": "3d492b216e0d239f850e101d5b0acc87b9ad7e2f8f8e0eaf5c60608764ef9f48",
+    "v2\\model.py": "206afe1a99f2277bb268b324aad2152efee0c3637db1417e24f90636f279c906",
+    "v2\\stable_control.py": "c996bb18d05ca4b7c483acc809a32e37811a756067818075bbb768fb3588196c",
+    "build_model.py": "49257ed75f26349fbe8bd34415e5382bcf5d7655aeff190f46f79bbd3405c737",
+    "quest3/risk_allocation.py": "b6868acd2840fa65e8e76ad7349a89eda15d92729b645e44c9a75003da7717f7",
+    "quest3/risk_engine.py": "09e195b979faccf1c3052171c017509a71bb42e63e8ec94bb654c10c4fb44097",
+    "quest3/risk_model.py": "00b2cb7cd7228fb3110b816b61a3402008ec4402b31ed4b1b602a0571a7e503d",
+    "quest3/risk_protocol.py": "22792f5e7f18263e760886e8fb6750afd8f875bcd8652a980e5d55304e823bde",
+    "quest3/risk_study.py": "8df64709877af3f401ab31836729b2362f55764199994a074adb3b4b2ac0b10f",
+    "quest3/risk_benchmark.py": "ae8d20101b84ba981522840b4f8f998e350fedf039045c9f28e076cbd145220b",
+    "quest3/risk_suite.py": "4064ce5ab4bada2acee35aa0d2a24ef7cd5f299c26bd54ac5124da5ffdfa660a",
+    "quest3/follow_benchmark.py": "0e0cc1b33ae17b6a6341ccf0b0417e64d24411bbc10174d35b155a8fc0623c4d"
+  },
+  "frozen_unix_s": 1795068852.1604915,
+  "schedule": {
+    "P01": [
+      {
+        "index": 1,
+        "policy": "fixed",
+        "scene": "normal",
+        "repeat": 1,
+        "seed": 9000
+      },
+      {
+        "index": 2,
+        "policy": "dual",
+        "scene": "normal",
+        "repeat": 1,
+        "seed": 9000
+      },
+      {
+        "index": 3,
+        "policy": "dual",
+        "scene": "low",
+        "repeat": 1,
+        "seed": 9001
+      },
+      {
+        "index": 4,
+        "policy": "fixed",
+        "scene": "low",
+        "repeat": 1,
+        "seed": 9001
+      },
+      {
+        "index": 5,
+        "policy": "fixed",
+        "scene": "low",
+        "repeat": 2,
+        "seed": 9011
+      },
+      {
+        "index": 6,
+        "policy": "dual",
+        "scene": "low",
+        "repeat": 2,
+        "seed": 9011
+      },
+      {
+        "index": 7,
+        "policy": "dual",
+        "scene": "normal",
+        "repeat": 2,
+        "seed": 9010
+      },
+      {
+        "index": 8,
+        "policy": "fixed",
+        "scene": "normal",
+        "repeat": 2,
+        "seed": 9010
+      }
+    ],
+    "P02": [
+      {
+        "index": 1,
+        "policy": "dual",
+        "scene": "normal",
+        "repeat": 1,
+        "seed": 9000
+      },
+      {
+        "index": 2,
+        "policy": "dual",
+        "scene": "low",
+        "repeat": 1,
+        "seed": 9001
+      },
+      {
+        "index": 3,
+        "policy": "fixed",
+        "scene": "low",
+        "repeat": 1,
+        "seed": 9001
+      },
+      {
+        "index": 4,
+        "policy": "fixed",
+        "scene": "normal",
+        "repeat": 1,
+        "seed": 9000
+      },
+      {
+        "index": 5,
+        "policy": "fixed",
+        "scene": "normal",
+        "repeat": 2,
+        "seed": 9010
+      },
+      {
+        "index": 6,
+        "policy": "fixed",
+        "scene": "low",
+        "repeat": 2,
+        "seed": 9011
+      },
+      {
+        "index": 7,
+        "policy": "dual",
+        "scene": "low",
+        "repeat": 2,
+        "seed": 9011
+      },
+      {
+        "index": 8,
+        "policy": "dual",
+        "scene": "normal",
+        "repeat": 2,
+        "seed": 9010
+      }
+    ],
+    "P03": [
+      {
+        "index": 1,
+        "policy": "dual",
+        "scene": "low",
+        "repeat": 1,
+        "seed": 9001
+      },
+      {
+        "index": 2,
+        "policy": "fixed",
+        "scene": "low",
+        "repeat": 1,
+        "seed": 9001
+      },
+      {
+        "index": 3,
+        "policy": "fixed",
+        "scene": "normal",
+        "repeat": 1,
+        "seed": 9000
+      },
+      {
+        "index": 4,
+        "policy": "dual",
+        "scene": "normal",
+        "repeat": 1,
+        "seed": 9000
+      },
+      {
+        "index": 5,
+        "policy": "dual",
+        "scene": "normal",
+        "repeat": 2,
+        "seed": 9010
+      },
+      {
+        "index": 6,
+        "policy": "fixed",
+        "scene": "normal",
+        "repeat": 2,
+        "seed": 9010
+      },
+      {
+        "index": 7,
+        "policy": "fixed",
+        "scene": "low",
+        "repeat": 2,
+        "seed": 9011
+      },
+      {
+        "index": 8,
+        "policy": "dual",
+        "scene": "low",
+        "repeat": 2,
+        "seed": 9011
+      }
+    ],
+    "P04": [
+      {
+        "index": 1,
+        "policy": "fixed",
+        "scene": "low",
+        "repeat": 1,
+        "seed": 9001
+      },
+      {
+        "index": 2,
+        "policy": "fixed",
+        "scene": "normal",
+        "repeat": 1,
+        "seed": 9000
+      },
+      {
+        "index": 3,
+        "policy": "dual",
+        "scene": "normal",
+        "repeat": 1,
+        "seed": 9000
+      },
+      {
+        "index": 4,
+        "policy": "dual",
+        "scene": "low",
+        "repeat": 1,
+        "seed": 9001
+      },
+      {
+        "index": 5,
+        "policy": "dual",
+        "scene": "low",
+        "repeat": 2,
+        "seed": 9011
+      },
+      {
+        "index": 6,
+        "policy": "dual",
+        "scene": "normal",
+        "repeat": 2,
+        "seed": 9010
+      },
+      {
+        "index": 7,
+        "policy": "fixed",
+        "scene": "normal",
+        "repeat": 2,
+        "seed": 9010
+      },
+      {
+        "index": 8,
+        "policy": "fixed",
+        "scene": "low",
+        "repeat": 2,
+        "seed": 9011
+      }
+    ],
+    "P05": [
+      {
+        "index": 1,
+        "policy": "fixed",
+        "scene": "normal",
+        "repeat": 1,
+        "seed": 9000
+      },
+      {
+        "index": 2,
+        "policy": "dual",
+        "scene": "normal",
+        "repeat": 1,
+        "seed": 9000
+      },
+      {
+        "index": 3,
+        "policy": "dual",
+        "scene": "low",
+        "repeat": 1,
+        "seed": 9001
+      },
+      {
+        "index": 4,
+        "policy": "fixed",
+        "scene": "low",
+        "repeat": 1,
+        "seed": 9001
+      },
+      {
+        "index": 5,
+        "policy": "fixed",
+        "scene": "low",
+        "repeat": 2,
+        "seed": 9011
+      },
+      {
+        "index": 6,
+        "policy": "dual",
+        "scene": "low",
+        "repeat": 2,
+        "seed": 9011
+      },
+      {
+        "index": 7,
+        "policy": "dual",
+        "scene": "normal",
+        "repeat": 2,
+        "seed": 9010
+      },
+      {
+        "index": 8,
+        "policy": "fixed",
+        "scene": "normal",
+        "repeat": 2,
+        "seed": 9010
+      }
+    ]
+  }
+}

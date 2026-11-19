@@ -20,7 +20,7 @@ class Recorder:
         (self.root/'scene.xml').write_text(xml,encoding='utf-8')
         self.raw=(self.root/'raw_webxr.jsonl').open('w',encoding='utf-8');self.events=(self.root/'events.jsonl').open('w',encoding='utf-8')
         self.rows=[];self.index=0;self.frames=0;self.packets=0;self.start=time.time()
-        self.meta={'source':'awaiting_client','hardware_verified':False,'device_claim':'not_connected','schema':1,'control_dt_s':.01,'physics_dt_s':.002,'start_unix_s':self.start,'view':'stereoscopic third-person simulation, not robot camera video','mapping':'relative controller center + limited yaw; level rigid tray, synchronized jaws; full raw head/hand poses retained'}
+        self.meta={'source':'awaiting_client','hardware_verified':False,'device_claim':'not_connected','schema':1,'control_dt_s':.01,'physics_dt_s':.002,'start_unix_s':self.start,'view':'adjustable stereoscopic simulation, side-by-side default; not robot camera video','mapping':'relative controller center + limited yaw; level rigid tray, synchronized jaws; full raw head/hand poses retained'}
     def event(self,name,**extra):self.events.write(json.dumps({'wall_unix_s':time.time(),'event':name,**extra},ensure_ascii=False)+'\n');self.events.flush()
     def packet(self,raw,received):self.raw.write(json.dumps({'server_received_monotonic_s':received,'packet':raw},ensure_ascii=False,allow_nan=False)+'\n');self.packets+=1
     def step(self,engine,wall):
@@ -108,7 +108,7 @@ class Engine:
         if enabled and not self.active:
             hands=np.array([self.d.site(s+'_ee').xpos.copy()for s in ['left','right']]);self.local=(rotbase.T@(hands-translation).T).T
             self.mapper.calibrate(p,self.local);self.local_yaw=self.mapper.robot_yaw;self.calibrations+=1;self.recorder.event('clutch_calibrated',count=self.calibrations,seq=p.seq)
-            self.aperture_goal=self.aperture;self.last_trigger=float(np.mean(p.trigger))
+            self.aperture_goal=float(self.aperture);self.last_trigger=float(np.mean(p.trigger))
             self.filtered_goal = self.local.copy()
             self.assistance.reset_placement()
             self.follow.calibrate(self.mapper.robot_center[0])
@@ -152,7 +152,9 @@ class Engine:
                     self.recorder.event('workspace_follow', **self.follow.snapshot())
                     self.last_follow_state = self.follow.state
             if self.load_assist:
-                desired *= self.assistance.speed_scale
+                # Assist speed scaling protects the payload in the forward channel only;
+                # steering the base does not disturb the lifted object.
+                desired[0] *= self.assistance.speed_scale
                 if self.assistance.placement_target is not None:
                     desired[:] = 0.
             self.twist+=np.clip(desired-self.twist,[-.002,-.008],[.002,.008])
@@ -180,7 +182,7 @@ class Engine:
                 grip_goal = self.aperture_goal
                 if self.load_assist:
                     grip_goal = self.assistance.aperture_target(grip_goal, self.aperture)
-                self.aperture+=np.clip(grip_goal-self.aperture,-.00035,.00035)
+                self.aperture=float(self.aperture+np.clip(grip_goal-self.aperture,-.00035,.00035))
                 self.d.ctrl[self.servo.wheels]=[(self.twist[0]-self.twist[1]*TRACK/2)/WHEEL_RADIUS,(self.twist[0]+self.twist[1]*TRACK/2)/WHEEL_RADIUS]
                 self.status='active'
         else:

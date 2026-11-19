@@ -21,3 +21,14 @@ Thumbs.db
 Desktop.ini
 ~$*
 *.tmp
+
+# 本地上传暂存、截图与运行日志
+_upload_daychuang_20261120/
+2026大创_灵驭_20261120/
+_*.png
+_*_tmp.txt
+_生成脚本/docx_qa/
+*.log
+
+# 含设备网络口令的原始手册，仅保留在本地
+simulation/realbot_driver/YMBOT-D_manual_text.txt

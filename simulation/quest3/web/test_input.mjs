@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import {controls,makePacket} from './input.js';
+import {controls,makePacket,viewPlacement,anchoredPlacement,nextViewPreset,VIEW_PRESETS} from './input.js';
 const gamepad={mapping:'xr-standard',buttons:[.8,.9,0,0,1,0].map(value=>({value})),axes:[0,0,.2,-.3]};
 const c=controls(gamepad);assert.deepEqual(c,{trigger:.8,squeeze:.9,stick:[.2,-.3],primary:true,secondary:false});
 assert.equal(controls({...gamepad,mapping:''}),null);
@@ -11,3 +11,41 @@ assert.equal(makePacket(8,1020,pose,null,hand).tracked,false);
 assert.equal(makePacket(9,1040,pose,{...hand,pose:{...pose,emulatedPosition:true}},hand).tracked,false);
 assert.equal(makePacket(10,1060,null,hand,{...hand,controls:{...c,secondary:true}}).estop,true);
 console.log('PASS: xr-standard mapping, pose schema, missing/emulated tracking, stop button.');
+function quatMat(q){
+  const x=q[0],y=q[1],z=q[2],w=q[3];
+  return [[1-2*(y*y+z*z),2*(x*y-w*z),2*(x*z+w*y)],[2*(x*y+w*z),1-2*(x*x+z*z),2*(y*z-w*x)],[2*(x*z-w*y),2*(y*z+w*x),1-2*(x*x+y*y)]];
+}
+function apply(m,v){return m.map(row=>row[0]*v[0]+row[1]*v[1]+row[2]*v[2]);}
+function approx(a,b,eps=1e-9){assert.ok(Math.abs(a-b)<eps,`expected ${a}≈${b}`);}
+const head={position:[1,1.6,2],quaternion:[0,0,0,1]};
+const side=viewPlacement(head,'side',0,0);
+approx(side.position[0],1+.55);approx(side.position[1],0);approx(side.position[2],2-.15);
+const forward=apply(quatMat(side.quaternion),[1,0,0]);
+approx(forward[0],0);approx(forward[1],0);approx(forward[2],-1);
+const left=apply(quatMat(side.quaternion),[0,1,0]);
+approx(left[0],-1);approx(left[1],0);approx(left[2],0);
+const behind=viewPlacement(head,'behind',0,0);
+approx(behind.position[2],2-2.2);approx(behind.position[1],0);
+const front=viewPlacement(head,'front',0,0);
+approx(front.position[0],1-.55);approx(front.position[2],2-2.2);
+approx(apply(quatMat(front.quaternion),[1,0,0])[2],Math.cos(.4),1e-9);
+const pushed=viewPlacement(head,'side',0,.6);
+approx(pushed.position[2],2-.15-.6);
+const yawed=viewPlacement(head,'side',Math.PI/2,0);
+approx(yawed.position[0],1-.15,1e-9);approx(yawed.position[2],2-.55,1e-9);
+const anchored=anchoredPlacement(head,'side',0,0);
+approx(anchored.position[0],1+.55);approx(anchored.position[2],2-.15);
+const spun=anchoredPlacement(head,'side',Math.PI/2,0);
+approx(spun.position[0],anchored.position[0]);approx(spun.position[2],anchored.position[2]);
+approx(apply(quatMat(spun.quaternion),[1,0,0])[0],-1,1e-9);
+const spunBehind=anchoredPlacement(head,'behind',Math.PI,0);
+approx(spunBehind.position[0],1-.55);approx(spunBehind.position[2],2-2.2);
+const pushedAnchored=anchoredPlacement(head,'side',Math.PI/2,.6);
+approx(pushedAnchored.position[0],1+.55);approx(pushedAnchored.position[2],2-.15-.6);
+assert.equal(nextViewPreset('side'),'behind');
+assert.equal(nextViewPreset('behind'),'front');
+assert.equal(nextViewPreset('front'),'side');
+assert.ok(VIEW_PRESETS.side&&VIEW_PRESETS.behind&&VIEW_PRESETS.front);
+assert.throws(()=>viewPlacement(head,'nope',0,0));
+assert.throws(()=>anchoredPlacement(head,'nope',0,0));
+console.log('PASS: view placement presets, heading mapping, yaw and distance adjustment.');

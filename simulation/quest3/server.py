@@ -6,8 +6,9 @@ from .engine import Engine
 from .scene import export_scene
 from .study import PROTOCOL, configuration, schedule, source_hashes
 from .follow_study import configuration as follow_configuration
-from .risk_protocol import configuration as risk_configuration, VERSION as RISK_VERSION
+from .risk_protocol import configuration as risk_configuration, hashes as risk_source_hashes, VERSION as RISK_VERSION
 from .risk_engine import RiskEngine
+from .risk_study import RISK_PROTOCOL as RISK_PLAN, configuration as risk_study_configuration, schedule as risk_schedule
 
 HERE=Path(__file__).resolve().parent
 STATIC={'/':'index.html','/app.js':'app.js','/input.js':'input.js',
@@ -18,10 +19,10 @@ class Gateway:
     def __init__(self,record_root=None,follow=False,risk=False):
         initial = risk_configuration() if risk else (follow_configuration() if follow else None)
         options = {'mode': 'follow', 'target_height': initial['target_height'], 'seed': initial['seed'], 'trial_config': initial} if initial else {}
-        self.record_root=record_root;self.engine=RiskEngine(record_root,trial_config=initial) if risk else Engine(record_root, **options);self.clients=set();self.owner=None;self.owner_source=None;self.owner_device=None
+        self.record_root=record_root;self.risk_mode=risk;self.engine=RiskEngine(record_root,trial_config=initial) if risk else Engine(record_root, **options);self.clients=set();self.owner=None;self.owner_source=None;self.owner_device=None
         self.scene,self.geometry=export_scene(self.engine);self.running=True;self.steps=0;self.overruns=0;self.max_step_ms=0.;self.closed=False
         self.trial=None;self.next_trial=1
-        self.loaded_source_hashes = source_hashes()
+        self.loaded_source_hashes = risk_source_hashes() if risk else source_hashes()
     def local_request(self,request):
         if request.host.split(':')[0] not in {'127.0.0.1','localhost','[::1]'}:raise web.HTTPForbidden(text='Use localhost')
         origin=request.headers.get('Origin')
@@ -42,6 +43,10 @@ class Gateway:
             'experiment': self.engine.trial.snapshot(time.monotonic()) if self.engine.trial else None})
     async def study_plan(self, request):
         self.local_request(request)
+        if isinstance(self.engine, RiskEngine):
+            return web.json_response({'kind': 'risk', 'protocol': RISK_PLAN,
+                                      'schedule': {p: risk_schedule(p) for p in RISK_PLAN['participants']},
+                                      'locked': (HERE/'risk_lock.json').exists()})
         return web.json_response({'protocol': PROTOCOL, 'schedule': {p: schedule(p) for p in ['P00', *PROTOCOL['participants']]},
                                   'locked': (HERE/'study_lock.json').exists()})
     async def replace_engine(self, config=None):
@@ -91,6 +96,15 @@ class Gateway:
                         if not self.engine.receive(raw):raise ValueError('Pose rejected; release and regrip')
                     elif kind=='release':
                         if self.owner is ws:self.engine.disconnect();self.owner=None
+                    elif kind=='view':
+                        if self.owner is not ws:raise ValueError('Claim control before reporting view')
+                        yaw=float(raw.get('yaw',0));dist=float(raw.get('dist',0))
+                        if not (abs(yaw)<=3.2 and abs(dist)<=2.1):raise ValueError('View placement out of range')
+                        self.engine.recorder.event('view_adjust',preset=str(raw.get('preset',''))[:20],yaw=round(yaw,3),dist=round(dist,3),sim_time=self.engine.d.time)
+                    elif kind=='client_error':
+                        message=str(raw.get('message',''))[:400];stack=str(raw.get('stack',''))[:2000]
+                        self.engine.recorder.event('client_error',message=message,stack=stack,sim_time=self.engine.d.time)
+                        print('Client error:',message,(stack.splitlines() or [''])[0],flush=True)
                     elif kind=='stop':self.engine.stop('operator_stop')
                     elif kind=='resume':
                         if not self.engine.clear_stop():raise ValueError('Release both squeeze buttons first')
@@ -117,12 +131,23 @@ class Gateway:
                             raise ValueError('先结束当前试次，再准备下一次。')
                         config=risk_configuration(raw.get('policy','dual'),raw.get('scenario','normal'),float(raw.get('height',.75)))
                         await self.replace_engine(config)
+                    elif kind == 'risk_study_prepare':
+                        if self.engine.trial and self.engine.trial.status == 'running':
+                            raise ValueError('先结束当前试次，再准备下一次。')
+                        config = risk_study_configuration(raw.get('participant'), raw.get('index'), raw.get('phase'))
+                        if config['source_sha256'] != self.loaded_source_hashes:
+                            raise ValueError('源码已更新，请重新启动实验服务后采集正式数据。')
+                        await self.replace_engine(config)
                     elif kind == 'follow_prepare':
+                        if self.risk_mode:
+                            raise ValueError('本服务是双层风险版入口，请用风险试跑或正式采集面板；旧版实验请用对应启动脚本。')
                         if self.engine.trial and self.engine.trial.status == 'running':
                             raise ValueError('先结束当前试次，再准备下一次。')
                         config = follow_configuration(raw.get('policy'), float(raw.get('height', .75)))
                         await self.replace_engine(config)
                     elif kind == 'study_prepare':
+                        if self.risk_mode:
+                            raise ValueError('本服务是双层风险版入口，请用风险试跑或正式采集面板；旧版实验请用对应启动脚本。')
                         if self.engine.trial and self.engine.trial.status == 'running':
                             raise ValueError('先结束当前试次，再准备下一次。')
                         config = configuration(raw.get('participant'), raw.get('index'), raw.get('phase'))

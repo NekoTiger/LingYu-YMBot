@@ -64,6 +64,18 @@ class AllocationTests(unittest.TestCase):
             self.assertLessEqual(abs(alloc.total-previous),allowed)
             previous=alloc.total
 
+    def test_saturated_workspace_buffer_stays_feasible(self):
+        for sign in (1., -1.):
+            alloc=MotionAllocator('dual')
+            state=replace(STATE,grip=1.)
+            alloc.offset=.045*sign
+            alloc.arm=.00375*sign
+            for _ in range(60):
+                alloc.allocate(.16*sign,state)
+                self.assertLessEqual(abs(alloc.offset),.045+1e-9)
+                self.assertLessEqual(abs(alloc.arm),.00375+1e-9)
+            self.assertGreaterEqual(alloc.base*sign,0.)
+
     def test_contact_interfaces_independently_configured(self):
         for scenario,grip,surface in [('grip',.55,.8),('payload',1.1,.16)]:
             m,d,_,_=risk_model(True,9000,True,.75,scenario=scenario)

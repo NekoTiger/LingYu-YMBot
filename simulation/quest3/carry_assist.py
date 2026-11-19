@@ -55,11 +55,11 @@ class CarryAssist:
         self.slip_rate = .9 * self.slip_rate + .1 * (self.slip - self.previous_slip) / .01
         self.previous_slip = self.slip
         error = float(np.linalg.norm(hands - target_world, axis=1).max())
-        self.speed_scale = float(np.clip(min((.05 - error) / .035, (.20 - observation.cargo_tilt_rad) / .14,
-                                             (.03 - self.slip_rate) / .025), .25, 1.)) if self.grasped else 1.
+        self.speed_scale = float(np.clip(min((.09 - error) / .05, (.20 - observation.cargo_tilt_rad) / .14,
+                                             (.03 - self.slip_rate) / .025), .5, 1.)) if self.grasped else 1.
 
     def aperture_target(self, requested, current):
-        self.release_blocked = self.grasped and requested > .004 and self.support_hold < .2
+        self.release_blocked = bool(self.grasped and requested > .004 and self.support_hold < .2)
         if self.release_blocked:
             return min(current, 0.)
         if self.grasped and requested <= .004:

@@ -11,7 +11,7 @@ HERE = Path(__file__).resolve().parent
 def hashes():
     result = source_hashes()
     for name in ('risk_allocation.py', 'risk_engine.py', 'risk_model.py', 'risk_protocol.py',
-                 'risk_benchmark.py', 'risk_suite.py', 'follow_benchmark.py'):
+                 'risk_study.py', 'risk_benchmark.py', 'risk_suite.py', 'follow_benchmark.py'):
         path = HERE/name
         if path.exists():
             result['quest3/'+name] = hashlib.sha256(path.read_bytes()).hexdigest()

@@ -95,6 +95,10 @@ async def run():
             await send_for(.06,squeeze=1);assert not gateway.engine.active
             await send_for(.06);await send_for(.08,squeeze=1);assert gateway.engine.active
             checks['reset_closes_old_recording_preserves_source_and_requires_regrip']='passed'
+            await ws.send_json({'type':'view','preset':'side','yaw':.5,'dist':-.2});await asyncio.sleep(.04)
+            await ws.send_json({'type':'view','preset':'side','yaw':9.,'dist':0.});await asyncio.sleep(.04)
+            assert any(m.get('type')=='error'for m in messages)
+            checks['view_adjust_recording_and_validation']='passed'
             await ws.close();await listener;await asyncio.sleep(.04)
             assert gateway.owner is None and not gateway.engine.active;checks['disconnect_stop']='passed'
             checks['steps']=gateway.steps;checks['max_step_ms']=gateway.max_step_ms;checks['overruns']=gateway.overruns
@@ -108,6 +112,8 @@ async def run():
     states=np.load(out/'session'/'states_0000.npz');assert len(states['sim_time'])==metadata['control_frames'];assert np.all(np.isfinite(states['qpos']))
     events=[json.loads(line)for line in(out/'session'/'events.jsonl').read_text(encoding='utf-8').splitlines()]
     assert any(e['event']=='trial_marker'for e in events)
+    reset_events=[json.loads(line)for line in(gateway.engine.recorder.root/'events.jsonl').read_text(encoding='utf-8').splitlines()]
+    assert any(e.get('event')=='view_adjust'and e.get('preset')=='side'and abs(e.get('yaw',0)-.5)<1e-6 and abs(e.get('dist',0)+.2)<1e-6 for e in reset_events)
     checks.update(recording='passed',source=metadata['source'],hardware_verified=False,result='passed')
     (out/'report.json').write_text(json.dumps(checks,ensure_ascii=False,indent=2),encoding='utf-8')
     print(json.dumps(checks,ensure_ascii=False,indent=2));print('Report:',out/'report.json')

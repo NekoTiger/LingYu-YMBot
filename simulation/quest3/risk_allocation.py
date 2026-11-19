@@ -144,10 +144,19 @@ class MotionAllocator:
             # constrains their SUM so arm compensation cannot defeat deceleration.
             max_arm = .025*(1-.85*rg)
             max_base_acc = .20*(1-.75*rg)
-            lower = [-.16, max(-max_arm, (-.045-self.offset)/dt)]
-            upper = [.16, min(max_arm, (.045-self.offset)/dt)]
-            lower[1] = max(lower[1], float(np.clip(self.arm-.08*dt,-max_arm,max_arm)))
-            upper[1] = min(upper[1], float(np.clip(self.arm+.08*dt,-max_arm,max_arm)))
+            # The arm rate bound is a hard actuator limit; the workspace-buffer
+            # bound is enforced by the offset clip and gives way at saturation,
+            # where the two can otherwise leave an empty arm interval.
+            lo_rate = float(np.clip(self.arm-.08*dt, -max_arm, max_arm))
+            hi_rate = float(np.clip(self.arm+.08*dt, -max_arm, max_arm))
+            offset_lo = (-.045-self.offset)/dt
+            offset_hi = (.045-self.offset)/dt
+            if offset_hi < lo_rate or offset_lo > hi_rate:
+                arm_lo, arm_hi = lo_rate, hi_rate
+            else:
+                arm_lo, arm_hi = max(lo_rate, offset_lo), min(hi_rate, offset_hi)
+            lower = [-.16, arm_lo]
+            upper = [.16, arm_hi]
             lower[0] = max(lower[0], self.base-max_base_acc*dt)
             upper[0] = min(upper[0], self.base+max_base_acc*dt)
             horizon = .40

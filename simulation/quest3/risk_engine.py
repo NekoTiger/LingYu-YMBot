@@ -36,8 +36,8 @@ class RiskEngine(Engine):
     def allocate_motion(self, desired, pose):
         obs = self.observation
         airborne = obs.source_support_n+obs.destination_support_n < .1*(self.info['mass']+.17)*9.81
-        active = (self.assistance.grasped and airborne and self.assistance.placement_target is None
-                  and self.aperture_goal <= .004)
+        active = bool(self.assistance.grasped and airborne and self.assistance.placement_target is None
+                      and self.aperture_goal <= .004)
         self.allocation_active = active
         if not active:
             self.allocator.base = self.twist[0]
@@ -64,7 +64,7 @@ class RiskEngine(Engine):
     def after_observe(self, now):
         state = self.risk_observer.update(self.m, self.d, self.assistance)
         row = {'sim_time': float(self.d.time), 'active': self.active,
-               'allocation_active': self.active and self.allocation_active,
+               'allocation_active': bool(self.active and self.allocation_active),
                **asdict(state), **self.allocator.snapshot()}
         self.risk_rows.append(row)
         if len(self.risk_rows) >= 100:

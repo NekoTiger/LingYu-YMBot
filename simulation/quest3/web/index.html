@@ -13,10 +13,10 @@
   <div>同时握住双侧握键：移动双手 · 双扳机：同步夹爪 · 左摇杆：底盘</div>
   <div>松开任一握键：停移 · 右 B：停止 · 松开双握键后按左 X：恢复</div>
   <div id="error" role="alert"></div>
-  <div id="notice">第三人称立体仿真 · 按机器人朝向理解移动方向</div>
+  <div id="notice">头显默认并肩视角，与机器人同向观察；不握离合时右摇杆调整视角，左 Y 键切换视角</div>
   <div class="study-actions"><button id="study-start" disabled>开始计时</button><button id="study-abort" disabled>终止并记失败</button></div>
   <div id="study-status" role="status">正在读取实验安排…</div>
-  <details><summary>原对照实验</summary>
+  <details id="legacy-study-config"><summary>原对照实验</summary>
     <div class="study-fields">
       <label>阶段<select id="study-phase"><option value="pilot">试跑</option><option value="formal">正式采集</option></select></label>
       <label>操作者<select id="study-participant"><option>P00</option><option>P01</option><option>P02</option><option>P03</option><option>P04</option><option>P05</option></select></label>
@@ -24,13 +24,20 @@
     </div>
     <button id="study-prepare">准备场景</button>
   </details>
-  <details id="risk-config"><summary>双层风险分配 · 预实验</summary>
+  <details id="risk-config"><summary>双层风险分配 · 实验入口</summary>
     <div class="study-fields">
+      <label style="color:#91e5cc">试跑 · P00</label>
       <label>分配方法<select id="risk-policy"><option value="dual">双层联合</option><option value="fixed">固定分配</option><option value="grip_only">仅抓持风险</option><option value="payload_only">仅承载风险</option><option value="slow">统一降速</option></select></label>
       <label>接触条件<select id="risk-scenario"><option value="normal">正常</option><option value="grip">低夹持摩擦</option><option value="payload">低承载摩擦／偏心</option><option value="combined">两层同时受限</option></select></label>
       <button id="risk-prepare">准备风险试跑</button>
     </div>
     <div id="risk-state" role="status"></div>
+    <div class="study-fields" style="margin-top:12px">
+      <label>正式采集 · 操作者<select id="risk-participant"><option>P01</option><option>P02</option><option>P03</option><option>P04</option><option>P05</option></select></label>
+      <label>正式采集 · 试次<select id="risk-index"></select></label>
+      <button id="risk-study-prepare" disabled>准备正式试次</button>
+    </div>
+    <div id="risk-study-status" role="status">正在读取正式实验安排…</div>
   </details>
   <details id="follow-config"><summary>工作空间跟随 · 预实验</summary>
     <div class="study-fields">
