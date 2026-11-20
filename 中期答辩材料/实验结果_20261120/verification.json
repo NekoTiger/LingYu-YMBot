@@ -1,0 +1,10 @@
+{
+  "analysis_checks": "4 known-answer tests passed; independent counts and capped-time totals reconciled",
+  "raw_primary_trials": 40,
+  "formal_attempts": 78,
+  "audit_issues": [],
+  "notable_timing_exception": "P01/5 human interruption retained; paired exclusion sensitivity also reported",
+  "visual_checks": "3 PNG charts inspected; HTML opened in local headless browser, 3 embedded images loaded, 8 tables, no horizontal page overflow",
+  "limits": "No independent full-contact dynamics re-scoring or manual video review; no edits to submitted PPT/doc forms",
+  "cohort_metadata_update": "2026-11-20: source clarification, report, HTML, briefing and summary synchronized; all numeric comparisons unchanged; input-note hash checked"
+}

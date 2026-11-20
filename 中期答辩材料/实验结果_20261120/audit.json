@@ -1,0 +1,176 @@
+{
+  "issues": [],
+  "timing_anomalies": [
+    {
+      "participant": "P01",
+      "index": 5,
+      "session_id": "20261119_145037_reset_f467aa",
+      "elapsed_wall_s": 596.8821528000008,
+      "elapsed_sim_s": 143.99000000003753,
+      "max_wall_sample_gap_s": 451.46644150000066,
+      "cause": "user confirms human pause/away from device; sampling-gap mechanism not independently diagnosed",
+      "clarification_source": "现场补充记录.json"
+    }
+  ],
+  "prepared_without_start": [
+    "20261119_141445_reset_ff2977",
+    "20261119_144313_reset_a9dc25",
+    "20261119_144317_reset_618a58",
+    "20261119_144354_reset_f55e8f",
+    "20261119_152351_reset_30f297",
+    "20261119_152358_reset_2e86aa",
+    "20261119_155348_reset_5741e3",
+    "20261119_160339_reset_7ce1ff",
+    "20261119_160408_reset_ff631d",
+    "20261119_161337_reset_441d01",
+    "20261119_161411_reset_46aeed",
+    "20261119_162042_reset_317c7e",
+    "20261119_165822_reset_c4d411",
+    "20261119_170144_reset_12cdee",
+    "20261119_170241_reset_5f7fba",
+    "20261119_170246_reset_686aa1",
+    "20261119_170323_reset_5dea7f",
+    "20261119_170327_reset_f822c8",
+    "20261119_170331_reset_f0b670",
+    "20261119_170335_reset_3e6edd",
+    "20261119_170339_reset_5c9c7e",
+    "20261119_170343_reset_5141e9",
+    "20261119_170451_reset_7124e0",
+    "20261119_170556_reset_d92817",
+    "20261119_170923_reset_6a0876",
+    "20261119_171115_reset_480fe0",
+    "20261119_171120_reset_1aac81",
+    "20261119_171721_reset_59f86b",
+    "20261119_171941_reset_74a87d",
+    "20261119_172103_reset_e88c6b",
+    "20261119_172239_reset_b7f4ca",
+    "20261119_172243_reset_34debd",
+    "20261119_172248_reset_5ff04f",
+    "20261119_182044_reset_f25588",
+    "20261119_182309_reset_bbc0f1",
+    "20261119_182321_reset_2825c3",
+    "20261119_182644_reset_3ce4f5",
+    "20261119_182650_reset_076488",
+    "20261119_182656_reset_e1bef6",
+    "20261119_184209_reset_cce0e3",
+    "20261119_184213_reset_937203",
+    "20261119_184707_reset_037148",
+    "20261119_184733_reset_76560e",
+    "20261119_184747_reset_8000bc",
+    "20261119_184934_reset_04bf1b",
+    "20261119_185401_reset_5d8362",
+    "20261119_185626_reset_840ac8",
+    "20261119_191342_reset_a435ea",
+    "20261119_191346_reset_6a4518",
+    "20261119_191734_reset_e909c0",
+    "20261119_204349_reset_644922",
+    "20261119_205835_reset_107a03",
+    "20261119_231319_reset_e39361",
+    "20261119_232308_reset_4bb91e",
+    "20261119_232732_reset_ca475d",
+    "20261119_232737_reset_e55523",
+    "20261119_232741_reset_fdf1f2",
+    "20261119_232856_reset_960f68",
+    "20261120_000230_reset_f96fb6"
+  ],
+  "excluded": [
+    {
+      "session": "20261119_110933_reset_ba2581",
+      "phase": "pilot",
+      "source": "webxr_live"
+    },
+    {
+      "session": "20261119_113151_reset_141b33",
+      "phase": "pilot",
+      "source": "webxr_live"
+    },
+    {
+      "session": "20261119_122130_reset_7d6265",
+      "phase": "pilot",
+      "source": "webxr_live"
+    },
+    {
+      "session": "20261119_130709_reset_4af19d",
+      "phase": "pilot",
+      "source": "webxr_live"
+    },
+    {
+      "session": "20261119_130958_reset_d5a8f9",
+      "phase": "pilot",
+      "source": "webxr_live"
+    },
+    {
+      "session": "20261119_132852_reset_02580f",
+      "phase": "pilot",
+      "source": "webxr_live"
+    },
+    {
+      "session": "20261119_133914_reset_d5c23a",
+      "phase": "pilot",
+      "source": "webxr_live"
+    },
+    {
+      "session": "20261119_134708_reset_86827c",
+      "phase": "pilot",
+      "source": "webxr_live"
+    },
+    {
+      "session": "20261119_134943_reset_23371c",
+      "phase": "pilot",
+      "source": "webxr_live"
+    },
+    {
+      "session": "20261119_140105_reset_3fcefd",
+      "phase": "pilot",
+      "source": "webxr_live"
+    },
+    {
+      "session": "20261119_142219_reset_e2211a",
+      "phase": "pilot",
+      "source": "webxr_live"
+    },
+    {
+      "session": "20261119_163704_reset_216c84",
+      "phase": "pilot",
+      "source": "webxr_live"
+    },
+    {
+      "session": "20261119_163915_reset_11ac1a",
+      "phase": "pilot",
+      "source": "webxr_live"
+    },
+    {
+      "session": "20261119_164434_reset_439165",
+      "phase": "pilot",
+      "source": "webxr_live"
+    },
+    {
+      "session": "20261119_164649_reset_8a0e7f",
+      "phase": "pilot",
+      "source": "webxr_live"
+    },
+    {
+      "session": "20261119_164944_reset_ced85b",
+      "phase": "pilot",
+      "source": "webxr_live"
+    },
+    {
+      "session": "20261119_183236_reset_bb21c1",
+      "phase": "pilot",
+      "source": "webxr_live"
+    },
+    {
+      "session": "20261120_000344_reset_f2f715",
+      "phase": "pilot",
+      "source": "webxr_live"
+    },
+    {
+      "session": "20261120_000643_reset_856043",
+      "phase": "pilot",
+      "source": "webxr_live"
+    }
+  ],
+  "formal_attempts": 78,
+  "primary_trials": 40,
+  "scope": "All formal result/config/session/event and input-file hashes; primary trial-window trajectory continuity and risk logs; terminal success predicates. No video review or independent full dynamics re-scoring."
+}

@@ -1,0 +1,2447 @@
+[
+  {
+    "path": "simulation/quest3/risk_lock.json",
+    "bytes": 9019,
+    "sha256": "e4a755e78aec7fa6163945c0ea17638be45a342080d80146328f16a19ef706c7"
+  },
+  {
+    "path": "simulation/quest3/risk_analysis_notes_20261120.json",
+    "bytes": 1834,
+    "sha256": "39c7ff18316d0a42e46a728c19f1a6f91eb6a4ab14b31d5dca1d1b87506191ea"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_110933_reset_ba2581/trial_result.json",
+    "bytes": 3643,
+    "sha256": "8f09c7768157a5871b905756a1734a8300a232e2056d86415a8a553433cbc655"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_113151_reset_141b33/trial_result.json",
+    "bytes": 4527,
+    "sha256": "f9d5208eb8e0e3148f32f91ecf2b9b5771d0ddd33513d749241dec45d1fe98c8"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_122130_reset_7d6265/trial_result.json",
+    "bytes": 4528,
+    "sha256": "c5f814a9f769945c5dc6b45327f898da592d713e2fbd642cf0fcd3aaf7690d3f"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_130709_reset_4af19d/trial_result.json",
+    "bytes": 4475,
+    "sha256": "a80924fb8c5c81eea6ec83830bdf7c493cbf1f4d447b36e3d3aa9aa279d0d944"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_130958_reset_d5a8f9/trial_result.json",
+    "bytes": 4528,
+    "sha256": "63d2d7df2dac68a7cb4508ac7ac04d6e0ecec6c2e944fa5c6f5ebf46064e5e78"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_132852_reset_02580f/trial_result.json",
+    "bytes": 4504,
+    "sha256": "a7144ec65090b34fdd6a42c264177751266f05afad3163a479558c947b9a6b55"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_133914_reset_d5c23a/trial_result.json",
+    "bytes": 4512,
+    "sha256": "13d0f507b27a78beb6ab74d04160e1fc8a9f299ac769a847c1f55f788e0ccdc1"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_134708_reset_86827c/trial_result.json",
+    "bytes": 4533,
+    "sha256": "6f3197bec597373d6eb787c7453fdc6475edb799a8fba32a2ec40ae0656de432"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_134943_reset_23371c/trial_result.json",
+    "bytes": 4540,
+    "sha256": "5e54bdc1044c4b0dc307223f54961dc778dc1e17dedf2f76358f8a0adb989c4e"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_140105_reset_3fcefd/trial_result.json",
+    "bytes": 4505,
+    "sha256": "53b4dcbbcc880b0c0e66952c0caf7425c3c6ba419df26b2f3f91dd0bad200317"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_142219_reset_e2211a/trial_result.json",
+    "bytes": 4531,
+    "sha256": "cb97bf7f6dc76f3220d5d6938db76f0001131a215f11cecf7b8146d7164e289f"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_142612_reset_43c279/trial_result.json",
+    "bytes": 4645,
+    "sha256": "480bb866e7d692f7e6dd4355dba27dbe51fd9aedc7ffd2580f71d06efff363c0"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_142612_reset_43c279/experiment_config.json",
+    "bytes": 2774,
+    "sha256": "2e5c3175e67a2f43d9a1ac7a629e2e0daa220222e2a3729de97a13c9448fb4d6"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_142612_reset_43c279/session.json",
+    "bytes": 5763,
+    "sha256": "fe40fdc33e09854507a80a94f0e1e6e91027596ae898ae9c0716fd43d3e20bc0"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_142612_reset_43c279/events.jsonl",
+    "bytes": 24441,
+    "sha256": "61f128f0e739c2c79c21ee0b21a2fa2fa3d115d9e0f089de3e418896c5dc39c4"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_142612_reset_43c279/raw_webxr.jsonl",
+    "bytes": 6626428,
+    "sha256": "c74aac79cd500a644dd0a1cf8183d5f1a2cd2c21a54ea14885ebfb50ad8df2e0"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_142612_reset_43c279/scene.xml",
+    "bytes": 41053,
+    "sha256": "d052c1f0d4cffe3adeaa5f5605867adda3f36f2ebfd21055614495eb68f7c46c"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_142853_reset_192804/trial_result.json",
+    "bytes": 4649,
+    "sha256": "b81df37c1ccf939ee1e8b03a9aef0daf5f5a9eaafc74cb1f0333c5f6621bf7b3"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_142853_reset_192804/experiment_config.json",
+    "bytes": 2772,
+    "sha256": "9b55fe5272bb44ab333c8beab8694e6f4d7407f34d6c9006de740c4901ee5886"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_142853_reset_192804/session.json",
+    "bytes": 5758,
+    "sha256": "9628b23f3958f00bbb6949bf0eff966a99f5c3dd97a6ba85b88f48774d6ba10a"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_142853_reset_192804/events.jsonl",
+    "bytes": 21919,
+    "sha256": "5022e697f96a1039c034f8b755b9ee9c3b1abb3d889ca6f6c00b90a005dbca19"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_142853_reset_192804/raw_webxr.jsonl",
+    "bytes": 4479523,
+    "sha256": "5a860278f058f403314bd7d0b09afef4926e2e3ac9a7f89a2065e786a5618c6a"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_142853_reset_192804/scene.xml",
+    "bytes": 41053,
+    "sha256": "d052c1f0d4cffe3adeaa5f5605867adda3f36f2ebfd21055614495eb68f7c46c"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_143054_reset_8cb3ee/trial_result.json",
+    "bytes": 4628,
+    "sha256": "8f400b546e5bfb5cc4cc97debaf6899d85e18f2922efcb183aad05ec6996f69c"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_143054_reset_8cb3ee/experiment_config.json",
+    "bytes": 2776,
+    "sha256": "6f1c2ee567d527b0c61b438814ea32977301d075ee1e7789fc3aa75ac7c6f030"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_143054_reset_8cb3ee/session.json",
+    "bytes": 5767,
+    "sha256": "d08f996701982b7878c2383825767b721171f08feea5b0b8ddd2fb652393ec55"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_143054_reset_8cb3ee/events.jsonl",
+    "bytes": 10895,
+    "sha256": "4deb8eaefd8d3e862cd323f3f8926ed52666e6d64c0beb521091c32abb42acc3"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_143054_reset_8cb3ee/raw_webxr.jsonl",
+    "bytes": 2690515,
+    "sha256": "801aff700133891997557e49c7f24978bdb88d961a2a2d4de66265d5c32d7d4e"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_143054_reset_8cb3ee/scene.xml",
+    "bytes": 41059,
+    "sha256": "5fb0c3877c1b7cb4f390be5530fa0b8a3d6cc4f014ddeee4a768232732c75a66"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_143711_reset_8c437b/trial_result.json",
+    "bytes": 4630,
+    "sha256": "0e7d9f9c2db22ee690539bbf1d5b75b4989077c2079647216f62bb2c7db8ac0d"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_143711_reset_8c437b/experiment_config.json",
+    "bytes": 2776,
+    "sha256": "6f1c2ee567d527b0c61b438814ea32977301d075ee1e7789fc3aa75ac7c6f030"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_143711_reset_8c437b/session.json",
+    "bytes": 5783,
+    "sha256": "d629948b614dfe4c0c712fd762f7ebc6c967d1b0523c563df7d6b9e434551376"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_143711_reset_8c437b/events.jsonl",
+    "bytes": 22266,
+    "sha256": "e52d5b6d33609cc5e301c2455a5454fdcd31cde943848e41184c5e6c70286086"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_143711_reset_8c437b/raw_webxr.jsonl",
+    "bytes": 4947938,
+    "sha256": "9caf48fbdd23c0d289990dc275f17d58dfc680c38ab06da3c39902ef8c109062"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_143711_reset_8c437b/scene.xml",
+    "bytes": 41059,
+    "sha256": "5fb0c3877c1b7cb4f390be5530fa0b8a3d6cc4f014ddeee4a768232732c75a66"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_143922_reset_b2ab62/trial_result.json",
+    "bytes": 4653,
+    "sha256": "330b8d2f21e8e8737b7474ebedaef4ea24f9f7e36212885f1404fe835575272e"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_143922_reset_b2ab62/experiment_config.json",
+    "bytes": 2776,
+    "sha256": "6f1c2ee567d527b0c61b438814ea32977301d075ee1e7789fc3aa75ac7c6f030"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_143922_reset_b2ab62/session.json",
+    "bytes": 5771,
+    "sha256": "67ddb0d413a3a0dad8af16aaea6e044a2791a11e98a0b2c5231c862728ec1a82"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_143922_reset_b2ab62/events.jsonl",
+    "bytes": 23257,
+    "sha256": "4eb22bdc6190256c0779b53522d30e4b195d26ca13a265232e4596a56455c143"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_143922_reset_b2ab62/raw_webxr.jsonl",
+    "bytes": 6982341,
+    "sha256": "498b0ae8b379396f464073fd7d7f92f0196c56718bbf876aa70ea9cf320a91bc"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_143922_reset_b2ab62/scene.xml",
+    "bytes": 41059,
+    "sha256": "5fb0c3877c1b7cb4f390be5530fa0b8a3d6cc4f014ddeee4a768232732c75a66"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_144203_reset_34fcb7/trial_result.json",
+    "bytes": 4608,
+    "sha256": "4dcdbdc6ce84894133293567991269f0e3a0237c1f7cd777f5877f3c3b7442b6"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_144203_reset_34fcb7/experiment_config.json",
+    "bytes": 2776,
+    "sha256": "6f1c2ee567d527b0c61b438814ea32977301d075ee1e7789fc3aa75ac7c6f030"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_144203_reset_34fcb7/session.json",
+    "bytes": 5618,
+    "sha256": "9a0b1225c8271d3fe5f6b44b04f29ba2a272608fafe88b890e3cbc2421896290"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_144203_reset_34fcb7/events.jsonl",
+    "bytes": 9402,
+    "sha256": "93364fd407d3c8ab245043deac614d074e17f757452f2a04c4b6f81c8ba073b6"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_144203_reset_34fcb7/raw_webxr.jsonl",
+    "bytes": 2306268,
+    "sha256": "a4394a9508e2c8d9c5290391ce4b073092e73da387b57df95b6694a1b70a1a67"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_144203_reset_34fcb7/scene.xml",
+    "bytes": 41059,
+    "sha256": "5fb0c3877c1b7cb4f390be5530fa0b8a3d6cc4f014ddeee4a768232732c75a66"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_144358_reset_8d27ae/trial_result.json",
+    "bytes": 4649,
+    "sha256": "0c64ab6862880214eda2b3afa3800cfcd9162e7758a99793ef9f033dc304ca9a"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_144358_reset_8d27ae/experiment_config.json",
+    "bytes": 2776,
+    "sha256": "6f1c2ee567d527b0c61b438814ea32977301d075ee1e7789fc3aa75ac7c6f030"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_144358_reset_8d27ae/session.json",
+    "bytes": 5769,
+    "sha256": "32aca453546cb3c3700dba5f5894d185864a947637ab72098cb2baa3a20a3129"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_144358_reset_8d27ae/events.jsonl",
+    "bytes": 23987,
+    "sha256": "b1337d36ff672f43df078ac43b17fd4427e01b075e5427959d416c91a9f77333"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_144358_reset_8d27ae/raw_webxr.jsonl",
+    "bytes": 4166327,
+    "sha256": "c33cef0a99b5bc2f252992ef9acd2decc13ba5f846be204a888ac2baa7c71de1"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_144358_reset_8d27ae/scene.xml",
+    "bytes": 41059,
+    "sha256": "5fb0c3877c1b7cb4f390be5530fa0b8a3d6cc4f014ddeee4a768232732c75a66"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_144540_reset_5f9521/trial_result.json",
+    "bytes": 4634,
+    "sha256": "b1179456d17a77d9e9a7db2774c90ebe88a3dd9cc92355d8a4c4bcc4171beffa"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_144540_reset_5f9521/experiment_config.json",
+    "bytes": 2778,
+    "sha256": "5d8c8b849c491d9d59fcfb9941a54f486197788880f208ff07fc4e927aedbc8c"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_144540_reset_5f9521/session.json",
+    "bytes": 5772,
+    "sha256": "dd9fa5d6bc03f2d80aaf338d8999a14f279e9a6d9574303298b879bbb75ee233"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_144540_reset_5f9521/events.jsonl",
+    "bytes": 10410,
+    "sha256": "d6b995df5751077e83bea6de02892978c5f5bfe766075d189d96b010f5146b5c"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_144540_reset_5f9521/raw_webxr.jsonl",
+    "bytes": 2626674,
+    "sha256": "d0a8f0fb2c92881f033b7caa220bb90b2e7406c318eb355542a9e7ab0456fbcd"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_144540_reset_5f9521/scene.xml",
+    "bytes": 41059,
+    "sha256": "5fb0c3877c1b7cb4f390be5530fa0b8a3d6cc4f014ddeee4a768232732c75a66"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_144702_reset_a2a554/trial_result.json",
+    "bytes": 4650,
+    "sha256": "4e959c40376073ac11a4808db2bb5838f1cec7d1b5c6b8a49b0f1b6e99892aaf"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_144702_reset_a2a554/experiment_config.json",
+    "bytes": 2778,
+    "sha256": "5d8c8b849c491d9d59fcfb9941a54f486197788880f208ff07fc4e927aedbc8c"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_144702_reset_a2a554/session.json",
+    "bytes": 5775,
+    "sha256": "363a674f45822bba9ae34a968752c9ef739b2dfd71b95c50d539b9dc039bcbb9"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_144702_reset_a2a554/events.jsonl",
+    "bytes": 37046,
+    "sha256": "0f643c1971d95cbdebad6af1bba810d81793bbe009fc15bec196932ea9a50fbe"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_144702_reset_a2a554/raw_webxr.jsonl",
+    "bytes": 9516779,
+    "sha256": "c1209d4ab5c4d0ce02edba3f02843feece657f72ae7a784253bce2a7b46b1736"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_144702_reset_a2a554/scene.xml",
+    "bytes": 41059,
+    "sha256": "5fb0c3877c1b7cb4f390be5530fa0b8a3d6cc4f014ddeee4a768232732c75a66"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_145037_reset_f467aa/trial_result.json",
+    "bytes": 4636,
+    "sha256": "b88b1f133e95111289fff84b506abfd8589b51d36f3b8cac23e46261b8673c4e"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_145037_reset_f467aa/experiment_config.json",
+    "bytes": 2778,
+    "sha256": "740cb6b4870c199156c0bff248150de97d920fe4410afc292adf0e263531c383"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_145037_reset_f467aa/session.json",
+    "bytes": 5778,
+    "sha256": "7a4837d3305e2ef92d47aefeec251522a65ee34aba4f3b63eddf18275538721a"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_145037_reset_f467aa/events.jsonl",
+    "bytes": 19865,
+    "sha256": "ef1310bc090b88cb9279dab5e55c36c22a186de8195083bffdf2bec9d43a6249"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_145037_reset_f467aa/raw_webxr.jsonl",
+    "bytes": 5307425,
+    "sha256": "b2199ce4c3c22ae3c9a427d6de8ca7356e77835937de22802e95f0f926e97a1a"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_145037_reset_f467aa/scene.xml",
+    "bytes": 41060,
+    "sha256": "889e4b6336ea481c43b42d17fea244b7fbd7f8f44eb9067a52decb2683c1ee8b"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_154842_reset_66b05a/trial_result.json",
+    "bytes": 4646,
+    "sha256": "ca64657f3fbc6f722c74b2d782e0fbd75829ea7fcd400808218b3d18768b47d0"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_154842_reset_66b05a/experiment_config.json",
+    "bytes": 2778,
+    "sha256": "740cb6b4870c199156c0bff248150de97d920fe4410afc292adf0e263531c383"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_154842_reset_66b05a/session.json",
+    "bytes": 5780,
+    "sha256": "ca09080557c91ca186f6073ffd2c3629349cf173b721f6b2e6213ec394a9068b"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_154842_reset_66b05a/events.jsonl",
+    "bytes": 14093,
+    "sha256": "a86a89dd0a5fb00d10df39a781803db3fc9cfa8e5e3b7f92f9f8a9310e083bd4"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_154842_reset_66b05a/raw_webxr.jsonl",
+    "bytes": 4605153,
+    "sha256": "16fa6b36bd9ee363a67b0703b90aef5de64934f0ea3437cb9bdfa125e9158ca3"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_154842_reset_66b05a/scene.xml",
+    "bytes": 41060,
+    "sha256": "889e4b6336ea481c43b42d17fea244b7fbd7f8f44eb9067a52decb2683c1ee8b"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_155401_reset_f455b4/trial_result.json",
+    "bytes": 4649,
+    "sha256": "20e91312a0563caaccc64017be46fea21da480b73e49594298c5d5d15ed88a9a"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_155401_reset_f455b4/experiment_config.json",
+    "bytes": 2778,
+    "sha256": "740cb6b4870c199156c0bff248150de97d920fe4410afc292adf0e263531c383"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_155401_reset_f455b4/session.json",
+    "bytes": 5776,
+    "sha256": "e980d34746c0228f8df29c18ed775db36c424f6ae7c425df3745ce57447f09f5"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_155401_reset_f455b4/events.jsonl",
+    "bytes": 14062,
+    "sha256": "b1660575edb5a032c1101726ad38f55888929056d6e37ab09c4a78b4b0128267"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_155401_reset_f455b4/raw_webxr.jsonl",
+    "bytes": 4721068,
+    "sha256": "242e6c78b8852123c0fb00be673b3692fd0a9c64c02bc33edad367e5f4519643"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_155401_reset_f455b4/scene.xml",
+    "bytes": 41060,
+    "sha256": "889e4b6336ea481c43b42d17fea244b7fbd7f8f44eb9067a52decb2683c1ee8b"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_160042_reset_8cb6d8/trial_result.json",
+    "bytes": 4629,
+    "sha256": "1decca4f2f8a397364c421e0b088fa1b23471527a0cf8cb9ce34f52aa2b60348"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_160042_reset_8cb6d8/experiment_config.json",
+    "bytes": 2776,
+    "sha256": "47c4e9622f108a06c7b20c4975c0315e651da1f7047c1e3fbab4a9708c3e6249"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_160042_reset_8cb6d8/session.json",
+    "bytes": 5769,
+    "sha256": "8d2d18fb44f033cfca28d19980ec4d82d7412e6ae3c077e82ccea85dd727b6e0"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_160042_reset_8cb6d8/events.jsonl",
+    "bytes": 10734,
+    "sha256": "bd98faef400cf41df3c278b3af1beeb6d4d0ffedfa318ee11a7c950e0c6ac764"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_160042_reset_8cb6d8/raw_webxr.jsonl",
+    "bytes": 2470361,
+    "sha256": "56ec4d5a863b0219ff49331296831958d2a6c51dcb95361006195b5358d9af58"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_160042_reset_8cb6d8/scene.xml",
+    "bytes": 41060,
+    "sha256": "889e4b6336ea481c43b42d17fea244b7fbd7f8f44eb9067a52decb2683c1ee8b"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_160231_reset_51108e/trial_result.json",
+    "bytes": 4630,
+    "sha256": "3b684b7b4666b0b07018f83d969d0a19c061497163509f9437b5350a58440237"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_160231_reset_51108e/experiment_config.json",
+    "bytes": 2778,
+    "sha256": "740cb6b4870c199156c0bff248150de97d920fe4410afc292adf0e263531c383"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_160231_reset_51108e/session.json",
+    "bytes": 5773,
+    "sha256": "f83ec85119f3020eb1314a26ac2722be807d457d72afff0671ce8dce6046bcbb"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_160231_reset_51108e/events.jsonl",
+    "bytes": 9242,
+    "sha256": "9f81adfae94cfd7b5fd77b7478c8a365d3a2330cc3b75825523e14d523d376b4"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_160231_reset_51108e/raw_webxr.jsonl",
+    "bytes": 1690214,
+    "sha256": "e9a11ee7d1b737319137b06473660bf6d6227c7f08affa9541c3251a19a8f401"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_160231_reset_51108e/scene.xml",
+    "bytes": 41060,
+    "sha256": "889e4b6336ea481c43b42d17fea244b7fbd7f8f44eb9067a52decb2683c1ee8b"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_160414_reset_581538/trial_result.json",
+    "bytes": 4647,
+    "sha256": "cbd98d2f8c426a9cece286f561cf97eb68cbf27cfd9db49f2ce60c05b0add107"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_160414_reset_581538/experiment_config.json",
+    "bytes": 2776,
+    "sha256": "47c4e9622f108a06c7b20c4975c0315e651da1f7047c1e3fbab4a9708c3e6249"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_160414_reset_581538/session.json",
+    "bytes": 5772,
+    "sha256": "cf5faf7f1c2fe174904de8ac0f995cccc62644d66402e43b685d31061a390374"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_160414_reset_581538/events.jsonl",
+    "bytes": 11940,
+    "sha256": "837fa4d733f350049ee93e9d2e875c287215c38596deda27f4a0186df5217c0c"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_160414_reset_581538/raw_webxr.jsonl",
+    "bytes": 2462641,
+    "sha256": "6d1bb9e03517402f36b0661b34983d35817f0a016d1690e4c158ecfcc600f00c"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_160414_reset_581538/scene.xml",
+    "bytes": 41060,
+    "sha256": "889e4b6336ea481c43b42d17fea244b7fbd7f8f44eb9067a52decb2683c1ee8b"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_161042_reset_d2914b/trial_result.json",
+    "bytes": 4653,
+    "sha256": "26317e98f4acd3f19004850cb5216d2cb8f197fb383e57d8a812269322b04bb8"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_161042_reset_d2914b/experiment_config.json",
+    "bytes": 2776,
+    "sha256": "47c4e9622f108a06c7b20c4975c0315e651da1f7047c1e3fbab4a9708c3e6249"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_161042_reset_d2914b/session.json",
+    "bytes": 5770,
+    "sha256": "e5677e8cdfc4c5b51963f28f2fb16305ed12a13f0f1148f522115517c1c1e8ae"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_161042_reset_d2914b/events.jsonl",
+    "bytes": 30144,
+    "sha256": "8a842d74e4b01238c4664b97709023c08e59d8bd7e2fba944291e849fdf1fea7"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_161042_reset_d2914b/raw_webxr.jsonl",
+    "bytes": 7638527,
+    "sha256": "a08f01ec137bf0911233055d1d7310af51aa975ff12ed5e1973e7342634b7113"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_161042_reset_d2914b/scene.xml",
+    "bytes": 41060,
+    "sha256": "889e4b6336ea481c43b42d17fea244b7fbd7f8f44eb9067a52decb2683c1ee8b"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_161415_reset_a47c76/trial_result.json",
+    "bytes": 4645,
+    "sha256": "38cc84cd2233ca3613a4a225fcedaa14bee0fedf375635fa2e27b2de60a58fab"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_161415_reset_a47c76/experiment_config.json",
+    "bytes": 2772,
+    "sha256": "7f0b6a575bd665f7c462ef41afdebdd04306675304917468598082f521f8a46e"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_161415_reset_a47c76/session.json",
+    "bytes": 5759,
+    "sha256": "1346a99530420187087e71cfdb357ac71c550182399922ce90b669dd93bc5c0a"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_161415_reset_a47c76/events.jsonl",
+    "bytes": 12132,
+    "sha256": "56371644d9fad03426c4e57b9a519043dafca9892a69fa88341107abd9a87727"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_161415_reset_a47c76/raw_webxr.jsonl",
+    "bytes": 4502565,
+    "sha256": "11abe82c4ad7254be6bf9b15b61c578fe27fec65a9c5d0ce36a40001a317196a"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_161415_reset_a47c76/scene.xml",
+    "bytes": 41053,
+    "sha256": "f022b3a8c431d0adb35dc0e4833928a3436e15d049c278998c1e6b14ddd51bcb"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_161622_reset_a1354e/trial_result.json",
+    "bytes": 4647,
+    "sha256": "b073e9835817e71aaad1d972f25812bc4f883f05ebcdca17a3775e00422f136a"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_161622_reset_a1354e/experiment_config.json",
+    "bytes": 2774,
+    "sha256": "8201aa86b3eb32971bc9e530267d112d5fd2a55b243717a26f335f31680c252d"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_161622_reset_a1354e/session.json",
+    "bytes": 5768,
+    "sha256": "2b4ee3bdfd19f523a70e303598e3b39d4715634285a7256261231c2e8328d8b6"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_161622_reset_a1354e/events.jsonl",
+    "bytes": 47435,
+    "sha256": "48d62d16890341c24b25a1f691547dd82a27f8613d51e13834199165c2494996"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_161622_reset_a1354e/raw_webxr.jsonl",
+    "bytes": 4744727,
+    "sha256": "3d9f0b42b1061e86e7e41e976e996c139aa935d72ab6d245636fecb655e19746"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_161622_reset_a1354e/scene.xml",
+    "bytes": 41053,
+    "sha256": "f022b3a8c431d0adb35dc0e4833928a3436e15d049c278998c1e6b14ddd51bcb"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_161818_reset_c63b52/trial_result.json",
+    "bytes": 4635,
+    "sha256": "cbdfb0db2166600a1d1add5354016d683a0a61b49b613354b86ecba65b655913"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_161818_reset_c63b52/experiment_config.json",
+    "bytes": 2778,
+    "sha256": "5d8c8b849c491d9d59fcfb9941a54f486197788880f208ff07fc4e927aedbc8c"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_161818_reset_c63b52/session.json",
+    "bytes": 5774,
+    "sha256": "03db706a8e4f89a33dfb88de938dff7670fff5083e0557e452c5aeb3d921cc9d"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_161818_reset_c63b52/events.jsonl",
+    "bytes": 9254,
+    "sha256": "47f772f2aab0a02f2362c9913f2326a68243436643dc08964963aec34a6e528e"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_161818_reset_c63b52/raw_webxr.jsonl",
+    "bytes": 1356372,
+    "sha256": "0406c3db6c08732a998fd3bcd05c23e3adb0180d24e6ffe2faf305ecae2ba126"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_161818_reset_c63b52/scene.xml",
+    "bytes": 41059,
+    "sha256": "5fb0c3877c1b7cb4f390be5530fa0b8a3d6cc4f014ddeee4a768232732c75a66"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_161901_reset_7ee437/trial_result.json",
+    "bytes": 4652,
+    "sha256": "1ee4330e6daf884c81b4a5a4cbbcf71632aacb2e3d03a62f0a63143b7209870d"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_161901_reset_7ee437/experiment_config.json",
+    "bytes": 2778,
+    "sha256": "5d8c8b849c491d9d59fcfb9941a54f486197788880f208ff07fc4e927aedbc8c"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_161901_reset_7ee437/session.json",
+    "bytes": 5774,
+    "sha256": "d2c92e6582897f38e676c793b4d3cf5853d65f8516adfb9811975d23c9bafa1f"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_161901_reset_7ee437/events.jsonl",
+    "bytes": 12358,
+    "sha256": "a9e882cf54fd470055f1cc63656c4efbeb858275de97c664197f4e5d7ffe86bc"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_161901_reset_7ee437/raw_webxr.jsonl",
+    "bytes": 4330806,
+    "sha256": "6f6eaf8c7864f17268c681cc3777acf8877d1d2f56dc5166d70f43d99ddd5ac3"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_161901_reset_7ee437/scene.xml",
+    "bytes": 41059,
+    "sha256": "5fb0c3877c1b7cb4f390be5530fa0b8a3d6cc4f014ddeee4a768232732c75a66"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_162123_reset_8c850d/trial_result.json",
+    "bytes": 4654,
+    "sha256": "f01bc2db497576007fa8dae70e4776f456c5851978f5ae95915c088baf14a834"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_162123_reset_8c850d/experiment_config.json",
+    "bytes": 2778,
+    "sha256": "740cb6b4870c199156c0bff248150de97d920fe4410afc292adf0e263531c383"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_162123_reset_8c850d/session.json",
+    "bytes": 5779,
+    "sha256": "3028d2ae90ed26393c2c62c4fed4a0dd1d1ad85290038dd7aa9a7d5740ec670c"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_162123_reset_8c850d/events.jsonl",
+    "bytes": 34142,
+    "sha256": "6fc6cc7308ffac9df836bf42c2767f43a7fd43c554f65fc6d927b0c24aac25a0"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_162123_reset_8c850d/raw_webxr.jsonl",
+    "bytes": 3781698,
+    "sha256": "dc57efd9a6fcf7c24977cc47c798750ded7181c0e6164761223e3eebb338189a"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_162123_reset_8c850d/scene.xml",
+    "bytes": 41060,
+    "sha256": "889e4b6336ea481c43b42d17fea244b7fbd7f8f44eb9067a52decb2683c1ee8b"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_162329_reset_111b69/trial_result.json",
+    "bytes": 4643,
+    "sha256": "f2741681892d006069426da63c7600d9c9f306931e8e0801764f95d832d4856a"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_162329_reset_111b69/experiment_config.json",
+    "bytes": 2776,
+    "sha256": "47c4e9622f108a06c7b20c4975c0315e651da1f7047c1e3fbab4a9708c3e6249"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_162329_reset_111b69/session.json",
+    "bytes": 5773,
+    "sha256": "b07afb68992b334a18308f1795545d02022fc535204d0442f23c27c5a266e6d6"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_162329_reset_111b69/events.jsonl",
+    "bytes": 15660,
+    "sha256": "e0b6a3883aebfd2281677d6cffd803f48d7f1f5eba5df74d295fe5e981d6df42"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_162329_reset_111b69/raw_webxr.jsonl",
+    "bytes": 4523833,
+    "sha256": "72ad3505a98fec9cf898c2c874e63458cd215fff444f0559407c23f888cfaea0"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_162329_reset_111b69/scene.xml",
+    "bytes": 41060,
+    "sha256": "889e4b6336ea481c43b42d17fea244b7fbd7f8f44eb9067a52decb2683c1ee8b"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_162519_reset_09c6c4/trial_result.json",
+    "bytes": 4645,
+    "sha256": "f473e2c7646cb8b12ade2aef25fd0d31333827326e27449fbeb82681647285ff"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_162519_reset_09c6c4/experiment_config.json",
+    "bytes": 2776,
+    "sha256": "6f1c2ee567d527b0c61b438814ea32977301d075ee1e7789fc3aa75ac7c6f030"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_162519_reset_09c6c4/session.json",
+    "bytes": 5769,
+    "sha256": "663ac2d31118e6e00164e21595e7b2dd78b5aaf350c36b28c75d6d5a56267f9c"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_162519_reset_09c6c4/events.jsonl",
+    "bytes": 16526,
+    "sha256": "0ff6ab28645543afa34471edd3428814c0192211c5b019f9e609f0f26e263098"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_162519_reset_09c6c4/raw_webxr.jsonl",
+    "bytes": 3569154,
+    "sha256": "4c3ebb109a3cd2b2e0bec22b42d3c49e72907328adf89439f9b1da2a77c75aa0"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_162519_reset_09c6c4/scene.xml",
+    "bytes": 41059,
+    "sha256": "5fb0c3877c1b7cb4f390be5530fa0b8a3d6cc4f014ddeee4a768232732c75a66"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_163704_reset_216c84/trial_result.json",
+    "bytes": 4507,
+    "sha256": "04ad40fab0adcf71dec59348bd491f1efec04355e97b1fe77b693433a584f6bf"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_163915_reset_11ac1a/trial_result.json",
+    "bytes": 4506,
+    "sha256": "4ab48bbd8ea55c1706d42bfda09c0e763865e9dd27fb9c170666a1eac7b4af1e"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_164434_reset_439165/trial_result.json",
+    "bytes": 4534,
+    "sha256": "6dd971a9f2ae423ff766cd29051e6cf43cbcaedbf87380de28942edc618bd3ff"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_164649_reset_8a0e7f/trial_result.json",
+    "bytes": 4520,
+    "sha256": "ecd315444b18fb464f4cf15e1c6d3fefd372de31154ea900dd8d029a63a3ec40"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_164944_reset_ced85b/trial_result.json",
+    "bytes": 4538,
+    "sha256": "af604f02f5cb1681a69dee87da01751bc5f78ded369f2c25a056dc03771f8840"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_165827_reset_ffb81d/trial_result.json",
+    "bytes": 4650,
+    "sha256": "6bdee2da36b9cb2327e07aba35ecd71c8e2bbb90f0ae9c57731198e77370c5c4"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_165827_reset_ffb81d/experiment_config.json",
+    "bytes": 2772,
+    "sha256": "7ba872794edbc6754cc00f48b6862e0eeb88f77d391312432d06d899effc5aa6"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_165827_reset_ffb81d/session.json",
+    "bytes": 5757,
+    "sha256": "000086ff4b88b0b7e8674f4c78b86dcb1b34e344beb844ecace919b23ceb680b"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_165827_reset_ffb81d/events.jsonl",
+    "bytes": 44817,
+    "sha256": "30109df2c5c245c825cb47338339369bb19112bda7d81107e0d683a83d4c4e06"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_165827_reset_ffb81d/raw_webxr.jsonl",
+    "bytes": 7356868,
+    "sha256": "1f29a59789385e07f3c412339a0ac53fde8504b371fee648ea6cd9680f01480e"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_165827_reset_ffb81d/scene.xml",
+    "bytes": 41053,
+    "sha256": "d052c1f0d4cffe3adeaa5f5605867adda3f36f2ebfd21055614495eb68f7c46c"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_170148_reset_c96d52/trial_result.json",
+    "bytes": 4595,
+    "sha256": "a55d20ff21fdff2d0fee30dd13f6a05ac2aba8e9063e5e080312c2380d930527"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_170148_reset_c96d52/experiment_config.json",
+    "bytes": 2776,
+    "sha256": "21d6e9313d4d19a1c67d45370b09ffcc79a95cbf6a0e1c0fb4c593b22c82a006"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_170148_reset_c96d52/session.json",
+    "bytes": 5768,
+    "sha256": "6973b8dcfeaba01385d9911e8b923f985f65e8bcf70399af8cd86bd4feb18187"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_170148_reset_c96d52/events.jsonl",
+    "bytes": 8580,
+    "sha256": "cd3f4c9f245250e78dd7cf276a6ae72fc4d3d96dbff00597fc2b03031c200ff1"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_170148_reset_c96d52/raw_webxr.jsonl",
+    "bytes": 889253,
+    "sha256": "3c1401299fcc0154bcb3c3dc872d03bc8edeb7f13a8ab922ec61c2f8a87c31c2"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_170148_reset_c96d52/scene.xml",
+    "bytes": 41059,
+    "sha256": "5fb0c3877c1b7cb4f390be5530fa0b8a3d6cc4f014ddeee4a768232732c75a66"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_170250_reset_9fb4c4/trial_result.json",
+    "bytes": 4626,
+    "sha256": "e527829ff631eb07956b13421cd847d15a8ff9dcf5616fdcce1f433a4b2ed2ce"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_170250_reset_9fb4c4/experiment_config.json",
+    "bytes": 2776,
+    "sha256": "21d6e9313d4d19a1c67d45370b09ffcc79a95cbf6a0e1c0fb4c593b22c82a006"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_170250_reset_9fb4c4/session.json",
+    "bytes": 5766,
+    "sha256": "8e84e29087f54d46132d67b2ec40434f02829d1b355b878bb3c27e2416a98be0"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_170250_reset_9fb4c4/events.jsonl",
+    "bytes": 9141,
+    "sha256": "ea4bff6df8d15372069e27bbb993ffea6cfdb8fd5cc1c2ac1a9fbec583a76b13"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_170250_reset_9fb4c4/raw_webxr.jsonl",
+    "bytes": 828643,
+    "sha256": "5bcca882ea247ebbc231e6a83d8d87b9d7f1cd1b9b912802dadbbbca8d4655ee"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_170250_reset_9fb4c4/scene.xml",
+    "bytes": 41059,
+    "sha256": "5fb0c3877c1b7cb4f390be5530fa0b8a3d6cc4f014ddeee4a768232732c75a66"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_170347_reset_a0817d/trial_result.json",
+    "bytes": 4623,
+    "sha256": "6d108cf71e755662b3c534f33dcb78dc0b972aac772449150f4acb58d8f764fd"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_170347_reset_a0817d/experiment_config.json",
+    "bytes": 2776,
+    "sha256": "21d6e9313d4d19a1c67d45370b09ffcc79a95cbf6a0e1c0fb4c593b22c82a006"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_170347_reset_a0817d/session.json",
+    "bytes": 5769,
+    "sha256": "96bedd911db7313ccc86773162b6e07eda365c8ef8810ce2c718437a66beb2af"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_170347_reset_a0817d/events.jsonl",
+    "bytes": 11026,
+    "sha256": "2ed2e58706191c2fc4dbee59439ec056545551011fd36caa6fa5b4b57ca5b395"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_170347_reset_a0817d/raw_webxr.jsonl",
+    "bytes": 2303018,
+    "sha256": "1b11f23b09439109bdb303914ef898fd960340ed798f14af02ba5e169a5a5cc3"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_170347_reset_a0817d/scene.xml",
+    "bytes": 41059,
+    "sha256": "5fb0c3877c1b7cb4f390be5530fa0b8a3d6cc4f014ddeee4a768232732c75a66"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_170455_reset_10e030/trial_result.json",
+    "bytes": 4652,
+    "sha256": "1d7be8054d05ed19c44672397fa2fd51eee50021094b831ccc28b0797b9b8200"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_170455_reset_10e030/experiment_config.json",
+    "bytes": 2776,
+    "sha256": "21d6e9313d4d19a1c67d45370b09ffcc79a95cbf6a0e1c0fb4c593b22c82a006"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_170455_reset_10e030/session.json",
+    "bytes": 5783,
+    "sha256": "2bf1b113638c3c68c1d65b61b4d00864dee4717f41f3c4a2dbb49ed1f9159898"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_170455_reset_10e030/events.jsonl",
+    "bytes": 22702,
+    "sha256": "ca09fc65b843e7f356bc06daffd7efc8afc74072f1be65ccd0ba85cc7d92bdbc"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_170455_reset_10e030/raw_webxr.jsonl",
+    "bytes": 1918175,
+    "sha256": "31126f781979794449466d77dd1be4dac9b2c16c89d4feac2043d66953ab5fa1"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_170455_reset_10e030/scene.xml",
+    "bytes": 41059,
+    "sha256": "5fb0c3877c1b7cb4f390be5530fa0b8a3d6cc4f014ddeee4a768232732c75a66"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_170601_reset_babf37/trial_result.json",
+    "bytes": 4644,
+    "sha256": "3eb85c08e01d097ca69384cdb8f34eb42dc1cd9c544795e468991959ce90d876"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_170601_reset_babf37/experiment_config.json",
+    "bytes": 2776,
+    "sha256": "21d6e9313d4d19a1c67d45370b09ffcc79a95cbf6a0e1c0fb4c593b22c82a006"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_170601_reset_babf37/session.json",
+    "bytes": 5783,
+    "sha256": "1cbc385cece2df9de36b95d51b562f105133abcaba52d89c940a1aff99012e23"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_170601_reset_babf37/events.jsonl",
+    "bytes": 13603,
+    "sha256": "013f59a107b3a8824c51aa2b17ddc69063ce33225e6b71310fa910b6ef5b5c8a"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_170601_reset_babf37/raw_webxr.jsonl",
+    "bytes": 4116971,
+    "sha256": "16bfc0aa7012ff214c3291ecc0f9d1da0a9a4d01e0a9b179a7e05722ae75795a"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_170601_reset_babf37/scene.xml",
+    "bytes": 41059,
+    "sha256": "5fb0c3877c1b7cb4f390be5530fa0b8a3d6cc4f014ddeee4a768232732c75a66"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_170751_reset_2960ce/trial_result.json",
+    "bytes": 4623,
+    "sha256": "b5fba8bcb15d1199efc063292e82a2debcc024b4e2dc27da482185d16b3f7ba4"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_170751_reset_2960ce/experiment_config.json",
+    "bytes": 2778,
+    "sha256": "e272607c52a4ed4ebe11eb270a799daf80d86ea36da36819f8d21cc824cb56d8"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_170751_reset_2960ce/session.json",
+    "bytes": 5771,
+    "sha256": "9ace7bd47b3047b271249fa5039f4ea16b39eed8d61bbad5fd3264aa7f8593a8"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_170751_reset_2960ce/events.jsonl",
+    "bytes": 13567,
+    "sha256": "e12ed1811064d90fa4d9423a4d4b6faf50a1454763a9a47c993332bbbb3aedd2"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_170751_reset_2960ce/raw_webxr.jsonl",
+    "bytes": 3408884,
+    "sha256": "951fe67966342127f5ea7335b9220208d1eef3371012c1b6ae6d801ccd1ad840"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_170751_reset_2960ce/scene.xml",
+    "bytes": 41059,
+    "sha256": "5fb0c3877c1b7cb4f390be5530fa0b8a3d6cc4f014ddeee4a768232732c75a66"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_170927_reset_15843e/trial_result.json",
+    "bytes": 4638,
+    "sha256": "eb883ea7b73dbeffffeb20b7d5476262da6379371c1ab95eb4dd137b3baa7d6e"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_170927_reset_15843e/experiment_config.json",
+    "bytes": 2776,
+    "sha256": "21d6e9313d4d19a1c67d45370b09ffcc79a95cbf6a0e1c0fb4c593b22c82a006"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_170927_reset_15843e/session.json",
+    "bytes": 5769,
+    "sha256": "1999b574bdd5875de83b5bedefe481db7c1a85431bcaaf0187cce21a63d997e9"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_170927_reset_15843e/events.jsonl",
+    "bytes": 13572,
+    "sha256": "4591687d94e4e9107446ac5c9ded7a8477a92180255a841896b9fec3ffb5cec0"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_170927_reset_15843e/raw_webxr.jsonl",
+    "bytes": 4540841,
+    "sha256": "67038818cd045a9244a914086ae7142ede183fa13c9bc7ec67a84b3677c8d1f8"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_170927_reset_15843e/scene.xml",
+    "bytes": 41059,
+    "sha256": "5fb0c3877c1b7cb4f390be5530fa0b8a3d6cc4f014ddeee4a768232732c75a66"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_171124_reset_3f0b38/trial_result.json",
+    "bytes": 4647,
+    "sha256": "64b02b8e1064031dc3710520fee17955d236c8e6510504ffc7bd9f64a17bc8bd"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_171124_reset_3f0b38/experiment_config.json",
+    "bytes": 2778,
+    "sha256": "e272607c52a4ed4ebe11eb270a799daf80d86ea36da36819f8d21cc824cb56d8"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_171124_reset_3f0b38/session.json",
+    "bytes": 5776,
+    "sha256": "98e33078e3d9965dfc098f23a983f4a11c600cf6ad5ff609e5188f0c9b045efe"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_171124_reset_3f0b38/events.jsonl",
+    "bytes": 13599,
+    "sha256": "0d94f1cfa48432613f961e405f607605384ebeba428c101516de83299465d105"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_171124_reset_3f0b38/raw_webxr.jsonl",
+    "bytes": 4215623,
+    "sha256": "26d6e9ee0d5b5842ce106e3fe9a44d9e0286a834156b06d969fc99ed666c07cc"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_171124_reset_3f0b38/scene.xml",
+    "bytes": 41059,
+    "sha256": "5fb0c3877c1b7cb4f390be5530fa0b8a3d6cc4f014ddeee4a768232732c75a66"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_171319_reset_3cea9b/trial_result.json",
+    "bytes": 4646,
+    "sha256": "d1c5460900f85f773ed6508204927425d0d26ec8c2b7945efc4e387368141c63"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_171319_reset_3cea9b/experiment_config.json",
+    "bytes": 2774,
+    "sha256": "3d855604166b3290eaa4302e9add040f6bd3e55f0a339436c615cbb20f870996"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_171319_reset_3cea9b/session.json",
+    "bytes": 5763,
+    "sha256": "114fbaac4aab963b77b5dac30ee1348453c714ab308c12d5bb96de7fca0f3ed2"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_171319_reset_3cea9b/events.jsonl",
+    "bytes": 17815,
+    "sha256": "21780322bd0ae3d5428442e43467dc2e07943c2473cacd90cd880b93dad74bf3"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_171319_reset_3cea9b/raw_webxr.jsonl",
+    "bytes": 4443068,
+    "sha256": "56c7d3db1e75bad0c544d24a2c489570564f6576bd6348e781a242aaf4189b1a"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_171319_reset_3cea9b/scene.xml",
+    "bytes": 41053,
+    "sha256": "d052c1f0d4cffe3adeaa5f5605867adda3f36f2ebfd21055614495eb68f7c46c"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_171509_reset_32a48d/trial_result.json",
+    "bytes": 4654,
+    "sha256": "5d4199ab6a3c840b0faed7539d171553d80573ddd642c6ecae34df46d69f0629"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_171509_reset_32a48d/experiment_config.json",
+    "bytes": 2774,
+    "sha256": "e9bee42ded0a8d4b8afb67feab01b3e649712ff684aa3a300b8daa914b80fba5"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_171509_reset_32a48d/session.json",
+    "bytes": 5767,
+    "sha256": "4c0c5e88dda841b3540bd6c8004774b1a230cca850260fb86a81dcab1356da95"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_171509_reset_32a48d/events.jsonl",
+    "bytes": 16959,
+    "sha256": "32c347480d7a781300b9e72ea9307e5cf6cc5d421c615ea029a3ba14ac2039f7"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_171509_reset_32a48d/raw_webxr.jsonl",
+    "bytes": 5056645,
+    "sha256": "93baf4e5a62ebac3d13045cd29bfe0f4835684e72e37a1ee5f6133e4042b9dd1"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_171509_reset_32a48d/scene.xml",
+    "bytes": 41053,
+    "sha256": "f022b3a8c431d0adb35dc0e4833928a3436e15d049c278998c1e6b14ddd51bcb"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_171726_reset_ff0bc8/trial_result.json",
+    "bytes": 4663,
+    "sha256": "6c492724bfb29d6adb51faeebe41de113a1ca6dbb63bb93339d4d752c981ec37"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_171726_reset_ff0bc8/experiment_config.json",
+    "bytes": 2778,
+    "sha256": "807115cc1539460092cc60cb9e72ed49089d85619dc2d501b08b4bd3f5954fd1"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_171726_reset_ff0bc8/session.json",
+    "bytes": 5777,
+    "sha256": "bdf1fb8fc18291f8a40042dc45b46d2e9b7fa0a0c16ae2704e3280dcd6b97036"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_171726_reset_ff0bc8/events.jsonl",
+    "bytes": 21528,
+    "sha256": "26eb4ce6a6b6ea2c1220862cefecb65cf23b22ce6575cc8172c0c26afe39d4d7"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_171726_reset_ff0bc8/raw_webxr.jsonl",
+    "bytes": 5407790,
+    "sha256": "21ca753ce1c5e6a3e03a9397d3f255664b558dbb114722c8ac47fbd275183260"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_171726_reset_ff0bc8/scene.xml",
+    "bytes": 41060,
+    "sha256": "889e4b6336ea481c43b42d17fea244b7fbd7f8f44eb9067a52decb2683c1ee8b"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_171946_reset_2d9b42/trial_result.json",
+    "bytes": 4625,
+    "sha256": "c99b486ccdac0685354fdca21bd8d7f79e09c155b0b4231450c06234c63a3fa3"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_171946_reset_2d9b42/experiment_config.json",
+    "bytes": 2776,
+    "sha256": "40c0ed43c674c2516dbdd34ff6e5d09ef4fda83ce46c4d95b25f68c54bd5f2b2"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_171946_reset_2d9b42/session.json",
+    "bytes": 5768,
+    "sha256": "0ba40cdda9d17b610d9da01c020c8cd4dedbe0aad54a7d166cf60479f8edfc09"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_171946_reset_2d9b42/events.jsonl",
+    "bytes": 11345,
+    "sha256": "6d2b4a07022f3807d1edffa9771b2afcaee9e0e5aa7dc27cf419157fa5d61cce"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_171946_reset_2d9b42/raw_webxr.jsonl",
+    "bytes": 3039120,
+    "sha256": "064a8eb59e1963687a826dd0aeca4be5378b17aab8e2cf24f510808063dbbac4"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_171946_reset_2d9b42/scene.xml",
+    "bytes": 41060,
+    "sha256": "889e4b6336ea481c43b42d17fea244b7fbd7f8f44eb9067a52decb2683c1ee8b"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_172108_reset_c9682f/trial_result.json",
+    "bytes": 4618,
+    "sha256": "66184606481424d25de88cc9ecddf7824782ca5352bb52cf5dd15130cbe62532"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_172108_reset_c9682f/experiment_config.json",
+    "bytes": 2776,
+    "sha256": "40c0ed43c674c2516dbdd34ff6e5d09ef4fda83ce46c4d95b25f68c54bd5f2b2"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_172108_reset_c9682f/session.json",
+    "bytes": 5768,
+    "sha256": "b16fcfad55656fb3c74ab03e8af0e3b74fddd30406143e96a3ad35c7cb0920a6"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_172108_reset_c9682f/events.jsonl",
+    "bytes": 10838,
+    "sha256": "a3861c29602e3f6880607523238e9a6449b4080636e514ace97923747930f2cf"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_172108_reset_c9682f/raw_webxr.jsonl",
+    "bytes": 3421431,
+    "sha256": "c3beac33ba848723e7100b27d06219e78e714058b209bf869d90e9fe7c0abff9"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_172108_reset_c9682f/scene.xml",
+    "bytes": 41060,
+    "sha256": "889e4b6336ea481c43b42d17fea244b7fbd7f8f44eb9067a52decb2683c1ee8b"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_181900_reset_532c32/trial_result.json",
+    "bytes": 4583,
+    "sha256": "d63fec64250287c7ab8961c35ef07d1442042738c775118ccef7f4f5c259acc5"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_181900_reset_532c32/experiment_config.json",
+    "bytes": 2776,
+    "sha256": "40c0ed43c674c2516dbdd34ff6e5d09ef4fda83ce46c4d95b25f68c54bd5f2b2"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_181900_reset_532c32/session.json",
+    "bytes": 5769,
+    "sha256": "f7be984b70f54b3ceb1b40e6ca5aa5ac7119c2489e0edca76fafdd4a8f973457"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_181900_reset_532c32/events.jsonl",
+    "bytes": 10555,
+    "sha256": "3edf54c29c8760da06e2f5c3f31c6f504c976d4d0181accd3d68ceca80c22347"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_181900_reset_532c32/raw_webxr.jsonl",
+    "bytes": 3151780,
+    "sha256": "4c4e9c178084eef72b29655b15bebf19295bf59d74035f3245bdf7474f4377fd"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_181900_reset_532c32/scene.xml",
+    "bytes": 41060,
+    "sha256": "889e4b6336ea481c43b42d17fea244b7fbd7f8f44eb9067a52decb2683c1ee8b"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_182050_reset_c7df29/trial_result.json",
+    "bytes": 4619,
+    "sha256": "e9e0cc3733a5428fbaff2419308c4af9a290fc309cdcf1114284879843df9abc"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_182050_reset_c7df29/experiment_config.json",
+    "bytes": 2776,
+    "sha256": "40c0ed43c674c2516dbdd34ff6e5d09ef4fda83ce46c4d95b25f68c54bd5f2b2"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_182050_reset_c7df29/session.json",
+    "bytes": 5770,
+    "sha256": "459a06b05eeb4930efd7ceeb45c0727919b8206b94ef677d2889cb3b3dd72b91"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_182050_reset_c7df29/events.jsonl",
+    "bytes": 11273,
+    "sha256": "780af8ccbba3ea3ae8e9215a410791baff8ffff095bfc7b9d568045564807e53"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_182050_reset_c7df29/raw_webxr.jsonl",
+    "bytes": 4460599,
+    "sha256": "1b66998f704864140552e3e2da339882f413580357f5b67f4d99e606d3ebcfe5"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_182050_reset_c7df29/scene.xml",
+    "bytes": 41060,
+    "sha256": "889e4b6336ea481c43b42d17fea244b7fbd7f8f44eb9067a52decb2683c1ee8b"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_182326_reset_458105/trial_result.json",
+    "bytes": 4670,
+    "sha256": "7c076b781a6d22e3f230b599d658c53e6e0e0c303eb348d3b019d597b78128b2"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_182326_reset_458105/experiment_config.json",
+    "bytes": 2776,
+    "sha256": "40c0ed43c674c2516dbdd34ff6e5d09ef4fda83ce46c4d95b25f68c54bd5f2b2"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_182326_reset_458105/session.json",
+    "bytes": 5773,
+    "sha256": "1220c443062f30d94524a928f746a1cd185873e23c9ea942334783e84b920e21"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_182326_reset_458105/events.jsonl",
+    "bytes": 20965,
+    "sha256": "2206d91258fdfde093b19b4ea362fae16c817333ee43120e174dc200387f44ed"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_182326_reset_458105/raw_webxr.jsonl",
+    "bytes": 8708827,
+    "sha256": "9eb8a52128c2e19f7065cb2024a33d4e28e8af3252c4eecc4ce3f7130c688646"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_182326_reset_458105/scene.xml",
+    "bytes": 41060,
+    "sha256": "889e4b6336ea481c43b42d17fea244b7fbd7f8f44eb9067a52decb2683c1ee8b"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_182702_reset_7716f8/trial_result.json",
+    "bytes": 4668,
+    "sha256": "fca7d838b2f8a62286e01577331346edbed95d1af3a17db7661bf92bf9b5f56f"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_182702_reset_7716f8/experiment_config.json",
+    "bytes": 2772,
+    "sha256": "89a0c8fd2374af97d3538650088c5b61be4da1dbb29916db7467bf518cebf390"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_182702_reset_7716f8/session.json",
+    "bytes": 5761,
+    "sha256": "685e18dddc13f338a81a8a989176dbc3ed4541e0c4c43bec253a409d197a6703"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_182702_reset_7716f8/events.jsonl",
+    "bytes": 37411,
+    "sha256": "f4b0d36909d88a5f18930f0b23637186fa64dfbaf977fb8e1bad1210ccab211e"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_182702_reset_7716f8/raw_webxr.jsonl",
+    "bytes": 7664073,
+    "sha256": "6aaa3ab49ce2c112b0ff01fcaad1767995a5c68bb7fa937c3cb5723986e6e5b0"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_182702_reset_7716f8/scene.xml",
+    "bytes": 41053,
+    "sha256": "f022b3a8c431d0adb35dc0e4833928a3436e15d049c278998c1e6b14ddd51bcb"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_183236_reset_bb21c1/trial_result.json",
+    "bytes": 4527,
+    "sha256": "804e2406d45788befe81f34447227074983a0be96ad34396e337d9306a994749"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_184217_reset_7a51e6/trial_result.json",
+    "bytes": 4663,
+    "sha256": "615a9513b0bcc1f3e12d4092736e9d9ada29150a8395d133257897c63ee49265"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_184217_reset_7a51e6/experiment_config.json",
+    "bytes": 2774,
+    "sha256": "2e5c3175e67a2f43d9a1ac7a629e2e0daa220222e2a3729de97a13c9448fb4d6"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_184217_reset_7a51e6/session.json",
+    "bytes": 5780,
+    "sha256": "5fd8925ca93e5e5e8fdc632162dbd85066c4bc3d129c9f0859261f873e0cb17d"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_184217_reset_7a51e6/events.jsonl",
+    "bytes": 33533,
+    "sha256": "8731c83f7c271f74764d3f37538486e94929ca4e9ff9ded70d9c0515652fce23"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_184217_reset_7a51e6/raw_webxr.jsonl",
+    "bytes": 12198506,
+    "sha256": "1050800e960bfe6985c1fb54a4ab45d615d706c888bb23bddf9a2eb9b09b8983"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_184217_reset_7a51e6/scene.xml",
+    "bytes": 41053,
+    "sha256": "d052c1f0d4cffe3adeaa5f5605867adda3f36f2ebfd21055614495eb68f7c46c"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_184751_reset_176fc5/trial_result.json",
+    "bytes": 4623,
+    "sha256": "52cf2a76ef60fdc5f69b2855883edf4a319ea5f0bca37838870b3136d28a3d6e"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_184751_reset_176fc5/experiment_config.json",
+    "bytes": 2776,
+    "sha256": "01f18b2008c0c01207b3606a4468d7e03cd68ff61a47f6c4cf7a7d1eda6f8766"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_184751_reset_176fc5/session.json",
+    "bytes": 5768,
+    "sha256": "4f6bbc1f393f02fd9441966e0ec38a2fd8b42df91d71a161c8b2a9f6cf731f76"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_184751_reset_176fc5/events.jsonl",
+    "bytes": 16509,
+    "sha256": "37e22b1ace5fc9352714d55f452786af1f4a60307383da362db597b4997e5baa"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_184751_reset_176fc5/raw_webxr.jsonl",
+    "bytes": 3797189,
+    "sha256": "64920dc93772607c45a03fbdb86b987da568496740c1efd5b5fb01f327c6674d"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_184751_reset_176fc5/scene.xml",
+    "bytes": 41059,
+    "sha256": "5fb0c3877c1b7cb4f390be5530fa0b8a3d6cc4f014ddeee4a768232732c75a66"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_185037_reset_159aa2/trial_result.json",
+    "bytes": 4601,
+    "sha256": "9aa6177f62c7617f736d80c49f944c4c134532742b45bcee5204559412f850fe"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_185037_reset_159aa2/experiment_config.json",
+    "bytes": 2776,
+    "sha256": "01f18b2008c0c01207b3606a4468d7e03cd68ff61a47f6c4cf7a7d1eda6f8766"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_185037_reset_159aa2/session.json",
+    "bytes": 5766,
+    "sha256": "306d5dd1ece47cf0c4819beca51a3090bc7df9f5413e95468154e0b12da79960"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_185037_reset_159aa2/events.jsonl",
+    "bytes": 30911,
+    "sha256": "9c80e1d833488eb2f27f2414e970d96fb8613c6208907d644d92d9c5440473ca"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_185037_reset_159aa2/raw_webxr.jsonl",
+    "bytes": 8073961,
+    "sha256": "3f4fc270974b90c3dddc5781a8ed273042cac272a87a1486cc43e364c7b594c6"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_185037_reset_159aa2/scene.xml",
+    "bytes": 41059,
+    "sha256": "5fb0c3877c1b7cb4f390be5530fa0b8a3d6cc4f014ddeee4a768232732c75a66"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_185424_reset_74575e/trial_result.json",
+    "bytes": 4645,
+    "sha256": "0825938a60bb80ac6d6076dd8f401f34c55e87d206f41d8f80c22b7056e0120d"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_185424_reset_74575e/experiment_config.json",
+    "bytes": 2776,
+    "sha256": "01f18b2008c0c01207b3606a4468d7e03cd68ff61a47f6c4cf7a7d1eda6f8766"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_185424_reset_74575e/session.json",
+    "bytes": 5770,
+    "sha256": "16d80da69cada5f0e5a632054419fb48d5533307fb806df3c9ebe13a22fb05b9"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_185424_reset_74575e/events.jsonl",
+    "bytes": 24202,
+    "sha256": "5525b594107b55aa503686955b9f73925f347d47f9088be835171076bc52c3e3"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_185424_reset_74575e/raw_webxr.jsonl",
+    "bytes": 5340104,
+    "sha256": "aa679ddf69443f0138e84e4346425239b73a38a8b2d1402f705f7d4f5beecebc"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_185424_reset_74575e/scene.xml",
+    "bytes": 41059,
+    "sha256": "5fb0c3877c1b7cb4f390be5530fa0b8a3d6cc4f014ddeee4a768232732c75a66"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_185630_reset_f75fbe/trial_result.json",
+    "bytes": 4654,
+    "sha256": "f8cac58ebccf5bcb5bd1d15e2019fc7dd14cf9c7dbf43a53e9331ae58dac44ef"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_185630_reset_f75fbe/experiment_config.json",
+    "bytes": 2778,
+    "sha256": "d7785399fa5b8c7a52c135a7106e4a7a913eccdee458d928741b2531ef993b79"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_185630_reset_f75fbe/session.json",
+    "bytes": 5772,
+    "sha256": "b8ff56e7e81d0305dc6d9b7ada4902682199f450033f366812b3da150de0bfa9"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_185630_reset_f75fbe/events.jsonl",
+    "bytes": 67976,
+    "sha256": "0e18b710699daf50cdad6a32ef2214d58a7ddd2bff20fcf6ab696e12c1de6dda"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_185630_reset_f75fbe/raw_webxr.jsonl",
+    "bytes": 8964391,
+    "sha256": "0bf68026e6855858d3a3edf1cccc2d7f06e7bee6d5fe275ebc449485d8aafc44"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_185630_reset_f75fbe/scene.xml",
+    "bytes": 41059,
+    "sha256": "5fb0c3877c1b7cb4f390be5530fa0b8a3d6cc4f014ddeee4a768232732c75a66"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_185950_reset_4255da/trial_result.json",
+    "bytes": 4645,
+    "sha256": "1e0b848fd38b3eef05c1638a3bcceca9c96a91a97517e380077e59acef597da8"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_185950_reset_4255da/experiment_config.json",
+    "bytes": 2774,
+    "sha256": "59ca0d9a3e3fb167cb7cacd8fd335f1deaeb1b8a350cb1a836d5c8a1ac4a8a5e"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_185950_reset_4255da/session.json",
+    "bytes": 5763,
+    "sha256": "a53f92ac9d370bb27afc6d24d52ca01c93c34e92fffea1f155e84878a5324a6b"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_185950_reset_4255da/events.jsonl",
+    "bytes": 50672,
+    "sha256": "614d1b3d5a8102ce454c138506d2b3fbc77bb095593ed34048650ae108e1138d"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_185950_reset_4255da/raw_webxr.jsonl",
+    "bytes": 7324783,
+    "sha256": "a5f882e3ada3a2bd3cc2e6aee9a998923cf7a7d470f68ab8e5692be310d97007"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_185950_reset_4255da/scene.xml",
+    "bytes": 41053,
+    "sha256": "d052c1f0d4cffe3adeaa5f5605867adda3f36f2ebfd21055614495eb68f7c46c"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_190233_reset_09d2fd/trial_result.json",
+    "bytes": 4650,
+    "sha256": "a3d45d0b55b3118c288a00d1c551080a47e55f5a50df971f22945f51ef695a2d"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_190233_reset_09d2fd/experiment_config.json",
+    "bytes": 2772,
+    "sha256": "bc6bf57ac7b509549b757392a0524aa734c76183dce792928c3f45271a907eb2"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_190233_reset_09d2fd/session.json",
+    "bytes": 5757,
+    "sha256": "7fad069588eded9954153fb9311d62a37cf6a62c68b5ec000ae62ab87d223930"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_190233_reset_09d2fd/events.jsonl",
+    "bytes": 58392,
+    "sha256": "3ff0bbfbf3c7b2ef367337d242dc01b7f352b6481e36e5fab4ea45375ac121a4"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_190233_reset_09d2fd/raw_webxr.jsonl",
+    "bytes": 10199766,
+    "sha256": "02026bb1625b4fe49b8657679421cced8c323a0206835daa717964ac7fb60c0e"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_190233_reset_09d2fd/scene.xml",
+    "bytes": 41053,
+    "sha256": "d052c1f0d4cffe3adeaa5f5605867adda3f36f2ebfd21055614495eb68f7c46c"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_190615_reset_4cfbf5/trial_result.json",
+    "bytes": 4648,
+    "sha256": "42d9b6f208cdf6776fbd9d7e51052f1a5a0e54164b0ee35cded0fef919475723"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_190615_reset_4cfbf5/experiment_config.json",
+    "bytes": 2772,
+    "sha256": "20a1a046a66d217634d282044b116cb2073cd8478c5b454b9e6ff4cb0970963a"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_190615_reset_4cfbf5/session.json",
+    "bytes": 5762,
+    "sha256": "0e7512d8b8b101ed7b1311cfcb933003d43537c47aaa8d2e4556ed8f66727fa3"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_190615_reset_4cfbf5/events.jsonl",
+    "bytes": 51078,
+    "sha256": "f46f5215495e28a57eb76906cb1d43400e74be505022c318ecef2a74e4e3a7c9"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_190615_reset_4cfbf5/raw_webxr.jsonl",
+    "bytes": 11215363,
+    "sha256": "443a2abdac01bde525d1c49b9993b20f876295dc4d1e713aeb9c23cd6cee4b9d"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_190615_reset_4cfbf5/scene.xml",
+    "bytes": 41053,
+    "sha256": "f022b3a8c431d0adb35dc0e4833928a3436e15d049c278998c1e6b14ddd51bcb"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_191127_reset_cd28cc/trial_result.json",
+    "bytes": 4644,
+    "sha256": "5933cbc371c4c40254520a3dbf13a42858c26e223d692e8351d9c006b4428c91"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_191127_reset_cd28cc/experiment_config.json",
+    "bytes": 2774,
+    "sha256": "f6211d7ecb36845becdd388b327c361252525b901e732f1d37157723060d09c9"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_191127_reset_cd28cc/session.json",
+    "bytes": 5766,
+    "sha256": "d384fac8ec4c1a69a2fbaf59aee4708b0cf875551b1c8e5162569abb5b6fa7d8"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_191127_reset_cd28cc/events.jsonl",
+    "bytes": 30116,
+    "sha256": "8482092b0450e5cb34bf76285d6e5cf8b4367d2e26559bf5a37a5a6a34df2c68"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_191127_reset_cd28cc/raw_webxr.jsonl",
+    "bytes": 5750875,
+    "sha256": "3124ba2153f15070eb4e8cacccd606bc6d3dbbcd33832fbec2961c388528ddf5"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_191127_reset_cd28cc/scene.xml",
+    "bytes": 41053,
+    "sha256": "f022b3a8c431d0adb35dc0e4833928a3436e15d049c278998c1e6b14ddd51bcb"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_191350_reset_4db9ce/trial_result.json",
+    "bytes": 4630,
+    "sha256": "f460a6f22fb1e2a9d898587f55969c9313239f944dfa483d1eb8f2cc35b8b49d"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_191350_reset_4db9ce/experiment_config.json",
+    "bytes": 2778,
+    "sha256": "95f9600be8ee33a350bc891d7ab79816138d2c3770057bfbc8ef93ebff3958b8"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_191350_reset_4db9ce/session.json",
+    "bytes": 5775,
+    "sha256": "3890ccef64a209a6728083cbb5a193bd28757fea6e6a5f53148273a86875bc5a"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_191350_reset_4db9ce/events.jsonl",
+    "bytes": 16596,
+    "sha256": "c5f5c8000e46e867be89f4cc5fb103ea47d1d9ceacaf819b673dbc85318d4541"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_191350_reset_4db9ce/raw_webxr.jsonl",
+    "bytes": 3528274,
+    "sha256": "79b705b7e06e4b1dae823c5a61a35269c0cceba87b29cc71ba94321d46940983"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_191350_reset_4db9ce/scene.xml",
+    "bytes": 41060,
+    "sha256": "889e4b6336ea481c43b42d17fea244b7fbd7f8f44eb9067a52decb2683c1ee8b"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_191510_reset_2035c9/trial_result.json",
+    "bytes": 4654,
+    "sha256": "2bb97c9c5214b42c1d19576e6317205ce7b190a0daad32750b9b86fc1328e81d"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_191510_reset_2035c9/experiment_config.json",
+    "bytes": 2778,
+    "sha256": "95f9600be8ee33a350bc891d7ab79816138d2c3770057bfbc8ef93ebff3958b8"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_191510_reset_2035c9/session.json",
+    "bytes": 5777,
+    "sha256": "a7c321f1def69fee396e5ff479f1eb39aae42e60f4f3ab85f70b7627e415db3e"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_191510_reset_2035c9/events.jsonl",
+    "bytes": 29862,
+    "sha256": "826277cc60cb5d6f7e23c5690077ea27488036f35467fc9dc96cff600360ff64"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_191510_reset_2035c9/raw_webxr.jsonl",
+    "bytes": 6034152,
+    "sha256": "37a179650af58d2f6a0c18c8521338606889263222eab7a599f4386e6b03c310"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_191510_reset_2035c9/scene.xml",
+    "bytes": 41060,
+    "sha256": "889e4b6336ea481c43b42d17fea244b7fbd7f8f44eb9067a52decb2683c1ee8b"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_202807_reset_c59e09/trial_result.json",
+    "bytes": 4668,
+    "sha256": "0fc55024a40cef5ebb8bbf73deb14b548919a1bce88f96cfa5d18c701df244ec"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_202807_reset_c59e09/experiment_config.json",
+    "bytes": 2776,
+    "sha256": "c240476505130c9f492f9bed1274e08fc3c03a0db1ccf8195eac3b8cde0465df"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_202807_reset_c59e09/session.json",
+    "bytes": 5786,
+    "sha256": "0eca107d5bb224e1f7ac987aced1116c34631ea25667f3ef16701e9a34b3ea2c"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_202807_reset_c59e09/events.jsonl",
+    "bytes": 102100,
+    "sha256": "364ddf9d53973af4319c3f669209a0d9995ec050a52f15ec8335528cbc1e78ea"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_202807_reset_c59e09/raw_webxr.jsonl",
+    "bytes": 12767223,
+    "sha256": "1098b4f13a1a8c6fcc93e1d9b26983aa611bbe7219ab6c3ceab4e1516211d84d"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_202807_reset_c59e09/scene.xml",
+    "bytes": 41060,
+    "sha256": "889e4b6336ea481c43b42d17fea244b7fbd7f8f44eb9067a52decb2683c1ee8b"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_204228_reset_49ed8a/trial_result.json",
+    "bytes": 4638,
+    "sha256": "dbe4cc3c9dc3c10680c47b4706135b9b293160a808b252cbe4b9d74ca9e99a00"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_204228_reset_49ed8a/experiment_config.json",
+    "bytes": 2778,
+    "sha256": "cb5a539296bbd9ebd35441e83b6ee4fca04d6620c31392a65f421f7e11d2b9d6"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_204228_reset_49ed8a/session.json",
+    "bytes": 5769,
+    "sha256": "9af9615feff76e674cd75c36c5fcd483e514b0e08a04340d05dcc2b585b18301"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_204228_reset_49ed8a/events.jsonl",
+    "bytes": 16316,
+    "sha256": "db28067ff528e7fee1b267666db3233c3eadeb4ce042f3a533a32e1e9681a976"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_204228_reset_49ed8a/raw_webxr.jsonl",
+    "bytes": 3407851,
+    "sha256": "6edd6495fd17a12c93450099af898a74139e25fff49cb05b27a2637a02db363d"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_204228_reset_49ed8a/scene.xml",
+    "bytes": 41059,
+    "sha256": "5fb0c3877c1b7cb4f390be5530fa0b8a3d6cc4f014ddeee4a768232732c75a66"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_204353_reset_f5086f/trial_result.json",
+    "bytes": 4622,
+    "sha256": "04091af94140c5010c500ea6a18db9d26ea07b52b1212b604323a8b12cf10bfb"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_204353_reset_f5086f/experiment_config.json",
+    "bytes": 2778,
+    "sha256": "cb5a539296bbd9ebd35441e83b6ee4fca04d6620c31392a65f421f7e11d2b9d6"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_204353_reset_f5086f/session.json",
+    "bytes": 5782,
+    "sha256": "8f43953c03762da7ba70b757438e10604df281b9649b58a8bc6a451f4913db55"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_204353_reset_f5086f/events.jsonl",
+    "bytes": 20575,
+    "sha256": "d3321a382570fdf9baacc5ee350aec19a0e1b897e2b50a4dfb2c7e204f486d90"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_204353_reset_f5086f/raw_webxr.jsonl",
+    "bytes": 4271670,
+    "sha256": "e4eb4064d721792f75010807e9fe2aba581403293e691caedf09f8de0c204a78"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_204353_reset_f5086f/scene.xml",
+    "bytes": 41059,
+    "sha256": "5fb0c3877c1b7cb4f390be5530fa0b8a3d6cc4f014ddeee4a768232732c75a66"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_204534_reset_09ed46/trial_result.json",
+    "bytes": 4652,
+    "sha256": "ede7f5162584e5215f50e7adbb6c62e9891510bb509e973e8d15b853e786c413"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_204534_reset_09ed46/experiment_config.json",
+    "bytes": 2778,
+    "sha256": "cb5a539296bbd9ebd35441e83b6ee4fca04d6620c31392a65f421f7e11d2b9d6"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_204534_reset_09ed46/session.json",
+    "bytes": 5775,
+    "sha256": "c8d7f6d9ee3f7103da9055dea812d319b2bba128103d1bcd0ee9e1aa4d07d798"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_204534_reset_09ed46/events.jsonl",
+    "bytes": 31451,
+    "sha256": "6a019dbaf42a80dd8b65628c81d34709a356ef0cd5e30f530b4f420a3b91c6d0"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_204534_reset_09ed46/raw_webxr.jsonl",
+    "bytes": 6621030,
+    "sha256": "4647cc680a9c2d9b6f84800a3123fc732efb2f4b4804ec99dc26ac92a28a7edc"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_204534_reset_09ed46/scene.xml",
+    "bytes": 41059,
+    "sha256": "5fb0c3877c1b7cb4f390be5530fa0b8a3d6cc4f014ddeee4a768232732c75a66"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_204804_reset_eb558d/trial_result.json",
+    "bytes": 4642,
+    "sha256": "2e20aacfc2251bf46c206a230eb37be069dc29491564811e5ad5d683bd93a59a"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_204804_reset_eb558d/experiment_config.json",
+    "bytes": 2774,
+    "sha256": "c1dd183321ef9df1ea5ac8d6b2e40d0d76fc28709dc5d0041bf341a0fd91140d"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_204804_reset_eb558d/session.json",
+    "bytes": 5754,
+    "sha256": "e970d96d626458f7b4a1bbe1224d7562df4445823d7b9e92fbe4a63904db70bb"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_204804_reset_eb558d/events.jsonl",
+    "bytes": 33924,
+    "sha256": "801e8b634bee0b50e0b7cc43906401157af71f9344f7d0fcd9f89da59ab6f281"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_204804_reset_eb558d/raw_webxr.jsonl",
+    "bytes": 4416173,
+    "sha256": "5a8e830f61db2e86e1788ad628ce846593ce57aadec4ace71dc32bd071e92bdd"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_204804_reset_eb558d/scene.xml",
+    "bytes": 41053,
+    "sha256": "d052c1f0d4cffe3adeaa5f5605867adda3f36f2ebfd21055614495eb68f7c46c"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_204944_reset_70c79f/trial_result.json",
+    "bytes": 4641,
+    "sha256": "05510f8a1568728eed36d20cae7dc9c3ed0de14dc076b8ae51297c827ebf9e57"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_204944_reset_70c79f/experiment_config.json",
+    "bytes": 2772,
+    "sha256": "eb743df2744420d5247421e1bde85cd98372b0581ecda36ddd2dc0415221c643"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_204944_reset_70c79f/session.json",
+    "bytes": 5755,
+    "sha256": "9534fa1af94401cc964cc19f04effdfbd7c239765201d17adde054b56d7266fe"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_204944_reset_70c79f/events.jsonl",
+    "bytes": 38291,
+    "sha256": "d4ee00183da74ba1ec34bef156a09d8eee89200cb5de5a262f1d7bd8a6dc5adc"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_204944_reset_70c79f/raw_webxr.jsonl",
+    "bytes": 4466499,
+    "sha256": "a6abac58c3935c760a73a9d87648add7489b6b9869d0743127a323704c6f0994"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_204944_reset_70c79f/scene.xml",
+    "bytes": 41053,
+    "sha256": "d052c1f0d4cffe3adeaa5f5605867adda3f36f2ebfd21055614495eb68f7c46c"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_205142_reset_aca786/trial_result.json",
+    "bytes": 4643,
+    "sha256": "1ec68eb41d0d39663a201a4583cd1735776c1bd6f67b8c398568b8c1b7b2150d"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_205142_reset_aca786/experiment_config.json",
+    "bytes": 2776,
+    "sha256": "7d2fed4fb0dd89ee564c6966ffe2afa7ea04ec31e9f7b0055397d8d87b08d888"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_205142_reset_aca786/session.json",
+    "bytes": 5771,
+    "sha256": "d7edbce7852fe2915bf08692cbe47e33f8864dae3ad592e33459c870051d437a"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_205142_reset_aca786/events.jsonl",
+    "bytes": 48585,
+    "sha256": "aa0a3e529e2f85fe39445664170c4b36835e08caf50e17881b1d9f4c04d9f91f"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_205142_reset_aca786/raw_webxr.jsonl",
+    "bytes": 6134450,
+    "sha256": "e7f0e703ff8ae75bd59ba698f22f319e16428cccd8cdbc0a554e2994dc8fb19e"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_205142_reset_aca786/scene.xml",
+    "bytes": 41059,
+    "sha256": "5fb0c3877c1b7cb4f390be5530fa0b8a3d6cc4f014ddeee4a768232732c75a66"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_205354_reset_59d40d/trial_result.json",
+    "bytes": 4647,
+    "sha256": "3cb4e6dd8e98d115f6386683502338a609af165c55b4b0f79af2d9315a5ca1d9"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_205354_reset_59d40d/experiment_config.json",
+    "bytes": 2776,
+    "sha256": "77420c5fea77bfd6386b040eea7b17710a9500626b79935b5ae8d3250d41b004"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_205354_reset_59d40d/session.json",
+    "bytes": 5770,
+    "sha256": "a1359ae407996c8d532062f6accf9e37e843934faedbc81e184e65b491223c80"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_205354_reset_59d40d/events.jsonl",
+    "bytes": 43687,
+    "sha256": "f9dac410e1a618416598242e5f25480b4414bdad4e194b6c496bb6c67fd0db96"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_205354_reset_59d40d/raw_webxr.jsonl",
+    "bytes": 4748341,
+    "sha256": "c48a894218887ac81410367d37df55db3b778d4188b2b5ed1626cd87be6862f5"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_205354_reset_59d40d/scene.xml",
+    "bytes": 41060,
+    "sha256": "889e4b6336ea481c43b42d17fea244b7fbd7f8f44eb9067a52decb2683c1ee8b"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_205541_reset_cb4256/trial_result.json",
+    "bytes": 4638,
+    "sha256": "7e5be0dfd9a875c8e2a322018bdfce8148cfd0f31561f5b8225ba30c62dc4448"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_205541_reset_cb4256/experiment_config.json",
+    "bytes": 2772,
+    "sha256": "1c5f2bad28f2f8d320d1a4f36a38b7926060b572acf88e821c3d233c27a996f6"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_205541_reset_cb4256/session.json",
+    "bytes": 5758,
+    "sha256": "c8677bf61f1d4bd11935edd12341c43e13ac0add8155c140b42491696f661099"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_205541_reset_cb4256/events.jsonl",
+    "bytes": 27385,
+    "sha256": "b6ca94818a5409d6076d2197ec790e1198a9b76010d673d00a8a48fef621724d"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_205541_reset_cb4256/raw_webxr.jsonl",
+    "bytes": 3392905,
+    "sha256": "abdd747066c417945e020e1ad5632471fe41b2d62a1059b874684a3088c29b77"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_205541_reset_cb4256/scene.xml",
+    "bytes": 41053,
+    "sha256": "f022b3a8c431d0adb35dc0e4833928a3436e15d049c278998c1e6b14ddd51bcb"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_205658_reset_18891b/trial_result.json",
+    "bytes": 4649,
+    "sha256": "948a6684d9f9f238eda533d080f758e7d08309a60139faa332af2160d432965d"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_205658_reset_18891b/experiment_config.json",
+    "bytes": 2774,
+    "sha256": "078ed14c9b59f7195bc3408206b3c2c5a2f120f94cbb76ed5c2e82e45dedd2d9"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_205658_reset_18891b/session.json",
+    "bytes": 5765,
+    "sha256": "7cbb89204c43ed2ccf39b60dcabb312193c6aba4618954118890745554083782"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_205658_reset_18891b/events.jsonl",
+    "bytes": 51117,
+    "sha256": "821d1a307b40d80ab658bc2c1e6777046448e89c27534204252dde9061a8f354"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_205658_reset_18891b/raw_webxr.jsonl",
+    "bytes": 4096175,
+    "sha256": "352d83f005e0282b3149efc7a7bdcc2bc0e76c519c121e6290b66473edb2382a"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_205658_reset_18891b/scene.xml",
+    "bytes": 41053,
+    "sha256": "f022b3a8c431d0adb35dc0e4833928a3436e15d049c278998c1e6b14ddd51bcb"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_205839_reset_826a5a/trial_result.json",
+    "bytes": 4635,
+    "sha256": "91bde18f40491f816653ca688c5d0360618ba50e912af5bfae2fd396f13f44c7"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_205839_reset_826a5a/experiment_config.json",
+    "bytes": 2778,
+    "sha256": "f2eaa4ca870c04e77af0c1a4f1ceeca9729525b67e8ce9a85bfe2a7de24ab084"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_205839_reset_826a5a/session.json",
+    "bytes": 5780,
+    "sha256": "f0cd9b2cd8b2fe7bb093ee0053d798528b66c7969e088fa20fa9e62b2a623bf9"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_205839_reset_826a5a/events.jsonl",
+    "bytes": 18535,
+    "sha256": "7c04a4ec72549bbfdaa3d43411edf43e50e62b7d46a4f3ea46e097d46e278350"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_205839_reset_826a5a/raw_webxr.jsonl",
+    "bytes": 2774425,
+    "sha256": "3f335c63317c99016e5af1fe4cec72287a557fc7bec2fab3b8ac32653b89d901"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_205839_reset_826a5a/scene.xml",
+    "bytes": 41060,
+    "sha256": "889e4b6336ea481c43b42d17fea244b7fbd7f8f44eb9067a52decb2683c1ee8b"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_205956_reset_5bae34/trial_result.json",
+    "bytes": 4662,
+    "sha256": "7a34fb476f28dd946cf85d31db16b42740f878085340e78124989c18cd703c69"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_205956_reset_5bae34/experiment_config.json",
+    "bytes": 2778,
+    "sha256": "f2eaa4ca870c04e77af0c1a4f1ceeca9729525b67e8ce9a85bfe2a7de24ab084"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_205956_reset_5bae34/session.json",
+    "bytes": 5793,
+    "sha256": "bcf311cd9faf5969a7a0d287489da8b01f578a6ad3fb473b8573cb596b2c3910"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_205956_reset_5bae34/events.jsonl",
+    "bytes": 70899,
+    "sha256": "e7ee6b6f08419fe0f4c900003d5bd2e932f35f6ce9f4c7a87eec48605ac23ede"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_205956_reset_5bae34/raw_webxr.jsonl",
+    "bytes": 6746770,
+    "sha256": "87ab307a15b7b3cc6daee54913905ce5ac00371f0407fe036fbfdf25a5e578da"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_205956_reset_5bae34/scene.xml",
+    "bytes": 41060,
+    "sha256": "889e4b6336ea481c43b42d17fea244b7fbd7f8f44eb9067a52decb2683c1ee8b"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_231110_reset_f77e91/trial_result.json",
+    "bytes": 4661,
+    "sha256": "5b3d897889fc926fba8bdcfe604a559281f46c6ff6554ca3f37912ee8130105a"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_231110_reset_f77e91/experiment_config.json",
+    "bytes": 2774,
+    "sha256": "5900397e993287a480861dad5e96e13e71d22e81ad19cb23b0021e26c1130f7d"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_231110_reset_f77e91/session.json",
+    "bytes": 5781,
+    "sha256": "074e85d51a8ed6d9c2d8d5ae938bdaebee7cf454cf6f5172bbea6beb780edf93"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_231110_reset_f77e91/events.jsonl",
+    "bytes": 36846,
+    "sha256": "bbe12a3a484728811492bc4a43337ef3ac4923b2fd8f6caaa7038a22d17fa0ff"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_231110_reset_f77e91/raw_webxr.jsonl",
+    "bytes": 5880257,
+    "sha256": "8d119947f5191120f6d08aa25a2ab081da413843bc01e928bfa07b509c57cb7b"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_231110_reset_f77e91/scene.xml",
+    "bytes": 41053,
+    "sha256": "d052c1f0d4cffe3adeaa5f5605867adda3f36f2ebfd21055614495eb68f7c46c"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_231323_reset_88705d/trial_result.json",
+    "bytes": 4641,
+    "sha256": "70d1f13118ddc43f8353e9bb64a07bf0dcda9c31f3e6315c7a385df2dbac2b4e"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_231323_reset_88705d/experiment_config.json",
+    "bytes": 2772,
+    "sha256": "449965f6eea81c4a44b0daf9c4eb07b1b60f88d8964314508f7532fadf4e2aad"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_231323_reset_88705d/session.json",
+    "bytes": 5757,
+    "sha256": "944a816de7ddb04c11c8e66660b6fdae970606f5efc5ac1b39b6806618d7008d"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_231323_reset_88705d/events.jsonl",
+    "bytes": 40269,
+    "sha256": "a8c40ed43511127c9ac41d66b14d4895b26fa3affc859295f86c0c939c6eaedb"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_231323_reset_88705d/raw_webxr.jsonl",
+    "bytes": 5038684,
+    "sha256": "32076beca82ee20d974ea5d4af03731e25356f580dbac728c2889254861e5dbe"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_231323_reset_88705d/scene.xml",
+    "bytes": 41053,
+    "sha256": "d052c1f0d4cffe3adeaa5f5605867adda3f36f2ebfd21055614495eb68f7c46c"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_231516_reset_1e9062/trial_result.json",
+    "bytes": 4637,
+    "sha256": "6e0ae3077c74bbbcc921ea15056eaa9c92eb72061c1d796a51a4fde54176374a"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_231516_reset_1e9062/experiment_config.json",
+    "bytes": 2776,
+    "sha256": "330f372188c60ff9a5d714db67172dcb7b1ea53aeaccfeae11d9344d18cb0fcd"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_231516_reset_1e9062/session.json",
+    "bytes": 5769,
+    "sha256": "4b5c3096ec9891e1dad713cb6e35c53fcd8a82ccbff7672232edcc2928a00a4d"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_231516_reset_1e9062/events.jsonl",
+    "bytes": 39897,
+    "sha256": "681537a9fc4b9d4f3a58e98837099ad94b9575c040bb796a300c813b57758fc6"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_231516_reset_1e9062/raw_webxr.jsonl",
+    "bytes": 7611945,
+    "sha256": "c6740351493b5a463f82a50d8e654f1c4fff21b86b912e03d3d317f68101f8f1"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_231516_reset_1e9062/scene.xml",
+    "bytes": 41059,
+    "sha256": "5fb0c3877c1b7cb4f390be5530fa0b8a3d6cc4f014ddeee4a768232732c75a66"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_231825_reset_0f3b91/trial_result.json",
+    "bytes": 4638,
+    "sha256": "60506483452c75239421c9ef68a8fe362890a9460e587089acff7745cb8acb28"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_231825_reset_0f3b91/experiment_config.json",
+    "bytes": 2776,
+    "sha256": "330f372188c60ff9a5d714db67172dcb7b1ea53aeaccfeae11d9344d18cb0fcd"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_231825_reset_0f3b91/session.json",
+    "bytes": 5768,
+    "sha256": "a9d73b23045a45834e04072135bc45508994f4c395f8ff0ee45cca18515303ba"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_231825_reset_0f3b91/events.jsonl",
+    "bytes": 22443,
+    "sha256": "b606d23481a263a946e10a2bef8382620c9e1bfe1b4fefb684e651d027292236"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_231825_reset_0f3b91/raw_webxr.jsonl",
+    "bytes": 2351303,
+    "sha256": "954b8b86df818ad40105a39434c591b8bca0f32ea9682d7d86020996d4aa2425"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_231825_reset_0f3b91/scene.xml",
+    "bytes": 41059,
+    "sha256": "5fb0c3877c1b7cb4f390be5530fa0b8a3d6cc4f014ddeee4a768232732c75a66"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_231925_reset_2bd0a7/trial_result.json",
+    "bytes": 4619,
+    "sha256": "002cb79f5b331c5ea3718756435ca7226c381d5dc7e13691e03e639d931342c1"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_231925_reset_2bd0a7/experiment_config.json",
+    "bytes": 2776,
+    "sha256": "330f372188c60ff9a5d714db67172dcb7b1ea53aeaccfeae11d9344d18cb0fcd"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_231925_reset_2bd0a7/session.json",
+    "bytes": 5771,
+    "sha256": "b003ef279fb82c578b75de20081b4245fcbfe9e95ce5fde1e92af78e08a6ba14"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_231925_reset_2bd0a7/events.jsonl",
+    "bytes": 16972,
+    "sha256": "fd93a367b8ce88522f9e50335913dfb3920df437a7b4afc3032bea0d9ab375b6"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_231925_reset_2bd0a7/raw_webxr.jsonl",
+    "bytes": 4162258,
+    "sha256": "c5407f23e399c06047d01342bc65607d536fe889e5096d0735cec33b7e1cd05f"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_231925_reset_2bd0a7/scene.xml",
+    "bytes": 41059,
+    "sha256": "5fb0c3877c1b7cb4f390be5530fa0b8a3d6cc4f014ddeee4a768232732c75a66"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_232204_reset_1d92a7/trial_result.json",
+    "bytes": 4637,
+    "sha256": "e3de8692b11b79b23db2c7fab6369ef187842a96166160077d44c95d7e00acf5"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_232204_reset_1d92a7/experiment_config.json",
+    "bytes": 2776,
+    "sha256": "330f372188c60ff9a5d714db67172dcb7b1ea53aeaccfeae11d9344d18cb0fcd"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_232204_reset_1d92a7/session.json",
+    "bytes": 5768,
+    "sha256": "0915dcf041b70f8b8cb6f23b50c3966ac11c9b152d9a4d628ca1e5d61d555ad5"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_232204_reset_1d92a7/events.jsonl",
+    "bytes": 23153,
+    "sha256": "bab67548efbb6caf29467d8c99ca8afe5588124889a013977553c0ef5dd31669"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_232204_reset_1d92a7/raw_webxr.jsonl",
+    "bytes": 2848048,
+    "sha256": "ec51ca2b2ed9884b01e9231679c7c0792fef9a3a0d2c42bc075dbbaf2c24b5d6"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_232204_reset_1d92a7/scene.xml",
+    "bytes": 41059,
+    "sha256": "5fb0c3877c1b7cb4f390be5530fa0b8a3d6cc4f014ddeee4a768232732c75a66"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_232313_reset_5e55da/trial_result.json",
+    "bytes": 4638,
+    "sha256": "597e4f25d91f89ea95b5c1e3d711a20252eb5155daf2d13843710674caffb86c"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_232313_reset_5e55da/experiment_config.json",
+    "bytes": 2776,
+    "sha256": "330f372188c60ff9a5d714db67172dcb7b1ea53aeaccfeae11d9344d18cb0fcd"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_232313_reset_5e55da/session.json",
+    "bytes": 5768,
+    "sha256": "b142d90dc146bcafca2dbd3c47b7c12f98d7d60cfca44c8d64f61a497360f15c"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_232313_reset_5e55da/events.jsonl",
+    "bytes": 33467,
+    "sha256": "78221330c274cf400842517301db50692231b3f0e393d949cb5b932147b7226f"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_232313_reset_5e55da/raw_webxr.jsonl",
+    "bytes": 4685060,
+    "sha256": "e512360e37f80b422faf7f1df30da433e9b5c72e584800b8cc1d15ef8b6df28d"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_232313_reset_5e55da/scene.xml",
+    "bytes": 41059,
+    "sha256": "5fb0c3877c1b7cb4f390be5530fa0b8a3d6cc4f014ddeee4a768232732c75a66"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_232512_reset_57ae22/trial_result.json",
+    "bytes": 4613,
+    "sha256": "eafc4c89a30a439cda6e7aa4d22889b7c2b5e321a14fb429f3030897d8ccad6a"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_232512_reset_57ae22/experiment_config.json",
+    "bytes": 2778,
+    "sha256": "f0b3c150fe57131ed70033583fb75b9ff739cf0569dc2cd976e3dda01bad72ea"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_232512_reset_57ae22/session.json",
+    "bytes": 5760,
+    "sha256": "c3e4616613cca98e16f568c326d2e8f3265a7b613349b1ce80604dc959bdc8ac"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_232512_reset_57ae22/events.jsonl",
+    "bytes": 10647,
+    "sha256": "ab43e560144d75ab1510fb2300366f4a73086ee51a75fde854f92981160944ac"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_232512_reset_57ae22/raw_webxr.jsonl",
+    "bytes": 656604,
+    "sha256": "65b07d3358a82b4956296c5d0773db6c0fe28d3748686b85fb10d8b06468d835"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_232512_reset_57ae22/scene.xml",
+    "bytes": 41059,
+    "sha256": "5fb0c3877c1b7cb4f390be5530fa0b8a3d6cc4f014ddeee4a768232732c75a66"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_232531_reset_532600/trial_result.json",
+    "bytes": 4592,
+    "sha256": "898f74c07e6208c09e1b4a78d33be71d39dfad16045a83e2210fea73bd61c9b2"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_232531_reset_532600/experiment_config.json",
+    "bytes": 2778,
+    "sha256": "f0b3c150fe57131ed70033583fb75b9ff739cf0569dc2cd976e3dda01bad72ea"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_232531_reset_532600/session.json",
+    "bytes": 5778,
+    "sha256": "9d2e99f8c86ec1bd12d2d46ac4ab54eadf76a159233e1ea68da01247f4936d4b"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_232531_reset_532600/events.jsonl",
+    "bytes": 34472,
+    "sha256": "714484c3f4003a5ba44f6ae1c333fbec5ee192ff00deaaa8524503e6539bbda7"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_232531_reset_532600/raw_webxr.jsonl",
+    "bytes": 5822598,
+    "sha256": "fc9fd7e818acb4951900b0e06b961dc0f4c015b4be8fca29f45dbc4a117b8fed"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_232531_reset_532600/scene.xml",
+    "bytes": 41059,
+    "sha256": "5fb0c3877c1b7cb4f390be5530fa0b8a3d6cc4f014ddeee4a768232732c75a66"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_232745_reset_47ba68/trial_result.json",
+    "bytes": 4653,
+    "sha256": "3878e0db3398b954a68156df4efecf48f6d60b1946664aaa9f56e449e382eef9"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_232745_reset_47ba68/experiment_config.json",
+    "bytes": 2778,
+    "sha256": "f0b3c150fe57131ed70033583fb75b9ff739cf0569dc2cd976e3dda01bad72ea"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_232745_reset_47ba68/session.json",
+    "bytes": 5775,
+    "sha256": "03bca3e85c4082c842d583cdc9f923cdbb8a39b3ab327fabbe7022f9035ee417"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_232745_reset_47ba68/events.jsonl",
+    "bytes": 19990,
+    "sha256": "9b832ec99afd913e4c90b1217737c3bc212bc3535903452fd43953445f1b318e"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_232745_reset_47ba68/raw_webxr.jsonl",
+    "bytes": 3285852,
+    "sha256": "1b392de467d149c5bcd0ce15c9feae6fd56d8f13087e2a8db09e2317a2755124"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_232745_reset_47ba68/scene.xml",
+    "bytes": 41059,
+    "sha256": "5fb0c3877c1b7cb4f390be5530fa0b8a3d6cc4f014ddeee4a768232732c75a66"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_232900_reset_063166/trial_result.json",
+    "bytes": 4642,
+    "sha256": "f1b2a4adc0ba4480478981bf1494361f9064dae1f181479df32bc3d42ebbaab9"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_232900_reset_063166/experiment_config.json",
+    "bytes": 2778,
+    "sha256": "cdd8d5fc0924736e77a73a40ced707b6111610050d904b1db93690ff02b52537"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_232900_reset_063166/session.json",
+    "bytes": 5772,
+    "sha256": "2f8fb6a6012dc8752272bc96050647d3c3a35f46d27e37034c377277c23d3a38"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_232900_reset_063166/events.jsonl",
+    "bytes": 30462,
+    "sha256": "230fd91d5ae7efc1cbed434a18a891b38242d1a4484808813a33bddd1a5b126a"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_232900_reset_063166/raw_webxr.jsonl",
+    "bytes": 3843335,
+    "sha256": "51525a416204e939b5bae1a3858c11a403627801c8cb6745659082ac4cc073fa"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_232900_reset_063166/scene.xml",
+    "bytes": 41060,
+    "sha256": "889e4b6336ea481c43b42d17fea244b7fbd7f8f44eb9067a52decb2683c1ee8b"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_233027_reset_47ffc7/trial_result.json",
+    "bytes": 4643,
+    "sha256": "f3401e9959f3ef676b5b8d0aded327b35b56d8b8cec84d1ce9d2709fd4ebfd7f"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_233027_reset_47ffc7/experiment_config.json",
+    "bytes": 2776,
+    "sha256": "f02e5571265830607705b53ffd8ffab459beb2b8a989a35241faffd81c6873cf"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_233027_reset_47ffc7/session.json",
+    "bytes": 5770,
+    "sha256": "8e745789385976adea36284a01a289b4fd46c5be262ec9b5fffa336d18e4b421"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_233027_reset_47ffc7/events.jsonl",
+    "bytes": 28903,
+    "sha256": "b8e04cf901ee853682992921fdc3e42bc1df83c72c38ab7b76687d95028bb0a4"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_233027_reset_47ffc7/raw_webxr.jsonl",
+    "bytes": 4471723,
+    "sha256": "e9e81e882bbd93ec25af4ff5fb16486a6ea78957c0b65e56d06b4ceace03e7b8"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_233027_reset_47ffc7/scene.xml",
+    "bytes": 41060,
+    "sha256": "889e4b6336ea481c43b42d17fea244b7fbd7f8f44eb9067a52decb2683c1ee8b"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_233206_reset_338cfa/trial_result.json",
+    "bytes": 4637,
+    "sha256": "8817c7329d4ce597ea8b86a4e1400e21c4d3787b37a01cb71f42d2d190354f39"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_233206_reset_338cfa/experiment_config.json",
+    "bytes": 2772,
+    "sha256": "a2a1ed9e5341868040d64d4c4267cae5e45b020509d02b15b30dd291680f5ac9"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_233206_reset_338cfa/session.json",
+    "bytes": 5758,
+    "sha256": "2d124f06d3e22961936765236ed82ec20b78d6dad49ff0e5c37a8331b10087f3"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_233206_reset_338cfa/events.jsonl",
+    "bytes": 18129,
+    "sha256": "1de63115d52a999cf43872c73f8fff170ce8bc7960e1c253010e11bd8f8a1065"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_233206_reset_338cfa/raw_webxr.jsonl",
+    "bytes": 3346891,
+    "sha256": "858032e77a7744767c3147cdadd6e85f11e8fce61e9ea66c2f5b52022b542c21"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_233206_reset_338cfa/scene.xml",
+    "bytes": 41053,
+    "sha256": "f022b3a8c431d0adb35dc0e4833928a3436e15d049c278998c1e6b14ddd51bcb"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_233322_reset_1907c5/trial_result.json",
+    "bytes": 4639,
+    "sha256": "72f075a383a83179596fd8b375705a984fa2b717ed5c80b51ee36969d382b484"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_233322_reset_1907c5/experiment_config.json",
+    "bytes": 2774,
+    "sha256": "8012478b94508b9e5022b93d6ded3a056f4251ae8f70f33feec05625726f90ba"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_233322_reset_1907c5/session.json",
+    "bytes": 5768,
+    "sha256": "459c9d3cec2700537544a5c32b6b063472636a3c037a8bfcdee65a79e840d948"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_233322_reset_1907c5/events.jsonl",
+    "bytes": 29241,
+    "sha256": "754d971c719e8cdae8e0393b62584dd875bf9b36bfc91bf9f5bdc16359625fad"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_233322_reset_1907c5/raw_webxr.jsonl",
+    "bytes": 4439602,
+    "sha256": "a3548972d98f9274eb78886efa6cdd02310c1aacadc9d5c8ad89a1bec249bb97"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261119_233322_reset_1907c5/scene.xml",
+    "bytes": 41053,
+    "sha256": "f022b3a8c431d0adb35dc0e4833928a3436e15d049c278998c1e6b14ddd51bcb"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261120_000344_reset_f2f715/trial_result.json",
+    "bytes": 4466,
+    "sha256": "cfdca7c293da885705ce764b8fa3acb4c127417bbe1d0feb0dabb22b0ea5b847"
+  },
+  {
+    "path": "simulation/quest3/risk_sessions/20261120_000643_reset_856043/trial_result.json",
+    "bytes": 4477,
+    "sha256": "732cd745fa0f1cffecd92d090bb1c3ea938329ed703397fd9bc4ddb24854e4f6"
+  }
+]

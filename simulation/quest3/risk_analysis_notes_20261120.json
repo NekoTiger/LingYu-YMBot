@@ -1,0 +1,27 @@
+{
+  "recorded_date_local": "2026-11-20",
+  "timezone": "Asia/Shanghai",
+  "source": "user clarification in the analysis conversation, after collection",
+  "participant": "P01",
+  "index": 5,
+  "attempt": 1,
+  "session_id": "20261119_145037_reset_f467aa",
+  "user_answer_verbatim": "人为暂停或离开设备",
+  "interpretation": "User confirms a human interruption during this attempt. This does not independently diagnose why the process recorded a 451-second sample gap.",
+  "primary_treatment": "Retain first attempt as failure, capped time 240s, real elapsed time unchanged.",
+  "sensitivity_treatment": "Remove this attempt and its matched other-policy first attempt at the same participant/scenario/repeat, descriptively only.",
+  "cohort_clarification": {
+    "recorded_date_local": "2026-11-20",
+    "source": "project lead's post-collection clarification in this conversation",
+    "user_answer_verbatim": "P01-P05都是团队成员，没有用过VR，练习大约十分钟，重试的主要原因是操作失误了",
+    "participants": ["P01", "P02", "P03", "P04", "P05"],
+    "all_project_team_members": true,
+    "prior_vr_use": "none reported for all five participants",
+    "practice_duration_minutes_approx": 10,
+    "practice_duration_scope": "User did not specify total versus per policy; no participant-level or policy-level timings supplied.",
+    "main_retry_reason_reported": "操作失误",
+    "retry_reason_scope": "Overall retrospective explanation, not an adjudicated cause for every attempt; automatic outcome/reason labels are preserved.",
+    "primary_treatment": "Retain operational errors and first-attempt failures; do not exclude or replace with successful retries.",
+    "generalizability": "Small convenience sample of project-team VR novices; not independently recruited external users."
+  }
+}

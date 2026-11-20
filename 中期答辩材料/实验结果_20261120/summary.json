@@ -1,0 +1,604 @@
+{
+  "analysis_date_local": "2026-11-20",
+  "timezone": "Asia/Shanghai",
+  "independent_participants": 5,
+  "formal_attempts": 78,
+  "primary_trials": 40,
+  "retries": 38,
+  "retried_slots": 14,
+  "excluded_pilot": 19,
+  "timing_anomalies": [
+    {
+      "participant": "P01",
+      "index": 5,
+      "session_id": "20261119_145037_reset_f467aa",
+      "elapsed_wall_s": 596.8821528000008,
+      "elapsed_sim_s": 143.99000000003753,
+      "max_wall_sample_gap_s": 451.46644150000066,
+      "cause": "user confirms human pause/away from device; sampling-gap mechanism not independently diagnosed",
+      "clarification_source": "现场补充记录.json"
+    }
+  ],
+  "overall": {
+    "fixed": {
+      "trials": 20,
+      "successes": 13,
+      "success_rate": 0.65,
+      "mean_capped_time_s": 145.38040765000028,
+      "mean_elapsed_s": 103.7642850650002,
+      "elapsed_total_s": 2075.285701300004,
+      "successes_per_600s": 3.7585186440179834,
+      "mean_success_only_time_s": 94.43139638461581,
+      "tracking_loss_s": 33.28076339999643,
+      "mean_clutch_calibrations": 4.4,
+      "failures": {
+        "parcel_left_tray": 6,
+        "timeout": 1
+      }
+    },
+    "dual": {
+      "trials": 20,
+      "successes": 14,
+      "success_rate": 0.7,
+      "mean_capped_time_s": 150.90915367500028,
+      "mean_elapsed_s": 97.65556736500052,
+      "elapsed_total_s": 1953.1113473000105,
+      "successes_per_600s": 4.300830063586592,
+      "mean_success_only_time_s": 112.72736239285756,
+      "tracking_loss_s": 15.432038399998419,
+      "mean_clutch_calibrations": 5.6,
+      "failures": {
+        "parcel_left_tray": 4,
+        "operator_abort": 1,
+        "payload_dropped": 1
+      }
+    }
+  },
+  "conditions": {
+    "fixed/normal": {
+      "trials": 10,
+      "successes": 10,
+      "success_rate": 1.0,
+      "mean_capped_time_s": 89.7257297300007,
+      "mean_elapsed_s": 89.7257297300007,
+      "elapsed_total_s": 897.2572973000069,
+      "successes_per_600s": 6.687045085122155,
+      "mean_success_only_time_s": 89.7257297300007,
+      "tracking_loss_s": 8.958455699998012,
+      "mean_clutch_calibrations": 4.7,
+      "failures": {}
+    },
+    "dual/normal": {
+      "trials": 10,
+      "successes": 10,
+      "success_rate": 1.0,
+      "mean_capped_time_s": 108.71731381000045,
+      "mean_elapsed_s": 108.71731381000045,
+      "elapsed_total_s": 1087.1731381000045,
+      "successes_per_600s": 5.518900154657873,
+      "mean_success_only_time_s": 108.71731381000045,
+      "tracking_loss_s": 0.8233125000006112,
+      "mean_clutch_calibrations": 6.1,
+      "failures": {}
+    },
+    "fixed/combined": {
+      "trials": 10,
+      "successes": 3,
+      "success_rate": 0.3,
+      "mean_capped_time_s": 201.03508556999986,
+      "mean_elapsed_s": 117.8028403999997,
+      "elapsed_total_s": 1178.028403999997,
+      "successes_per_600s": 1.5279767396847967,
+      "mean_success_only_time_s": 110.11695189999955,
+      "tracking_loss_s": 24.32230769999842,
+      "mean_clutch_calibrations": 4.1,
+      "failures": {
+        "parcel_left_tray": 6,
+        "timeout": 1
+      }
+    },
+    "dual/combined": {
+      "trials": 10,
+      "successes": 4,
+      "success_rate": 0.4,
+      "mean_capped_time_s": 193.10099354000013,
+      "mean_elapsed_s": 86.5938209200006,
+      "elapsed_total_s": 865.938209200006,
+      "successes_per_600s": 2.771560342876233,
+      "mean_success_only_time_s": 122.75248385000032,
+      "tracking_loss_s": 14.608725899997808,
+      "mean_clutch_calibrations": 5.1,
+      "failures": {
+        "parcel_left_tray": 4,
+        "operator_abort": 1,
+        "payload_dropped": 1
+      }
+    }
+  },
+  "participants": [
+    {
+      "participant": "P01",
+      "policies": {
+        "fixed": {
+          "trials": 4,
+          "successes": 2,
+          "success_rate": 0.5,
+          "mean_capped_time_s": 164.71547667500022,
+          "mean_elapsed_s": 205.80174600000032,
+          "elapsed_total_s": 823.2069840000013,
+          "successes_per_600s": 1.4577135803308467,
+          "mean_success_only_time_s": 89.43095335000044,
+          "tracking_loss_s": 15.414280800001507,
+          "mean_clutch_calibrations": 1.75,
+          "failures": {
+            "parcel_left_tray": 1,
+            "timeout": 1
+          }
+        },
+        "dual": {
+          "trials": 4,
+          "successes": 2,
+          "success_rate": 0.5,
+          "mean_capped_time_s": 157.4249533999996,
+          "mean_elapsed_s": 61.403876149999405,
+          "elapsed_total_s": 245.61550459999762,
+          "successes_per_600s": 4.885685054590856,
+          "mean_success_only_time_s": 74.84990679999919,
+          "tracking_loss_s": 0.0,
+          "mean_clutch_calibrations": 1.5,
+          "failures": {
+            "parcel_left_tray": 1,
+            "operator_abort": 1
+          }
+        }
+      }
+    },
+    {
+      "participant": "P02",
+      "policies": {
+        "fixed": {
+          "trials": 4,
+          "successes": 3,
+          "success_rate": 0.75,
+          "mean_capped_time_s": 132.3698270499999,
+          "mean_elapsed_s": 86.84752019999996,
+          "elapsed_total_s": 347.39008079999985,
+          "successes_per_600s": 5.18149509581507,
+          "mean_success_only_time_s": 96.49310273333322,
+          "tracking_loss_s": 17.866482599994924,
+          "mean_clutch_calibrations": 5.25,
+          "failures": {
+            "parcel_left_tray": 1
+          }
+        },
+        "dual": {
+          "trials": 4,
+          "successes": 2,
+          "success_rate": 0.5,
+          "mean_capped_time_s": 192.27769755000008,
+          "mean_elapsed_s": 89.00720145000014,
+          "elapsed_total_s": 356.02880580000055,
+          "successes_per_600s": 3.3705137911624514,
+          "mean_success_only_time_s": 144.55539510000017,
+          "tracking_loss_s": 0.8233125000006112,
+          "mean_clutch_calibrations": 5.25,
+          "failures": {
+            "payload_dropped": 1,
+            "parcel_left_tray": 1
+          }
+        }
+      }
+    },
+    {
+      "participant": "P03",
+      "policies": {
+        "fixed": {
+          "trials": 4,
+          "successes": 3,
+          "success_rate": 0.75,
+          "mean_capped_time_s": 147.38886085000104,
+          "mean_elapsed_s": 100.56138687500152,
+          "elapsed_total_s": 402.24554750000607,
+          "successes_per_600s": 4.474878618762021,
+          "mean_success_only_time_s": 116.51848113333472,
+          "tracking_loss_s": 0.0,
+          "mean_clutch_calibrations": 5.5,
+          "failures": {
+            "parcel_left_tray": 1
+          }
+        },
+        "dual": {
+          "trials": 4,
+          "successes": 3,
+          "success_rate": 0.75,
+          "mean_capped_time_s": 202.80228972500026,
+          "mean_elapsed_s": 154.4701162750007,
+          "elapsed_total_s": 617.8804651000028,
+          "successes_per_600s": 2.9131848337504462,
+          "mean_success_only_time_s": 190.40305296666702,
+          "tracking_loss_s": 0.0,
+          "mean_clutch_calibrations": 8.0,
+          "failures": {
+            "parcel_left_tray": 1
+          }
+        }
+      }
+    },
+    {
+      "participant": "P04",
+      "policies": {
+        "fixed": {
+          "trials": 4,
+          "successes": 2,
+          "success_rate": 0.5,
+          "mean_capped_time_s": 157.26557442500052,
+          "mean_elapsed_s": 58.19975799999975,
+          "elapsed_total_s": 232.799031999999,
+          "successes_per_600s": 5.154660608726265,
+          "mean_success_only_time_s": 74.53114885000105,
+          "tracking_loss_s": 0.0,
+          "mean_clutch_calibrations": 4.0,
+          "failures": {
+            "parcel_left_tray": 2
+          }
+        },
+        "dual": {
+          "trials": 4,
+          "successes": 4,
+          "success_rate": 1.0,
+          "mean_capped_time_s": 83.73542304999955,
+          "mean_elapsed_s": 83.73542304999955,
+          "elapsed_total_s": 334.9416921999982,
+          "successes_per_600s": 7.165426269378634,
+          "mean_success_only_time_s": 83.73542304999955,
+          "tracking_loss_s": 0.0,
+          "mean_clutch_calibrations": 5.0,
+          "failures": {}
+        }
+      }
+    },
+    {
+      "participant": "P05",
+      "policies": {
+        "fixed": {
+          "trials": 4,
+          "successes": 3,
+          "success_rate": 0.75,
+          "mean_capped_time_s": 125.1622992499997,
+          "mean_elapsed_s": 67.41101424999943,
+          "elapsed_total_s": 269.6440569999977,
+          "successes_per_600s": 6.675466984239951,
+          "mean_success_only_time_s": 86.88306566666627,
+          "tracking_loss_s": 0.0,
+          "mean_clutch_calibrations": 5.5,
+          "failures": {
+            "parcel_left_tray": 1
+          }
+        },
+        "dual": {
+          "trials": 4,
+          "successes": 3,
+          "success_rate": 0.75,
+          "mean_capped_time_s": 118.30540465000195,
+          "mean_elapsed_s": 99.66121990000283,
+          "elapsed_total_s": 398.64487960001134,
+          "successes_per_600s": 4.51529692744597,
+          "mean_success_only_time_s": 77.74053953333593,
+          "tracking_loss_s": 14.608725899997808,
+          "mean_clutch_calibrations": 8.25,
+          "failures": {
+            "parcel_left_tray": 1
+          }
+        }
+      }
+    }
+  ],
+  "cohort_clarification": {
+    "recorded_date_local": "2026-11-20",
+    "source": "project lead's post-collection clarification in this conversation",
+    "user_answer_verbatim": "P01-P05都是团队成员，没有用过VR，练习大约十分钟，重试的主要原因是操作失误了",
+    "participants": [
+      "P01",
+      "P02",
+      "P03",
+      "P04",
+      "P05"
+    ],
+    "all_project_team_members": true,
+    "prior_vr_use": "none reported for all five participants",
+    "practice_duration_minutes_approx": 10,
+    "practice_duration_scope": "User did not specify total versus per policy; no participant-level or policy-level timings supplied.",
+    "main_retry_reason_reported": "操作失误",
+    "retry_reason_scope": "Overall retrospective explanation, not an adjudicated cause for every attempt; automatic outcome/reason labels are preserved.",
+    "primary_treatment": "Retain operational errors and first-attempt failures; do not exclude or replace with successful retries.",
+    "generalizability": "Small convenience sample of project-team VR novices; not independently recruited external users."
+  },
+  "paired_comparisons": {
+    "success_rate": {
+      "n_participants": 5,
+      "differences": [
+        0.0,
+        -0.25,
+        0.0,
+        0.5,
+        0.0
+      ],
+      "mean_difference": 0.05,
+      "t_interval_95": [
+        -0.2900436903291278,
+        0.3900436903291278
+      ],
+      "sign_flip_two_sided_p": 1.0
+    },
+    "mean_capped_time_s": {
+      "n_participants": 5,
+      "differences": [
+        -7.2905232750006235,
+        59.90787050000017,
+        55.41342887499923,
+        -73.53015137500097,
+        -6.856894599997759
+      ],
+      "mean_difference": 5.528746025000009,
+      "t_interval_95": [
+        -62.5185697641949,
+        73.57606181419492
+      ],
+      "sign_flip_two_sided_p": 1.0
+    },
+    "successes_per_600s": {
+      "n_participants": 5,
+      "differences": [
+        3.4279714742600094,
+        -1.8109813046526182,
+        -1.5616937850115744,
+        2.0107656606523694,
+        -2.160170056793981
+      ],
+      "mean_difference": -0.01882160230915897,
+      "t_interval_95": [
+        -3.1952295872182304,
+        3.1575863825999124
+      ],
+      "sign_flip_two_sided_p": 1.0
+    }
+  },
+  "scene_comparisons": {
+    "normal": {
+      "success_rate": {
+        "n_participants": 5,
+        "differences": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_difference": 0.0,
+        "t_interval_95": [
+          0.0,
+          0.0
+        ],
+        "sign_flip_two_sided_p": 1.0
+      },
+      "mean_capped_time_s": {
+        "n_participants": 5,
+        "differences": [
+          -14.581046550001247,
+          54.652595600000495,
+          80.99581979999857,
+          -6.783208650002052,
+          -19.326239799996983
+        ],
+        "mean_difference": 18.991584079999758,
+        "t_interval_95": [
+          -37.82709507867018,
+          75.81026323866969
+        ],
+        "sign_flip_two_sided_p": 0.5
+      }
+    },
+    "combined": {
+      "success_rate": {
+        "n_participants": 5,
+        "differences": [
+          0.0,
+          -0.5,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "mean_difference": 0.1,
+        "t_interval_95": [
+          -0.5800873806582556,
+          0.7800873806582556
+        ],
+        "sign_flip_two_sided_p": 1.0
+      },
+      "mean_capped_time_s": {
+        "n_participants": 5,
+        "differences": [
+          0.0,
+          65.16314539999985,
+          29.83103794999988,
+          -140.27709409999989,
+          5.612450600001466
+        ],
+        "mean_difference": -7.9340920299997375,
+        "t_interval_95": [
+          -105.17021800174923,
+          89.30203394174977
+        ],
+        "sign_flip_two_sided_p": 1.0
+      }
+    }
+  },
+  "sensitivity": {
+    "first_attempt": {
+      "fixed": {
+        "trials": 20,
+        "successes": 13,
+        "success_rate": 0.65,
+        "mean_capped_time_s": 145.38040765000028,
+        "mean_elapsed_s": 103.7642850650002,
+        "elapsed_total_s": 2075.285701300004,
+        "successes_per_600s": 3.7585186440179834,
+        "mean_success_only_time_s": 94.43139638461581,
+        "tracking_loss_s": 33.28076339999643,
+        "mean_clutch_calibrations": 4.4,
+        "failures": {
+          "parcel_left_tray": 6,
+          "timeout": 1
+        }
+      },
+      "dual": {
+        "trials": 20,
+        "successes": 14,
+        "success_rate": 0.7,
+        "mean_capped_time_s": 150.90915367500028,
+        "mean_elapsed_s": 97.65556736500052,
+        "elapsed_total_s": 1953.1113473000105,
+        "successes_per_600s": 4.300830063586592,
+        "mean_success_only_time_s": 112.72736239285756,
+        "tracking_loss_s": 15.432038399998419,
+        "mean_clutch_calibrations": 5.6,
+        "failures": {
+          "parcel_left_tray": 4,
+          "operator_abort": 1,
+          "payload_dropped": 1
+        }
+      }
+    },
+    "all_attempts_descriptive": {
+      "fixed": {
+        "trials": 35,
+        "successes": 23,
+        "success_rate": 0.6571428571428571,
+        "mean_capped_time_s": 148.38321555142858,
+        "mean_elapsed_s": 98.80560570571416,
+        "elapsed_total_s": 3458.1961996999953,
+        "successes_per_600s": 3.9905196822543423,
+        "mean_success_only_time_s": 100.58315410000002,
+        "tracking_loss_s": 33.28076339999643,
+        "mean_clutch_calibrations": 4.085714285714285,
+        "failures": {
+          "parcel_left_tray": 10,
+          "timeout": 1,
+          "payload_dropped": 1
+        }
+      },
+      "dual": {
+        "trials": 43,
+        "successes": 23,
+        "success_rate": 0.5348837209302325,
+        "mean_capped_time_s": 169.19831883255824,
+        "mean_elapsed_s": 87.04885482325612,
+        "elapsed_total_s": 3743.100757400013,
+        "successes_per_600s": 3.6867829359703337,
+        "mean_success_only_time_s": 107.63163955652192,
+        "tracking_loss_s": 16.577047100002346,
+        "mean_clutch_calibrations": 4.232558139534884,
+        "failures": {
+          "parcel_left_tray": 13,
+          "operator_abort": 4,
+          "payload_dropped": 3
+        }
+      }
+    },
+    "last_attempt_selection_bias": {
+      "fixed": {
+        "trials": 20,
+        "successes": 20,
+        "success_rate": 1.0,
+        "mean_capped_time_s": 97.70329584499996,
+        "mean_elapsed_s": 97.70329584499996,
+        "elapsed_total_s": 1954.0659168999991,
+        "successes_per_600s": 6.141041556590493,
+        "mean_success_only_time_s": 97.70329584499996,
+        "tracking_loss_s": 17.866482599994924,
+        "mean_clutch_calibrations": 5.2,
+        "failures": {}
+      },
+      "dual": {
+        "trials": 20,
+        "successes": 20,
+        "success_rate": 1.0,
+        "mean_capped_time_s": 108.06582647500026,
+        "mean_elapsed_s": 108.06582647500026,
+        "elapsed_total_s": 2161.3165295000053,
+        "successes_per_600s": 5.552171482617614,
+        "mean_success_only_time_s": 108.06582647500026,
+        "tracking_loss_s": 1.4051623000013933,
+        "mean_clutch_calibrations": 6.15,
+        "failures": {}
+      }
+    },
+    "pairs_without_tracking_loss_posthoc": {
+      "fixed": {
+        "trials": 16,
+        "successes": 11,
+        "success_rate": 0.6875,
+        "mean_capped_time_s": 138.66337810000033,
+        "mean_elapsed_s": 78.77591156875025,
+        "elapsed_total_s": 1260.414585100004,
+        "successes_per_600s": 5.236372284184844,
+        "mean_success_only_time_s": 92.60127723636411,
+        "tracking_loss_s": 0.0,
+        "mean_clutch_calibrations": 4.375,
+        "failures": {
+          "parcel_left_tray": 5
+        }
+      },
+      "dual": {
+        "trials": 16,
+        "successes": 13,
+        "success_rate": 0.8125,
+        "mean_capped_time_s": 134.38317976875044,
+        "mean_elapsed_s": 95.68540816875048,
+        "elapsed_total_s": 1530.9665307000078,
+        "successes_per_600s": 5.0948207185388865,
+        "mean_success_only_time_s": 110.01006740769284,
+        "tracking_loss_s": 0.0,
+        "mean_clutch_calibrations": 5.5625,
+        "failures": {
+          "parcel_left_tray": 2,
+          "payload_dropped": 1
+        }
+      }
+    },
+    "without_human_interrupted_pair_posthoc": {
+      "fixed": {
+        "trials": 19,
+        "successes": 13,
+        "success_rate": 0.6842105263157895,
+        "mean_capped_time_s": 140.40042910526344,
+        "mean_elapsed_s": 77.81071307894753,
+        "elapsed_total_s": 1478.4035485000031,
+        "successes_per_600s": 5.275961362453388,
+        "mean_success_only_time_s": 94.43139638461581,
+        "tracking_loss_s": 17.866482599994924,
+        "mean_clutch_calibrations": 4.578947368421052,
+        "failures": {
+          "parcel_left_tray": 6
+        }
+      },
+      "dual": {
+        "trials": 19,
+        "successes": 14,
+        "success_rate": 0.7368421052631579,
+        "mean_capped_time_s": 146.2201617631582,
+        "mean_elapsed_s": 100.07320693157956,
+        "elapsed_total_s": 1901.3909317000116,
+        "successes_per_600s": 4.417818482225355,
+        "mean_success_only_time_s": 112.72736239285756,
+        "tracking_loss_s": 15.432038399998419,
+        "mean_clutch_calibrations": 5.842105263157895,
+        "failures": {
+          "parcel_left_tray": 4,
+          "payload_dropped": 1
+        }
+      }
+    }
+  },
+  "inference": "Exploratory participant-level t intervals and exact sign flips; no multiplicity correction; fixed counterbalanced order is not random allocation. Small n and unequal retries limit causal claims."
+}
